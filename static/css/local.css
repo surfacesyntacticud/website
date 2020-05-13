@@ -1,0 +1,13 @@
+.page-header {
+  color: white;
+  background-color: #159957;
+  background-image: inherit;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.main-content {
+  max-width: 92rem;
+}
+
+img[alt=taxonomy] { width: 100%; }
