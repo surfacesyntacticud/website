@@ -1,11 +1,8 @@
 baseURL = "https://surfacesyntacticud.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Cayman"
+title = "SUD"
 theme = "cayman-hugo-theme"
-
-# Disqus comments
-disqusShortname = "yourdiscussshortname"
 
 # Syntax highlighting
 pygmentsCodefences = true
