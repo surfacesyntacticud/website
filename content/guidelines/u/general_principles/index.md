@@ -16,5 +16,27 @@ A way of naming a daughter of a relation `R` is to add an extension `EXT` to `R`
 
  * There is a strict distinction between surface-syntactic relations and deep-syntactic features expressed as extensions of syntactic relation names using the `@` symbol.
 
-UD relations that are not used in **SUD**: `nsubj`, `csubj`, `obj`, `iobj`, `obl`, `xcomp`, `ccomp`, `amod`, `nmod`, `nummod`, `advmod`, `acl`, `advcl`, `aux`, `cop`, `case`, `mark`.
-These 17 relations are replaced by 4 major relations in SUD - `subj`, `comp`, `mod`, `udep` (subject, complement, modifier, underspecified dependency) - with possible sub-relations.
+UD relations that are not used in **SUD**:
+[`nsubj`](https://universaldependencies.org/u/dep/nsubj.html),
+[`csubj`](https://universaldependencies.org/u/dep/csubj.html),
+[`obj`](https://universaldependencies.org/u/dep/obj.html),
+[`iobj`](https://universaldependencies.org/u/dep/iobj.html),
+[`obl`](https://universaldependencies.org/u/dep/obl.html),
+[`xcomp`](https://universaldependencies.org/u/dep/xcomp.html),
+[`ccomp`](https://universaldependencies.org/u/dep/ccomp.html),
+[`amod`](https://universaldependencies.org/u/dep/amod.html),
+[`nmod`](https://universaldependencies.org/u/dep/nmod.html),
+[`nummod`](https://universaldependencies.org/u/dep/nummod.html),
+[`advmod`](https://universaldependencies.org/u/dep/advmod.html),
+[`acl`](https://universaldependencies.org/u/dep/acl.html),
+[`advcl`](https://universaldependencies.org/u/dep/advcl.html),
+[`aux`](https://universaldependencies.org/u/dep/aux.html),
+[`cop`](https://universaldependencies.org/u/dep/cop.html),
+[`case`](https://universaldependencies.org/u/dep/case.html),
+[`mark`](https://universaldependencies.org/u/dep/mark.html).
+These 17 relations are replaced by 4 major relations in SUD --
+[`subj`](../relations/subj),
+[`comp`](../relations/comp),
+[`mod`](../relations/mod),
+[`udep`](../relations/udep)
+(subject, complement, modifier, underspecified dependency) -- with possible sub-relations.
