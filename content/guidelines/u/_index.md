@@ -6,21 +6,24 @@ layout: default
 
 SUD is a Surface-syntax Universal Dependencies scheme. SUD follows the Surface syntax criteria (favoring functional heads) and can be automatically converted in the UD scheme.
 
+This page describes the universal principles used in SUD. Some pages are available for specific usage of SUD in [Naija](../pcm)
+
+## General Principles
+SUD differs from UD in several [general principles](./general_principles).
+
 The other layers of annotations follow the UD guidelines. Please refer to UD for these aspects:
 
   * [Tokenization and word segmentation](https://universaldependencies.org/u/overview/tokenization.html)
   * [Morphology](https://universaldependencies.org/u/overview/morphology.html)
-  * [POS tags](https://universaldependencies.org/u/pos/index.html) ([single document](https://universaldependencies.org/u/pos/all.html))
-  * [Features](https://universaldependencies.org/u/feat/index.html) ([single document](https://universaldependencies.org/u/feat/all.html))
+  * [POS tags](https://universaldependencies.org/u/pos) ([single document](https://universaldependencies.org/u/pos/all.html))
+  * [Features](https://universaldependencies.org/u/feat) ([single document](https://universaldependencies.org/u/feat/all.html))
     * [Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
     * [Language-specific features](https://universaldependencies.org/ext-feat-index.html)
 
-## General Principles
-SUD differs from UD in several [general principles](./general_principles/index.html).
-
 
 ## Specific SUD relations
-As a consequence, SUD has specific syntactic relations:
+
+SUD has 4 specific syntactic relations and a few extended relations:
 
  * [`subj`](relations/subj)
  * [`udep`](relations/udep)
