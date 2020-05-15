@@ -6,7 +6,7 @@ layout: default
 
 SUD is a Surface-syntax Universal Dependencies scheme. SUD follows the Surface syntax criteria (favoring functional heads) and can be automatically converted in the UD scheme.
 
-This page describes the universal principles used in SUD. Some pages are available for specific usage of SUD in [Naija](../pcm)
+This page describes the universal principles used in SUD. Some pages are available for specific usage of SUD in [French](../french) and [Naija](../pcm).
 
 ## General Principles
 SUD differs from UD in several [general principles](./general_principles).
@@ -72,5 +72,3 @@ The main deep features are:
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
 * [`coordination`](./particular_phenomena/coord)
-
-
