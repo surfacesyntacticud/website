@@ -2,6 +2,8 @@
 
 This page outlines various features specific to Naija.
 
+### comp:aux relationships
+
 The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux relationship, as so:
 
 {{< conll >}}
@@ -38,36 +40,10 @@ The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux
 {{< /conll >}}
 
 {{< conll >}}
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=77160|AlignEnd=77290|Gloss=PUNCT
-2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=77290|AlignEnd=77510|Gloss=NOM.SG.1
-3	trust	trust	VERB	_	_	0	root	_	AlignBegin=77510|AlignEnd=78150|Gloss=trust
-4	sey	sey	SCONJ	_	_	3	comp:obj	_	AlignBegin=78150|AlignEnd=78420|Gloss=COMP
-5	[	[	PUNCT	_	_	21	punct	_	AlignBegin=78420|AlignEnd=78450|Gloss=PUNCT
-6	bad	bad	ADJ	_	_	21	mod:periph	_	AlignBegin=78450|AlignEnd=78710|Gloss=bad
-7	as	as	ADP	_	_	6	mod	_	AlignBegin=78710|AlignEnd=78920|Gloss=as
-8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=78920|AlignEnd=78990|Gloss=NOM.SG.3
-9	bad	bad	ADJ	_	_	7	comp:obj	_	AlignBegin=78990|AlignEnd=79400|Gloss=bad
-10	reach	reach	VERB	_	_	9	compound:svc	_	AlignBegin=79400|AlignEnd=79746|Gloss=reach
-11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=79746|AlignEnd=79776|Gloss=PUNCT
-12	#	#	PUNCT	_	_	6	punct	_	AlignBegin=79776|AlignEnd=80106|Gloss=PUNCT
-13	any	any	DET	_	_	14	det	_	AlignBegin=80106|AlignEnd=80340|Gloss=any
-14	decision	decision	NOUN	_	_	21	dislocated	_	AlignBegin=80340|AlignEnd=80710|Gloss=decision
-15	wey	wey	SCONJ	_	_	14	mod@relcl	_	AlignBegin=80710|AlignEnd=80823|Gloss=REL
-16	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	AlignBegin=80823|AlignEnd=80939|Gloss=NOM.PL.3
-17	go	go	AUX	_	Aspect=Prosp	15	comp:obj	_	AlignBegin=80939|AlignEnd=81070|Gloss=PROSP
-18	make	make	VERB	_	_	17	comp:aux	_	AlignBegin=81070|AlignEnd=81530|Gloss=make
-19	<	<	PUNCT	_	_	14	punct	_	AlignBegin=81530|AlignEnd=81560|Gloss=PUNCT
-20	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	subj	_	AlignBegin=81560|AlignEnd=81690|Gloss=NOM.PL.3
-21	go	go	AUX	_	Aspect=Prosp	4	comp:obj	_	AlignBegin=81690|AlignEnd=81870|Gloss=PROSP
-22	think	tink	VERB	_	_	21	comp:aux	_	AlignBegin=81870|AlignEnd=82210|Gloss=think
-23	about	about	ADP	_	_	22	comp:obl	_	AlignBegin=82210|AlignEnd=82540|Gloss=about
-24	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	comp:obj	_	AlignBegin=82540|AlignEnd=82920|Gloss=ACC.PL.1
-25	before	before	ADP	_	_	22	mod	_	AlignBegin=82920|AlignEnd=83190|Gloss=before
-26	dey	dey	AUX	_	Aspect=Imp	25	comp:obj	_	AlignBegin=83190|AlignEnd=83300|Gloss=IPFV
-27	make	make	VERB	_	_	26	comp:aux	_	AlignBegin=83300|AlignEnd=83550|Gloss=make
-28	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=83550|AlignEnd=83723|Gloss=ACC.SG.3
-29	]	]	PUNCT	_	_	21	punct	_	AlignBegin=83723|AlignEnd=83753|Gloss=PUNCT
-30	//	//	PUNCT	_	_	3	punct	_	AlignBegin=83723|AlignEnd=83753|Gloss=PUNCT
+1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=NOM.SG.3
+2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98254|AlignEnd=98522|Gloss=NEG
+3	good	good	ADJ	_	_	0	root	_	AlignBegin=98522|AlignEnd=98791|Gloss=good
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=98791|AlignEnd=98791|Gloss=PUNCT
 {{< /conll >}}
 
 {{< conll >}}
