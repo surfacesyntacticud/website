@@ -4,7 +4,7 @@ This page outlines various features specific to Naija.
 
 ### comp:aux relationships
 
-The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux relationship, as so:
+####The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux relationship, as so:
 
 {{< conll >}}
 1	so	so	ADV	_	_	5	discourse	_	AlignBegin=117700|AlignEnd=118140|Gloss=so
