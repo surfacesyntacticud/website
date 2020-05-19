@@ -22,22 +22,10 @@ This page outlines various features specific to Naija.
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=120391|AlignEnd=120421|Gloss=PUNCT
 {{< /conll >}}
 
-{{< conll >}}
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=75700|AlignEnd=76300|Gloss=PUNCT
-2	because	because	SCONJ	_	_	4	cc	_	AlignBegin=76300|AlignEnd=76925|Gloss=because
-3	no	no	PART	_	Polarity=Neg	4	mod	_	AlignBegin=76925|AlignEnd=77142|Gloss=NEG
-4	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=77142|AlignEnd=77360|Gloss=be
-5	sey	sey	SCONJ	_	_	4	comp:pred	_	AlignBegin=77360|AlignEnd=77866|Gloss=COMP
-6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=77866|AlignEnd=77990|Gloss=PUNCT
-7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	AlignBegin=77866|AlignEnd=77990|Gloss=NOM.SG.3
-8	bad	bad	ADJ	_	_	5	comp:obj	_	AlignBegin=77990|AlignEnd=78320|Gloss=bad
-9	make	make	AUX	_	Mood=Opt	8	comp:obj@agent	_	AlignBegin=78320|AlignEnd=78510|Gloss=SBJV
-10	person	person	NOUN	_	_	11	subj	_	AlignBegin=78510|AlignEnd=78880|Gloss=person
-11	dey	dey	VERB	_	VerbType=Cop	9	comp:aux	_	AlignBegin=78880|AlignEnd=79042|Gloss=be
-12	tempted	tempt	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	11	comp:obj@x	_	AlignBegin=79042|AlignEnd=79653|Gloss=tempt.PST.PTCP.PASS
-13	]	]	PUNCT	_	_	8	punct	_	AlignBegin=79653|AlignEnd=79683|Gloss=PUNCT
-14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=79653|AlignEnd=79683|Gloss=PUNCT
-{{< /conll >}}
+### subj relationships
+
+In addition to connecting verbs to their subjects, Naija and other languages without which do not always make use of a copula use the subj relationship to connect adjectives to their subjects.
+
 
 {{< conll >}}
 1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=NOM.SG.3
@@ -63,4 +51,20 @@ This page outlines various features specific to Naija.
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	comp:obj	_	AlignBegin=178259|AlignEnd=178530|Gloss=NOM.2
 15	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=178530|AlignEnd=178560|Gloss=PUNCT
 16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=178530|AlignEnd=178560|Gloss=PUNCT
+{{< /conll >}}
+
+{{< conll >}}
+1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=75500|AlignEnd=75698|Gloss=NOM.F.SG.3
+2	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=75698|AlignEnd=75896|Gloss=CONS
+3	dey	dey	AUX	_	Aspect=Imp	2	comp:aux	_	AlignBegin=75896|AlignEnd=76094|Gloss=IPFV
+4	form	form	VERB	_	_	3	comp:aux	_	AlignBegin=76094|AlignEnd=76292|Gloss=form
+5	sey	sey	SCONJ	_	_	4	comp:obj	_	AlignBegin=76292|AlignEnd=76490|Gloss=COMP
+6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=76490|AlignEnd=76490|Gloss=PUNCT
+7	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=76490|AlignEnd=76688|Gloss=NOM.F.SG.3
+8	be	be	VERB	_	PartType=Cop	5	comp:obj	_	AlignBegin=76688|AlignEnd=76886|Gloss=be1
+9	city	city	NOUN	_	_	10	compound	_	AlignBegin=76886|AlignEnd=77084|Gloss=city
+10	girl	girl	NOUN	_	_	8	comp:pred	_	AlignBegin=77084|AlignEnd=77282|Gloss=girl
+11	o	o	PART	_	PartType=Disc	10	mod:emph	_	AlignBegin=77282|AlignEnd=77480|Gloss=EMPH
+12	]	]	PUNCT	_	_	8	punct	_	AlignBegin=77480|AlignEnd=77480|Gloss=PUNCT
+13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=77480|AlignEnd=77480|Gloss=PUNCT
 {{< /conll >}}
