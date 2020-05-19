@@ -2,6 +2,24 @@
 
 This page outlines various features specific to Naija.
 
+The auxiliary verb dey is connected to the verbs it modifies using a comp:aux relationship, as so:
+
+{{< conll >}}
+1	so	so	ADV	_	_	5	discourse	_	AlignBegin=117700|AlignEnd=118140|Gloss=so
+2	#	#	PUNCT	_	_	1	punct	_	AlignBegin=118140|AlignEnd=118418|Gloss=PUNCT
+3	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=118418|AlignEnd=118571|Gloss=NOM.F.SG.3
+4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=118571|AlignEnd=118601|Gloss=PUNCT
+5	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=118601|AlignEnd=118811|Gloss=IPFV
+6	chop	chop	VERB	_	_	5	comp:aux	_	AlignBegin=118811|AlignEnd=119421|Gloss=eat
+7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=119421|AlignEnd=119451|Gloss=PUNCT
+8	dey	dey	AUX	_	Aspect=Imp	5	conj:coord	_	AlignBegin=119451|AlignEnd=119581|Gloss=IPFV
+9	sleep	sleep	VERB	_	_	8	comp:aux	_	AlignBegin=119581|AlignEnd=119861|Gloss=sleep
+10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=119861|AlignEnd=119891|Gloss=PUNCT
+11	everyting	everyting	PRON	_	_	8	conj:coord	_	AlignBegin=119891|AlignEnd=120391|Gloss=everything
+12	}	}	PUNCT	_	_	5	punct	_	AlignBegin=120391|AlignEnd=120421|Gloss=PUNCT
+13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=120391|AlignEnd=120421|Gloss=PUNCT
+{{< /conll >}}
+
 {{< conll >}}
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=172698|AlignEnd=173760|Gloss=PUNCT
 2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=172698|AlignEnd=173760|Gloss=PUNCT
