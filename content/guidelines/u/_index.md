@@ -36,8 +36,54 @@ SUD has 4 specific syntactic relations and a few extended relations:
    * [`mod`](relations/mod)
 
 
-## SUD relations shared with UD
-Nevertheless, SUD share some syntactic relations with UD, the list of which is given below (links to UD related page are given):
+## Correspondences between SUD and UD
+
+The following table summarizes the correspondences between the SUD and UD relationships.
+
+| UD   |      SUD      |
+|----------|-------------|
+| nsubj    | subj          |  
+| csubj    | subj          |
+| aux      | comp:aux      |  
+| cop      | comp:pred     |
+| xcomp    | comp:obj      |  
+| case     | comp:obj      |
+| mark     | comp:obj      |  
+| obj      | comp:obj      |
+| ccomp    | comp:obl      |  
+| iobj     | comp:obl      |
+| obl      | udep          |  
+| obl / acl / nmod |   mod |
+| advcl     | mod          |  
+| advmod    | mod          |
+| amod      | mod          |  
+| nummod    | mod          |
+| fixed     | unk@fixed    |  
+| fixed     | ...@fixed    |
+
+<table>
+<thead>
+	<tr>
+		<th>Header 1</th>
+		<th>Header 2</th>
+		<th>Header :</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+	</tr>
+	<tr>
+		<td>Custom Table Content</td>
+		<td>Column 4</td>
+		<td>Column 5</td>
+	</tr>
+</tbody>
+</table>
+
+SUD shares a number of syntactic relations with UD, the list of which is given below (links to UD related page are given):
   [vocative](https://universaldependencies.org/u/dep/vocative.html),
   [dislocated](https://universaldependencies.org/u/dep/dislocated.html),
   [discourse](https://universaldependencies.org/u/dep/discourse.html),
