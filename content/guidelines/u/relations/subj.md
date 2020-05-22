@@ -4,14 +4,15 @@ layout: default
 
 # **subj**
 
-The `subj` relation is used for all subjects, regardless of their form (nominal or verbal).
+The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the
+`nsubj` and `csubj` relationships as defined by UD, as the following examples show.
+
 
 {{< conll >}}
 1	A	a	DET	_	_	2	det	_	_
 2	man	man	NOUN	_	_	3	subj	_	_
 3	walks	walk	VERB	_	_	0	root	_	_
 {{< /conll >}}
-
 
 {{< conll >}}
 # sent_id = GUM_whow_joke-55
@@ -24,4 +25,3 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 5	crucial	crucial	ADJ	JJ	Degree=Pos	4	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	_	_
 {{< /conll >}}
-
