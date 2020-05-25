@@ -38,7 +38,7 @@ SUD has 4 specific syntactic relations and a few extended relations:
 
 ## Correspondences between SUD and UD
 
-The following table summarizes the correspondences between the SUD and UD relationships.
+The following table provides a generalized summary of typical correspondences between the SUD and UD relationships.
 
 | UD   |      SUD      |
 |----------|-------------|
