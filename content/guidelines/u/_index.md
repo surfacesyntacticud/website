@@ -20,22 +20,6 @@ The other layers of annotations follow the UD guidelines. Please refer to UD for
     * [Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
     * [Language-specific features](https://universaldependencies.org/ext-feat-index.html)
 
-
-## Specific SUD relations
-
-SUD has 4 specific syntactic relations and a few extended relations:
-
- * [`subj`](relations/subj)
- * [`udep`](relations/udep)
-   * [`comp`](relations/comp)
-     * [`comp:aux`](relations/comp_aux)
-     * [`comp:cleft`](relations/comp_cleft)
-     * [`comp:obj`](relations/comp_obj)
-     * [`comp:obl`](relations/comp_obl)
-     * [`comp:pred`](relations/comp_pred)
-   * [`mod`](relations/mod)
-
-
 ## Correspondences between SUD and UD
 
 The following table provides a generalized summary of typical correspondences between the SUD and UD relationships.
@@ -63,27 +47,19 @@ The following table provides a generalized summary of typical correspondences be
 
 The * represents cases where the direction of the relationship is reversed between UD and SUD.
 
-<table>
-<thead>
-	<tr>
-		<th>Header 1</th>
-		<th>Header 2</th>
-		<th>Header :</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>Column 1</td>
-		<td>Column 2</td>
-		<td>Column 3</td>
-	</tr>
-	<tr>
-		<td>Custom Table Content</td>
-		<td>Column 4</td>
-		<td>Column 5</td>
-	</tr>
-</tbody>
-</table>
+## Specific SUD relations
+
+SUD has 4 specific syntactic relations and a few extended relations:
+
+ * [`subj`](relations/subj)
+ * [`udep`](relations/udep)
+   * [`comp`](relations/comp)
+     * [`comp:aux`](relations/comp_aux)
+     * [`comp:cleft`](relations/comp_cleft)
+     * [`comp:obj`](relations/comp_obj)
+     * [`comp:obl`](relations/comp_obl)
+     * [`comp:pred`](relations/comp_pred)
+   * [`mod`](relations/mod)
 
 SUD shares a number of syntactic relations with UD, the list of which is given below (links to UD related page are given):
   [vocative](https://universaldependencies.org/u/dep/vocative.html),
