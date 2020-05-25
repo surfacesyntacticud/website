@@ -44,11 +44,11 @@ The following table summarizes the correspondences between the SUD and UD relati
 |----------|-------------|
 | nsubj    | subj          |  
 | csubj    | subj          |
-| aux      | comp:aux      |  
-| cop      | comp:pred     |
+| aux*      | comp:aux      |  
+| cop*      | comp:pred     |
 | xcomp    | comp:obj      |  
-| case     | comp:obj      |
-| mark     | comp:obj      |  
+| case*     | comp:obj      |
+| mark*     | comp:obj      |  
 | obj      | comp:obj      |
 | ccomp    | comp:obl      |  
 | iobj     | comp:obl      |
@@ -60,6 +60,8 @@ The following table summarizes the correspondences between the SUD and UD relati
 | nummod    | mod          |
 | fixed     | unk@fixed    |  
 | fixed     | ...@fixed    |
+
+The * represents cases where the direction of the relationship is reversed between UD and SUD.
 
 <table>
 <thead>
