@@ -24,26 +24,65 @@ The other layers of annotations follow the UD guidelines. Please refer to UD for
 
 The following table provides a generalized summary of typical correspondences between the SUD and UD relationships.
 
-| UD   |      SUD      |
-|----------|-------------|
-| nsubj    | subj          |  
-| csubj    | subj          |
-| aux*      | comp:aux      |  
-| cop*      | comp:pred     |
-| xcomp    | comp:obj      |  
-| case*     | comp:obj      |
-| mark*     | comp:obj      |  
-| obj      | comp:obj      |
-| ccomp    | comp:obl      |  
-| iobj     | comp:obl      |
-| obl      | udep          |  
-| obl / acl / nmod |   mod |
-| advcl     | mod          |  
-| advmod    | mod          |
-| amod      | mod          |  
-| nummod    | mod          |
-| fixed     | unk@fixed    |  
-| fixed     | ...@fixed    |
+{{< rawhtml >}}
+<table>
+    <thead>
+        <tr>
+            <th>UD</th>
+            <th>SUD</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>nsubj</td>
+          <td rowspan=2>subj</td>
+        </tr>
+        <tr>
+          <td>csubj</td>
+        </tr>
+        <tr>
+          <td>aux*</td>
+          <td>comp:aux</td>
+        </tr>
+        <tr>
+          <td>cop*</td>
+          <td>comp:pred</td>
+        </tr>
+        <tr>
+          <td>xcomp</td>
+          <td rowspan=4>comp:obj</td>
+        <tr>
+          <td>case*</td>
+        </tr>
+        <tr><td>mark*</td></tr>
+        <tr><td>obj</td></tr>
+        <tr>
+          <td>ccomp</td>
+          <td rowspan=2>comp:obl</td>
+        </tr>
+        <tr>
+          <td>iobj</td>
+        </tr>
+        <tr><td>obl</td><td>udep</td></tr>
+        <tr>
+          <td rowspan>obl, acl, nmod</td>
+          <td rowspan=5>mod</td>
+        </tr>
+        <tr><td>advcl</td></tr>
+        <tr><td>advmod</td></tr>
+        <tr><td>amod</td></tr>
+        <tr><td>nummod</td></tr>
+        <tr>
+          <td rowspan=2>fixed</td>
+          <td>unk@fixed</td>
+        </tr>
+        <tr>
+          <td>...@fixed</td>
+        </tr>
+
+    </tbody>
+</table>
+{{< /rawhtml >}}
 
 The * represents cases where the direction of the relationship is reversed between UD and SUD.
 
