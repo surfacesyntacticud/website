@@ -28,3 +28,34 @@ The `comp:obj` relation is used for direct object complements, including direct 
 10	two	two	NUM	_	_	11	det	_	_
 11	sacrifices	sacrifice	NOUN	_	_	9	comp:obj	_	_
 {{< /conll >}}
+
+
+{{< conll >}}
+1	on	on	PRON	_	_	2	subj	_	_
+2	a	avoir	AUX	_	_	0	root	_	_
+3	décidé	décider	VERB	_	_	2	comp:aux	_	_
+4	d'	d'	ADP	_	_	3	comp:obj	_	SpaceAfter=No
+5	aller	aller	VERB	_	_	4	comp:obj	_	_
+6	à	à	ADP	_	_	5	comp:obl	_	_
+7	le	le	DET	_	_	8	det	_	_
+8	CROUS	crous	PROPN	_	_	6	comp:obj	_	_
+9	de	de	ADP	_	_	8	mod	_	_
+10	Censier	censier	PROPN	_	_	9	comp:obj	_	_
+11	,	_	PUNCT	_	_	12	punct	_	_
+12	parce	parce	SCONJ	_	_	3	mod	_	_
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	c'	ce	PRON	_	_	15	subj	_	SpaceAfter=No
+15	est	être	AUX	_	_	12	comp:obj	_	_
+16	chouette	chouette	ADJ	_	_	15	comp:pred	_	_
+{{< /conll >}}
+
+
+{{< conll >}}
+1	il	il	PRON	_	_	2	subj	_	_
+2	faut	falloir	VERB	_	_	0	parataxis:parenth	_	_
+3	que	que	SCONJ	_	_	2	comp:obj	_	_
+4	tu	tu	PRON	_	_	5	subj	_	_
+5	deviennes	devenir	VERB	_	_	3	comp:obj	_	_
+6	script	script	NOUN	_	_	7	compound	_	_
+7	girl	girl	NOUN	_	_	5	comp:obj	_	_
+{{< /conll >}}

@@ -24,3 +24,18 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 {{< /conll >}}
 
 
+{{< conll >}}
+1	j'	je	PRON	_	_	2	subj	_	_
+2	ai	avoir	VERB	_	_	0	root	_	_
+3	peur	peur	NOUN	_	_	2	comp:obj@lvc	_	_
+4	que	que	SCONJ	_	_	3	comp:obl	_	_
+5	ça	ça	PRON	_	_	6	subj	_	_
+6	marche	marcher	VERB	_	_	4	comp:obj	_	_
+{{< /conll >}}
+
+{{< conll >}}
+1	beaucoup	beaucoup	ADV	_	_	0	root	_	_
+2	de	de	VERB	_	_	1	comp:obl	_	_
+3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	_
+4	modernes	moderne	ADJ	_	_	3	mod	_	_
+{{< /conll >}}
