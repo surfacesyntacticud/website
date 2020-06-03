@@ -4,6 +4,8 @@ defaultContentLanguage = "en"
 title = "SUD"
 theme = "cayman-hugo-theme"
 
+enableEmoji = "true"
+
 # Syntax highlighting
 pygmentsCodefences = true
 pygmentsStyle = "pygments"

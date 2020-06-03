@@ -3,13 +3,45 @@
 This page is dedicated to exploring several key differences between SUD and UD labels, and the correspondences between the two schemes.
 
 {{< rawhtml >}}
-<div align="center"><b>A sentence annotated in UD (above) and SUD (below).</b></div>
+<div align="center"><b>A sentence annotated in SUD (above) and UD (below).</b></div>
 {{< /rawhtml >}}
 
-<img class="logo" src="http://localhost:51181/images/comparison.svg" width="100%">
 
-![comparison](/images/comparison.svg)
+{{< conll >}}
+# sent_id = email-enronsent38_01-0114
+# text = I am out of the office today but will be back tomorrow.
+1	I	_	PRON	_	_	2	subj	_	_
+2	am	_	AUX	_	_	0	root	_	_
+3	out	_	ADP	_	_	2	comp:pred	_	_
+4	of	_	ADP	_	_	3	comp:obj	_	_
+5	the	_	DET	_	_	6	det	_	_
+6	office	_	NOUN	_	_	4	comp:obj	_	_
+7	today	_	NOUN	_	_	2	mod	_	_
+8	but	_	CCONJ	_	_	9	cc	_	_
+9	will	_	AUX	_	_	2	conj	_	_
+10	be	_	AUX	_	_	9	comp:aux	_	_
+11	back	_	ADV	_	_	10	comp:pred	_	_
+12	tomorrow	_	NOUN	_	_	9	mod	_	_
+13	.	_	PUNCT	.	_	2	punct	_	_
+{{< /conll >}}
 
+{{< conll >}}
+# sent_id = email-enronsent38_01-0114
+# text = I am out of the office today but will be back tomorrow.
+1	I	_	PRON	_	_	6	nsubj	_	_
+2	am	_	AUX	_	_	6	cop	_	_
+3	out	_	ADP	_	_	6	case	_	_
+4	of	_	ADP	_	_	6	case	_	_
+5	the	_	DET	_	_	6	det	_	_
+6	office	_	NOUN	_	_	0	root	_	_
+7	today	_	NOUN	_	_	6	obl:tmod	_	_
+8	but	_	CCONJ	_	_	11	cc	_	_
+9	will	_	AUX	_	_	11	aux	_	_
+10	be	_	AUX	_	_	11	cop	_	_
+11	back	_	ADV	_	_	6	conj	_	_
+12	tomorrow	_	NOUN	_		11	obl:tmod	_	_
+13	.	_	PUNCT	.	_	6	punct	_	_
+{{< /conll >}}
 
 
 SUD represents an alternative to UD rather than a competing annotation scheme, and was designed in such a way that the two can convey the same informational content. The two schemes exhibit nearly perfect isomorphism, meaning that conversion can go both ways without informational loss in most cases. This means that correspondences between the two are most often regular and predictable.
