@@ -15,7 +15,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 6	perhaps	perhaps	ADV	_	_	8	mod	_	_
 7	Stillmann	Stillmann	PROPN	_	_	8	subj	_	_
 8	was	be	PROPN	_	_	5	comp:obj	_	_
-7	blind	blind	ADJ	_	_	8	comp:pred	_	_
+9	blind	blind	ADJ	_	_	8	comp:pred	_	_
 {{< /conll >}}
 
 {{< conll >}}
