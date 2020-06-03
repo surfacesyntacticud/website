@@ -23,11 +23,11 @@ The governor and the dependent of a `udep` relation can have any POS.
 {{< /conll >}}
 
 {{< conll >}}
-1	Ficha	ficha	PRON	_	_	0	root	_	_
-2	de	de	ADP	_	_	1	udep	_	_
-3	Juanjo	juanjo	PROPN	_	_	2	comp:obl	_	_
-4	Ciércoles	ciércoles	PROPN	_	_	3	flat	_	_
-5	en	en	ADP	_	_	1	udep	_	_
-6	Don	don	PROPN	_	_	5	comp:obj	_	_
-7	Balón	balón	PROPN	_	_	6	appos	_	_
+1	Ficha	ficha	PRON	_	_	0	root	_	file
+2	de	de	ADP	_	_	1	udep	_	of
+3	Juanjo	juanjo	PROPN	_	_	2	comp:obl	_	Juanjo
+4	Ciércoles	ciércoles	PROPN	_	_	3	flat	_	Ciércoles
+5	en	en	ADP	_	_	1	udep	_	in
+6	Don	don	PROPN	_	_	5	comp:obj	_	Don
+7	Balón	balón	PROPN	_	_	6	appos	_	Balón
 {{< /conll >}}

@@ -31,31 +31,31 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 
 {{< conll >}}
-1	on	on	PRON	_	_	2	subj	_	_
-2	a	avoir	AUX	_	_	0	root	_	_
-3	décidé	décider	VERB	_	_	2	comp:aux	_	_
+1	on	on	PRON	_	_	2	subj	_	we
+2	a	avoir	AUX	_	_	0	root	_	have
+3	décidé	décider	VERB	_	_	2	comp:aux	_	decided
 4	d'	d'	ADP	_	_	3	comp:obj	_	SpaceAfter=No
-5	aller	aller	VERB	_	_	4	comp:obj	_	_
-6	à	à	ADP	_	_	5	comp:obl	_	_
-7	le	le	DET	_	_	8	det	_	_
-8	CROUS	crous	PROPN	_	_	6	comp:obj	_	_
-9	de	de	ADP	_	_	8	mod	_	_
-10	Censier	censier	PROPN	_	_	9	comp:obj	_	_
+5	aller	aller	VERB	_	_	4	comp:obj	_	to go
+6	à	à	ADP	_	_	5	comp:obl	_	to
+7	le	le	DET	_	_	8	det	_	the
+8	CROUS	crous	PROPN	_	_	6	comp:obj	_	CROUS
+9	de	de	ADP	_	_	8	mod	_	of
+10	Censier	censier	PROPN	_	_	9	comp:obj	_	Censier
 11	,	_	PUNCT	_	_	12	punct	_	_
-12	parce	parce	SCONJ	_	_	3	mod	_	_
+12	parce	parce	SCONJ	_	_	3	mod	_	because
 13	que	que	SCONJ	_	_	12	fixed	_	_
-14	c'	ce	PRON	_	_	15	subj	_	SpaceAfter=No
-15	est	être	AUX	_	_	12	comp:obj	_	_
-16	chouette	chouette	ADJ	_	_	15	comp:pred	_	_
+14	c'	ce	PRON	_	_	15	subj	_	SpaceAfter=No|it
+15	est	être	AUX	_	_	12	comp:obj	_	is
+16	chouette	chouette	ADJ	_	_	15	comp:pred	_	great
 {{< /conll >}}
 
 
 {{< conll >}}
-1	il	il	PRON	_	_	2	subj	_	_
-2	faut	falloir	VERB	_	_	0	parataxis:parenth	_	_
-3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	tu	tu	PRON	_	_	5	subj	_	_
-5	deviennes	devenir	VERB	_	_	3	comp:obj	_	_
-6	script	script	NOUN	_	_	7	compound	_	_
-7	girl	girl	NOUN	_	_	5	comp:obj	_	_
+1	il	il	PRON	_	_	2	subj	_	it is
+2	faut	falloir	VERB	_	_	0	parataxis:parenth	_	necessary
+3	que	que	SCONJ	_	_	2	comp:obj	_	that
+4	tu	tu	PRON	_	_	5	subj	_	you
+5	deviennes	devenir	VERB	_	_	3	comp:obj	_	become
+6	script	script	NOUN	_	_	7	compound	_	script
+7	girl	girl	NOUN	_	_	5	comp:obj	_	girl
 {{< /conll >}}
