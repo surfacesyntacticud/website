@@ -1,8 +1,3 @@
----
-title: "Comp_cleft"
-date: 2020-04-28T10:38:53+02:00
----
-
 # **comp:cleft**
 
 The `comp:cleft` relation is used in cleft sentences for the dependency from the head of the sentence to the head of the complement clause.
@@ -21,7 +16,7 @@ The `comp:cleft` relation is used in cleft sentences for the dependency from the
 
 Sometimes, there is an ambiguity between a relative clause and a cleft clause. Consider the sentence `It is the electric car that I chose`.
 
-If someone says this sentence in a context where he has to choose between a gasoline car and an electric car, the sentence is interpreted as a cleft sentence with the following annotation.
+If someone utters this sentence in a context where they must choose between a gasoline car and an electric car, the sentence is interpreted as a cleft sentence with the following annotation.
 
 {{< conll >}}
 1	It	it	PRON	_	_	2	subj	_	_
@@ -34,7 +29,7 @@ If someone says this sentence in a context where he has to choose between a gaso
 8	chose	choose	VERB	_	_	6	comp:obj	_	_
 {{< /conll >}}
 
-If someone says this sentence in a context where he shows a particular electric car among other electric cars, the sentence is interpreted as a sentence with a relative clause with the following annotation.
+But if the sentence is uttered in a context where the speaker is referring to one of several electric cars, the sentence is interpreted as having a relative clause with the following annotation.
 
 {{< conll >}}
 1	It	it	PRON	_	_	2	subj	_	_
@@ -46,4 +41,3 @@ If someone says this sentence in a context where he shows a particular electric 
 7	I	I	PRON	_	_	8	subj	_	_
 8	chose	choose	VERB	_	_	5	mod@relcl	_	_
 {{< /conll >}}
-

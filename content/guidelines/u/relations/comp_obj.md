@@ -29,6 +29,27 @@ The `comp:obj` relation is used for direct object complements, including direct 
 11	sacrifices	sacrifice	NOUN	_	_	9	comp:obj	_	_
 {{< /conll >}}
 
+{{< conll >}}
+1	Afirmó	afirmar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	affirmed
+2	que	que	SCONJ	SCONJ	_	1	comp:obj	_	that
+3	sigue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	follows
+4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	the
+5	criterio	criterio	NOUN	NOUN	Gender=Masc|Number=Sing	3	comp:obj	_	criterion
+6	europeo	europeo	ADJ	ADJ	Gender=Masc|Number=Sing	5	mod	_	European
+7	y	y	CCONJ	CCONJ	_	8	cc	_	and
+8	que	que	SCONJ	SCONJ	_	2	conj	_	that
+9	trata	tratar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	try
+10	de	de	ADP	ADP	AdpType=Prep	9	comp:obl@x	_	of
+11	incentivar	incentivar	VERB	VERB	VerbForm=Inf	10	comp:obj	_	to incentivize
+12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	the
+13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	market
+14	donde	donde	PRON	PRON	PronType=Ind	17	udep	_	where
+15	no	no	ADV	ADV	Polarity=Neg	17	mod	_	not
+16	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	comp:obj	_	it
+17	hay	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	there is
+18	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	.
+{{< /conll >}}
+
 
 {{< conll >}}
 1	on	on	PRON	_	_	2	subj	_	we

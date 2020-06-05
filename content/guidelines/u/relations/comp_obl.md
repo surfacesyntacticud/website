@@ -23,6 +23,15 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 7	concerts	concert	NOUN	_	_	6	comp:obj	_	_
 {{< /conll >}}
 
+{{< conll >}}
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Entity=(person-8)
+2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	comp:obl	_	Entity=(person-2)
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	Entity=(abstract-96
+5	hooded	hooded	ADJ	JJ	Degree=Pos	6	mod	_	_
+6	look	look	NOUN	NN	Number=Sing	2	comp:obj	_	Entity=abstract-96)|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+{{< /conll >}}
 
 {{< conll >}}
 1	j'	je	PRON	_	_	2	subj	_	I
