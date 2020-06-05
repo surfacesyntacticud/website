@@ -4,9 +4,9 @@ This page outlines various features specific to French.
 
 
 ### comp:aux
-In French, only three verbs are considered as auxiliary verbs: **être**, **avoir** and **faire**. 
+In French, only three verbs are considered auxiliaries **être**, **avoir** and **faire**.
 
-The `comp:aux` reation can be used with one of the three sub-relations: `@tense`, `@pass` or `@cause`, depending on whether the auxiliary is expressing a tense, a passive or a causative construction. The relation `comp:aux@tense` is in French used with both verbs **être** and **avoir** and it is the most commun sub-relation. The relation `comp:aux@pass` is only used with the verb **être** and `comp:aux@cause` is only used with the verb **faire**.
+The `comp:aux` relation can be used with one of the three sub-relations `@tense`, `@pass` or `@cause`, depending on whether the auxiliary is expressing a tense, a passive or a causative construction. In French, the relation `comp:aux@tense` is used with both verbs **être** and **avoir** and is the most common sub-relation. The relation `comp:aux@pass` is only used with the verb **être**, while `comp:aux@cause` is only used with the verb **faire**.
 
 
 #### Example of an auxiliary expressing a tense
