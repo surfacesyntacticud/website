@@ -1,5 +1,6 @@
 ---
 layout: default
+title: SUD Guidelines
 ---
 
 # SUD Guidelines

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Naija SUD Guidelines
+---
+
 # SUD for Naija
 
 This page outlines various features specific to Naija.

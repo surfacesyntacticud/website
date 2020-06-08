@@ -38,12 +38,12 @@ pygmentsStyle = "pygments"
 
   # Header colors
   header_heading_color = "#fff"
-  header_background_color = "#159957"
+  header_background_color = "#ff0000"
   header_background_color_secondary = "#155799"
 
   # Text colors
-  section_headings_color = "#159957"
-  body_text_color = "#606c71"
+  section_headings_color = "#ff0000"
+  body_text_color = "black"
   body_link_color = "#1e6bb8"
   blockquote_text_color = "#819198"
 
