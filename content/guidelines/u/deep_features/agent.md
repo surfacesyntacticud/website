@@ -4,7 +4,7 @@ layout: default
 
 # **@agent**
 
-The `@agent` feature is used for arguments that are agents of their governor at the semantic level in various constructions (causative, passive, impersonal ...).
+The `@agent` feature is used for arguments that are agents of their governor at the semantic level in various constructions (e.g., causative, passive, impersonal, etc.).
 
 {{< conll >}}
 1	it	it	PRON	_	_	2	subj	_	_
@@ -34,4 +34,3 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 4	ses	son	DET	_	_	5	det	_	_
 5	troupes	troupe	NOUN	_	_	2	comp:obj@agent	_	_
 {{< /conll >}}
-

@@ -11,7 +11,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 3	most	most	ADV	_	_	2	comp:obj	_	_
 4	of	of	ADP	_	_	3	comp:obl	_	_
 5	his	his	PRON	_	_	7	udep	_	_
-6	earley	earley	ADJ	_	_	7	mod	_	_
+6	early	early	ADJ	_	_	7	mod	_	_
 7	life	life	NOUN	_	_	4	comp:obj	_	_
 {{< /conll >}}
 

@@ -34,9 +34,8 @@ UD relations that are not used in **SUD**:
 [`cop`](https://universaldependencies.org/u/dep/cop.html),
 [`case`](https://universaldependencies.org/u/dep/case.html),
 [`mark`](https://universaldependencies.org/u/dep/mark.html).
-These 17 relations are replaced by 4 major relations in SUD --
+These 17 relations are replaced by three major relations in SUD --
 [`subj`](../relations/subj),
 [`comp`](../relations/comp),
-[`mod`](../relations/mod),
-[`udep`](../relations/udep)
-(subject, complement, modifier, underspecified dependency) -- with possible sub-relations.
+[`mod`](../relations/mod)
+(subject, complement, modifier) -- with possible sub-relations, in addition to the general [`udep`](../relations/udep) (underspecified dependency) to a more marginal extent.

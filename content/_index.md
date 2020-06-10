@@ -1,15 +1,13 @@
 ---
 title: ""
 date: 2020-04-26T17:45:38+02:00
-title: Surface Syntactic Universal Dependencies
+title: Surface Syntactic Universal Dependencies (SUD)
 
 ---
 
 <center>⚠️ This website is in construction ⚠️</center>
 
-# Surface Syntactic Universal Dependencies (SUD)
-
-SUD is an annotation scheme for syntactic dependency treebanks, near isomorphic to UD (Universal Dependencies). Contrary to UD, it is based on syntactic criteria (favoring functional heads) and the relations are defined on distributional and functional bases.
+SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly perfect degree of two-way convertibility with the Universal Dependencies scheme (UD). Contrary to UD, it is based on syntactic criteria (favoring functional heads) and the relations are defined on distributional and functional bases.
 
 ## An Example:
 {{< conll >}}
@@ -23,11 +21,11 @@ SUD is an annotation scheme for syntactic dependency treebanks, near isomorphic 
 6	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
-To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the [French](guidelines/french/) or [Naija](guidelines/pcm/) specific pages.
+To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/french/) and [Naija](guidelines/pcm/) pages.
 
 
 ## Data
-Automatic conversion to the SUD format are available [here](data).
+Automatic conversion to the SUD format is available [here](data).
 
 ## Publications
 The SUD annotation scheme is described in the publications below:
