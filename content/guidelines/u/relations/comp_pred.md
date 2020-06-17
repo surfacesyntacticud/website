@@ -27,4 +27,25 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 5	shout	shout	VERB	_	_	3	comp:pred	_	_
 {{< /conll >}}
 
+The `comp:pred` relation can also be used in certain subordinating constructions.
 
+{{< conll >}}
+# text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie.
+# text_en = But the reality is that Mauritania isn't Morocco or Algeria. 
+1	Mais	but	CCONJ	_	_	4	cc	_	gloss=but
+2	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	the
+3	réalité	reality	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
+4	est	is	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	que	that	SCONJ	_	_	4	comp:pred	_	_
+6	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Mauritanie	Mauritania	PROPN	_	_	9	subj	_	_
+8	n'	not	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
+9	est	is	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
+10	pas	not	ADV	_	Polarity=Neg	9	mod	_	_
+11	le	the	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Maroc	Morocco	PROPN	_	_	9	comp:pred	_	_
+13	ou	or	CCONJ	_	_	15	cc	_	_
+14	l'	the	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	Algérie	Algeria	PROPN	_	_	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+{{< /conll >}}
