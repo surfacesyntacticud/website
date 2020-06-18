@@ -91,34 +91,34 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< conll >}}
 #text = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado donde no lo hay.
 #text_en = He stated that he follows the European criterion and tries to encourage the market where there is none.
-1	Afirmó	affirmed	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=affirmed
-2	que	that	SCONJ	SCONJ	_	1	comp:obj	_	Gloss=that
-3	sigue	follows	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Gloss=follows
-4	el	the	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Gloss=the
-5	criterio	criterion	NOUN	NOUN	Gender=Masc|Number=Sing	3	comp:obj	_	Gloss=criterion
-6	europeo	European	ADJ	ADJ	Gender=Masc|Number=Sing	5	mod	_	Gloss=European
-7	y	and	CCONJ	CCONJ	_	8	cc	_	Gloss=and
-8	que	that	SCONJ	SCONJ	_	2	conj	_	Gloss=that
-9	trata	tries	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Gloss=try
-10	de	of	ADP	ADP	AdpType=Prep	9	comp:obl@x	_	Gloss=of
-11	incentivar	incentivize	VERB	VERB	VerbForm=Inf	10	comp:obj	_	Gloss=to incentivize
-12	el	the	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Gloss=the
-13	mercado	market	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
-14	donde	where	PRON	PRON	PronType=Ind	17	udep	_	Gloss=where
-15	no	not	ADV	ADV	Polarity=Neg	17	mod	_	Gloss=not
-16	lo	it	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	comp:obj	_	Gloss=it
-17	hay	have	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	Gloss=there is
+1	Afirmó	afirmar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=affirmed
+2	que	que	SCONJ	SCONJ	_	1	comp:obj	_	Gloss=that
+3	sigue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Gloss=follows
+4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Gloss=the
+5	criterio	criterio	NOUN	NOUN	Gender=Masc|Number=Sing	3	comp:obj	_	Gloss=criterion
+6	europeo	europeo	ADJ	ADJ	Gender=Masc|Number=Sing	5	mod	_	Gloss=European
+7	y	y	CCONJ	CCONJ	_	8	cc	_	Gloss=and
+8	que	que	SCONJ	SCONJ	_	2	conj	_	Gloss=that
+9	trata	tratar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Gloss=try
+10	de	de	ADP	ADP	AdpType=Prep	9	comp:obl@x	_	Gloss=of
+11	incentivar	incentivar	VERB	VERB	VerbForm=Inf	10	comp:obj	_	Gloss=to incentivize
+12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Gloss=the
+13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
+14	donde	donde	PRON	PRON	PronType=Ind	17	udep	_	Gloss=where
+15	no	no	ADV	ADV	Polarity=Neg	17	mod	_	Gloss=not
+16	lo	el	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	comp:obj	_	Gloss=it
+17	hay	hay	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	Gloss=there is
 18	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	.
 {{< /conll >}}
 
 {{< conll >}}
 #text = il faut que tu deviennes script girl.
 #text_en = You need to become a script girl.
-1	il	it	PRON	_	_	2	subj	_	Gloss=it is
-2	faut	is necessary	VERB	_	_	0	parataxis:parenth	_	Gloss=necessary
-3	que	that	SCONJ	_	_	2	comp:obj	_	Gloss=that
-4	tu	you	PRON	_	_	5	subj	_	Gloss=you
-5	deviennes	become	VERB	_	_	3	comp:obj	_	Gloss=become
+1	il	il	PRON	_	_	2	subj	_	Gloss=it is
+2	faut	falloir	VERB	_	_	0	parataxis:parenth	_	Gloss=necessary
+3	que	que	SCONJ	_	_	2	comp:obj	_	Gloss=that
+4	tu	tu	PRON	_	_	5	subj	_	Gloss=you
+5	deviennes	devenir	VERB	_	_	3	comp:obj	_	Gloss=become
 6	script	script	NOUN	_	_	7	compound	_	Gloss=script
 7	girl	girl	NOUN	_	_	5	comp:obj	_	Gloss=girl
 {{< /conll >}}
