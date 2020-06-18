@@ -34,17 +34,19 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 {{< /conll >}}
 
 {{< conll >}}
-1	j'	je	PRON	_	_	2	subj	_	I
-2	ai	avoir	VERB	_	_	0	root	_	have
-3	peur	peur	NOUN	_	_	2	comp:obj@lvc	_	fear
-4	que	que	SCONJ	_	_	3	comp:obl	_	that
-5	ça	ça	PRON	_	_	6	subj	_	this
-6	marche	marcher	VERB	_	_	4	comp:obj	_	works
+# text = I am afraid that this works
+1	j'	je	PRON	_	_	2	subj	_	Gloss=I
+2	ai	avoir	VERB	_	_	0	root	_	Gloss=have
+3	peur	peur	NOUN	_	_	2	comp:obj@lvc	_	Gloss=fear
+4	que	que	SCONJ	_	_	3	comp:obl	_	Gloss=that
+5	ça	ça	PRON	_	_	6	subj	_	Gloss=this
+6	marche	marcher	VERB	_	_	4	comp:obj	_	Gloss=works
 {{< /conll >}}
 
 {{< conll >}}
-1	beaucoup	beaucoup	ADV	_	_	0	root	_	many
-2	de	de	VERB	_	_	1	comp:obl	_	of
-3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	buildings
-4	modernes	moderne	ADJ	_	_	3	mod	_	modern
+# text = many modern buildings
+1	beaucoup	beaucoup	ADV	_	_	0	root	_	Gloss=many
+2	de	de	VERB	_	_	1	comp:obl	_	Gloss=of
+3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	Gloss=buildings
+4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
 {{< /conll >}}
