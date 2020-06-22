@@ -32,10 +32,10 @@ The `comp:pred` relation can also be used in certain subordinating constructions
 {{< conll >}}
 # text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie.
 # text_en = But the reality is that Mauritania isn't Morocco or Algeria. 
-1	Mais	but	CCONJ	_	_	4	cc	_	gloss=but
-2	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	the
-3	réalité	reality	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	_
-4	est	is	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Mais	but	CCONJ	_	_	4	cc	_	Gloss=but
+2	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Gloss=the
+3	réalité	reality	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	Gloss=reality
+4	est	is	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=is
 5	que	that	SCONJ	_	_	4	comp:pred	_	_
 6	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Mauritanie	Mauritania	PROPN	_	_	9	subj	_	_
