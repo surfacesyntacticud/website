@@ -25,3 +25,28 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 5	crucial	crucial	ADJ	JJ	Degree=Pos	4	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	_	_
 {{< /conll >}}
+
+The `subj` relation has two deep sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value.
+
+{{< conll >}}
+# sent_fr = Il pleut dans ma maison
+# text_en = It rains in my house
+1	Il	il	PRON	_	_	2	subj@expl	_	_
+2	pleut	pleuvoir	VERB	_	_	0	root	_	_
+3	dans	dans	ADP	_	_	2	mod	_	_
+4	ma	son	DET	_	_	5	det	_	_
+5	maison	maison	NOUN	_	_	3	comp:obj	_	_
+{{< /conll >}}
+
+The sub-relation `subj@pass` is used to indicate a passive construction.
+
+{{< conll >}}
+# text = L'œuvre est située dans la galerie
+1	L'	le	DET	_	_	2	det	_	_
+2	œuvre	œuvre	NOUN	_	_	3	subj@pass	_	_
+3	est	être	AUX	_	_	0	root	_	_
+4	située	situer	VERB	_	_	comp:aux@pass	_	_
+5	dans	dans	ADP	_	_	4	comp:obl	_	_
+6	la	le	DET	_	_	7	det	_	_
+7	galerie	galerie	NOUN	_	_	5	comp:obj	_	_
+{{< /conll >}}
