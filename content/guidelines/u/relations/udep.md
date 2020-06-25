@@ -23,7 +23,8 @@ The governor and the dependent of a `udep` relation can have any POS.
 {{< /conll >}}
 
 {{< conll >}}
-# text = File of Juan Ciércoles in Don Balón
+# text_es = Ficha de Juanjo Ciércolen en Don Balón
+# text_en = File of Juan Ciércoles in Don Balón
 1	Ficha	ficha	PRON	_	_	0	root	_	Gloss=file
 2	de	de	ADP	_	_	1	udep	_	Gloss=of
 3	Juanjo	juanjo	PROPN	_	_	2	comp:obl	_	Gloss=Juanjo
