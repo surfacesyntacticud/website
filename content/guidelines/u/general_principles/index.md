@@ -12,7 +12,7 @@ A way of naming a daughter of a relation `R` is to add an extension `EXT` to `R`
 
  * It is possible to distinguish between **arguments** and **modifiers**: Although this distinction involves semantic criteria (an argument of a lexical unit L is an obligatory participant in the semantic description of L), we consider that it is hard to avoid, because especially for verb dependents, most language have special functions.
 
- * A **multiple coordination** is analyzed as a chain instead of a bouquet: One of the main argument for the chain-analysis is that it reduces the dependency length.
+ * A **multiple coordination** is analyzed as a chain instead of a bouquet: One of the main argument for the chain-analysis is that it reduces the dependency length. See the [page](../particular_phenomena/coord) dedicated to coordination.
 
  * There is a strict distinction between surface-syntactic relations and deep-syntactic features expressed as extensions of syntactic relation names using the `@` symbol.
 
