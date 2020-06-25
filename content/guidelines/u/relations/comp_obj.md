@@ -18,7 +18,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< /conll >}}
 
 {{< conll >}}
-# text = j'adore ce bar.
+# text_fr = j'adore ce bar.
 # text_en = I love this bar.
 1	j'	I	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	adore	love	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -30,7 +30,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 ## Direct complements of an adposition
 
 {{< conll >}}
-#text = On a décidé d'aller au CROUS de Censier, parce que c'est chouette.
+#text_fr = On a décidé d'aller au CROUS de Censier, parce que c'est chouette.
 #text_en = We decided to go to the Censier CROUS because it's cool.
 1	on	we	PRON	_	_	2	subj	_	Gloss=we
 2	a	have	AUX	_	_	0	root	_	Gloss=have
@@ -89,7 +89,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< /conll >}}
 
 {{< conll >}}
-#text = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado donde no lo hay.
+#text_es = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado donde no lo hay.
 #text_en = He stated that he follows the European criterion and tries to encourage the market where there is none.
 1	Afirmó	afirmar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=affirmed
 2	que	que	SCONJ	SCONJ	_	1	comp:obj	_	Gloss=that
@@ -112,7 +112,7 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< /conll >}}
 
 {{< conll >}}
-#text = il faut que tu deviennes script girl.
+#text_fr = il faut que tu deviennes script girl.
 #text_en = You need to become a script girl.
 1	il	il	PRON	_	_	2	subj	_	Gloss=it is
 2	faut	falloir	VERB	_	_	0	parataxis:parenth	_	Gloss=necessary
