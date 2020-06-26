@@ -70,3 +70,4 @@ The main deep features are:
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
 * [`coordination`](./particular_phenomena/coord)
+* [`idioms and titles`](./particular_phenomena/idioms_titles)
