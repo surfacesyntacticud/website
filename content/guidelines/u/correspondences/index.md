@@ -50,7 +50,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
           <td>ccomp</td>
           <td rowspan=3>comp:obl</td>
         </tr>
-        <tr><td>obj</td></tr>
+        <tr><td>obl</td></tr>
         <tr>
           <td>iobj</td>
         </tr>

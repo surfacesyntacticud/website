@@ -31,22 +31,23 @@ The `subj` relation has two deep sub-relations. The sub-relation `subj@expl` is 
 {{< conll >}}
 # sent_fr = Il pleut dans ma maison
 # text_en = It rains in my house
-1	Il	il	PRON	_	_	2	subj@expl	_	_
-2	pleut	pleuvoir	VERB	_	_	0	root	_	_
-3	dans	dans	ADP	_	_	2	mod	_	_
-4	ma	son	DET	_	_	5	det	_	_
-5	maison	maison	NOUN	_	_	3	comp:obj	_	_
+1	Il	il	PRON	_	_	2	subj@expl	_	Gloss=it
+2	pleut	pleuvoir	VERB	_	_	0	root	_	Gloss=rains
+3	dans	dans	ADP	_	_	2	mod	_	Gloss=in
+4	ma	son	DET	_	_	5	det	_	Gloss=my
+5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
 {{< /conll >}}
 
 The sub-relation `subj@pass` is used to indicate a passive construction.
 
 {{< conll >}}
-# text = L'œuvre est située dans la galerie
-1	L'	le	DET	_	_	2	det	_	_
-2	œuvre	œuvre	NOUN	_	_	3	subj@pass	_	_
-3	est	être	AUX	_	_	0	root	_	_
-4	située	situer	VERB	_	_	comp:aux@pass	_	_
-5	dans	dans	ADP	_	_	4	comp:obl	_	_
-6	la	le	DET	_	_	7	det	_	_
-7	galerie	galerie	NOUN	_	_	5	comp:obj	_	_
+# text_fr = L'œuvre est située dans la galerie
+# text_en = The artwork is in the gallery.
+1	L'	le	DET	_	_	2	det	_	Gloss=the
+2	œuvre	œuvre	NOUN	_	_	3	subj@pass	_	Gloss=artwork
+3	est	être	AUX	_	_	0	root	_	Gloss=is
+4	située	situer	VERB	_	_	3	comp:aux@pass	_	Gloss=placed
+5	dans	dans	ADP	_	_	4	comp:obl	_	Gloss=in
+6	la	le	DET	_	_	7	det	_	Gloss=the
+7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
 {{< /conll >}}
