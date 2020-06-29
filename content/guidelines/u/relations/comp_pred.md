@@ -30,8 +30,8 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 The `comp:pred` relation can also be used in certain subordinating constructions.
 
 {{< conll >}}
-# text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie.
-# text_en = But the reality is that Mauritania isn't Morocco or Algeria. 
+# text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie
+# text_en = But the reality is that Mauritania isn't Morocco or Algeria.
 1	Mais	but	CCONJ	_	_	4	cc	_	Gloss=but
 2	la	the	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Gloss=the
 3	réalité	reality	NOUN	_	Gender=Fem|Number=Sing	4	subj	_	Gloss=reality
@@ -47,5 +47,4 @@ The `comp:pred` relation can also be used in certain subordinating constructions
 13	ou	or	CCONJ	_	_	15	cc	_	_
 14	l'	the	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Algérie	Algeria	PROPN	_	_	12	conj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
 {{< /conll >}}
