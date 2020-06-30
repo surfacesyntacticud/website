@@ -5,6 +5,27 @@ layout: default
 # **comp:obj**
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
+Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
+In the following examples we can see direct objects of the Spanish verb **ver**. With animate objects this verb takes the preposition **a**, however the object is still considered direct and therefore the relation stays `comp:obj`.
+
+{{< conll >}}
+# text_es = Veo su foto
+# text_en = I see his photo
+1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
+2	su	su	DET	_	_	3	det	_	Gloss=his
+3	foto	foto	NOUN	_	_	1	comp:obj	_	Gloss=photo
+{{< /conll >}}
+
+{{< conll >}}
+# text_es = Veo a Clinton 
+# text_en = I see Clinton
+1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
+2	a	a	ADP	_	_	1	comp:obj	_	_
+3	Clinton	Clinton	PROPN	_	_	2	comp:obj	_	Gloss=Clinton
+{{< /conll >}}
+
+
+
 ## Direct object complements
 
 {{< conll >}}
@@ -18,36 +39,29 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< /conll >}}
 
 {{< conll >}}
-# text_fr = j'adore ce bar.
-# text_en = I love this bar.
+# text_fr = j'adore ce bar
+# text_en = I love this bar
 1	j'	I	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	adore	love	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	this	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	bar	bar	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
 {{< /conll >}}
 
 ## Direct complements of an adposition
 
 {{< conll >}}
-#text_fr = On a décidé d'aller au CROUS de Censier, parce que c'est chouette.
-#text_en = We decided to go to the Censier CROUS because it's cool.
-1	on	we	PRON	_	_	2	subj	_	Gloss=we
-2	a	have	AUX	_	_	0	root	_	Gloss=have
-3	décidé	decided	VERB	_	_	2	comp:aux	_	Gloss=decided
-4	d'	of	ADP	_	_	3	comp:obj	_	SpaceAfter=No|Gloss=to
-5	aller	go	VERB	_	_	4	comp:obj	_	Gloss=go
-6	à	to	ADP	_	_	5	comp:obl	_	Gloss=to
-7	le	the	DET	_	_	8	det	_	Gloss=the
+#text_fr = On a décidé d'aller au CROUS de Censier
+#text_en = We decided to go to the Censier CROUS
+1	on	on	PRON	_	_	2	subj	_	Gloss=we
+2	a	avoir	AUX	_	_	0	root	_	Gloss=have
+3	décidé	décider	VERB	_	_	2	comp:aux	_	Gloss=decided
+4	d'	de	ADP	_	_	3	comp:obj@x	_	Gloss=to
+5	aller	aller	VERB	_	_	4	comp:obj	_	Gloss=go
+6	à	à	ADP	_	_	5	comp:obl	_	Gloss=to
+7	le	le	DET	_	_	8	det	_	Gloss=the
 8	CROUS	CROUS	PROPN	_	_	6	comp:obj	_	Gloss=CROUS
-9	de	of	ADP	_	_	8	mod	_	Gloss=of
+9	de	de	ADP	_	_	8	mod	_	Gloss=of
 10	Censier	Censier	PROPN	_	_	9	comp:obj	_	Gloss=Censier
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	parce	because	SCONJ	_	_	3	mod	_	Gloss=because
-13	que	that	SCONJ	_	_	12	fixed	_	_
-14	c'	this	PRON	_	_	15	subj	_	SpaceAfter=No|Gloss=it
-15	est	is	AUX	_	_	12	comp:obj	_	Gloss=is
-16	chouette	cool	ADJ	_	_	15	comp:pred	_	Gloss=cool
 {{< /conll >}}
 
 {{< conll >}}
@@ -69,7 +83,6 @@ The `comp:obj` relation is used for direct object complements, including direct 
 16	knowledge	knowledge	NOUN	NN	Number=Sing	14	comp:obj	_	Entity=abstract-122)
 17	and	and	CCONJ	CC	_	18	cc	_	_
 18	skills	skill	NOUN	NNS	Number=Plur	16	conj	_	Entity=(abstract-123)abstract-121)|SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	_
 {{< /conll >}}
 
 ## Subordinating conjunctions
@@ -89,8 +102,8 @@ The `comp:obj` relation is used for direct object complements, including direct 
 {{< /conll >}}
 
 {{< conll >}}
-#text_es = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado donde no lo hay.
-#text_en = He stated that he follows the European criterion and tries to encourage the market where there is none.
+#text_es = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado
+#text_en = He stated that he follows the European criterion and tries to encourage the market
 1	Afirmó	afirmar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=affirmed
 2	que	que	SCONJ	SCONJ	_	1	comp:obj	_	Gloss=that
 3	sigue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Gloss=follows
@@ -104,11 +117,6 @@ The `comp:obj` relation is used for direct object complements, including direct 
 11	incentivar	incentivar	VERB	VERB	VerbForm=Inf	10	comp:obj	_	Gloss=to incentivize
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Gloss=the
 13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
-14	donde	donde	PRON	PRON	PronType=Ind	17	udep	_	Gloss=where
-15	no	no	ADV	ADV	Polarity=Neg	17	mod	_	Gloss=not
-16	lo	el	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	17	comp:obj	_	Gloss=it
-17	hay	hay	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	Gloss=there is
-18	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	.
 {{< /conll >}}
 
 {{< conll >}}
