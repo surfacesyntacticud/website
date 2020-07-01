@@ -18,7 +18,7 @@ Consider the following sentence **analysed in UD**.
 8	pool	pool	NOUN	_	_	5	obl	_	_
 {{< /conll >}}
 
-**In SUD** it would be analysed like this:
+**In SUD** it would be analysed as follows:
 
 {{< conll >}}
 1	Last	last	ADJ	_	_	2	mod	_	_

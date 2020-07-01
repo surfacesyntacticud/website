@@ -9,7 +9,7 @@ This relation is refined into several sub-relations:  [`comp:aux`](../comp_aux) 
 
 In most cases, SUD native corpora are directly annotated with the sub-relations, rather than with the `comp` relation. However, `comp` may sometimes be used when one has difficulty deciding between `comp:obj` and `comp:obl`.
 
-With certain French reflexive verbs it is difficult to determine the role of a pronoun. In constructions such as **Il s'en sort** the pronoun **se** no longer plays the role of an argument of the verb, however it fits so well into the normal argument structure that it is hard to recognize that it cannot be de-pronominalized. That's why we decided to annotate the relation `comp`. 
+With certain French reflexive verbs it is difficult to determine the role of a pronoun. In constructions such as *Il s'en sort* the pronoun *se* no longer provides the semantic value of an argument of the verb, however it fits so well into the normal argument structure that it is hard to recognize that it cannot be de-pronominalized. That's why we decided to annotate the relation `comp`. 
 
 {{< conll >}}
 # text_fr = Il s'en sort bien

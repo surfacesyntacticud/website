@@ -54,8 +54,8 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 
 
 {{< conll >}}
-# text_en = the number of employees became lower
-# text_cz = počet zaměstnanců se snížil
+# text_en = the number of employees lowered
+# text_cs = počet zaměstnanců se snížil
 1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
 2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
 3	se	se	PRON	_	_	4	comp@pass	_	_

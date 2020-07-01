@@ -7,6 +7,8 @@ The `udep` relation is used for complements when one does not wish to or is unab
 
 The governor and the dependent of a `udep` relation can have any POS.
 
+As shown in the [page](../../correspondences) about correspondences between SUD and UD, `udep` label is used while automatically converting an `obl` label from a UD annotation. That is because `obl` can correspond to both `comp:obl` and `mod` in SUD.
+
 {{< conll >}}
 1	An	a	DET	_	_	2	det	_	_
 2	act	act	NOUN	_	_	0	root	_	_
