@@ -25,10 +25,10 @@ The `comp:aux` relation is used for the argument of auxiliaries, and corresponds
 In case of multiple auxiliaries, our analysis differs from the one in UD.
 
 {{< conll >}}
-# text_en = If I had a similar chance, I wouldn't waste it.
+# text_en = If I had a similar chance, I wouldn't waste it
 # text_sk = Ak by som mal podobnú šancu, ja ju nepremrhám.
 1	Ak	ak	SCONJ	_	_	10	mod	_	Gloss=if
-2	by	by	AUX	_	_	1	comp:obj	_	Gloss=AUX.conditional
+2	by	by	AUX	_	_	1	comp:obj	_	Gloss=AUX.cond
 3	som	byť	AUX	_	_	2	comp:aux	_	Gloss=am
 4	mal	mať	VERB	_	_	3	comp:aux	_	Gloss=had
 5	podobnú	podobný	ADJ	_	_	6	mod	_	Gloss=similar
@@ -37,4 +37,17 @@ In case of multiple auxiliaries, our analysis differs from the one in UD.
 8	ja	ja	PRON	_	_	10	subj	_	Gloss=I
 9	ju	on	PRON	_	_	10	comp:obj	_	Gloss=it
 10	nepremrhám	premrhať	VERB	_	_	0	root	_	Gloss=not waste
+{{< /conll >}}
+
+
+{{< conll >}}
+# text_en = Every man that is missing, you will be punished
+# text = Képp ku wuute dees na la mbugal, ñu folli la mbaa ñu rey la.
+1	Képp	képp	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Tot	4	dislocated	_	Gloss=HUM.every
+2	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	3	subj	_	Gloss=HUM.REL
+3	wuute	wuute	VERB	VERB	Mood=Ind|VerbForm=Fin	1	mod@relcl	_	Gloss=miss
+4	dees	di	AUX	AUX	Aspect=Imp|Mood=Ind|Person=0|Tense=Pres	4	comp:aux	_	Gloss=IMP.IPRS
+5	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	0	root	_	Gloss=PART
+6	la	ko	PRON	CL	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	Gloss=O2sg
+7	mbugal	mbugal	VERB	VERB	Mood=Ind|VerbForm=Fin	4	comp:aux	_	Gloss=punish
 {{< /conll >}}

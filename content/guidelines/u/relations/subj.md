@@ -26,7 +26,7 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 6	.	.	PUNCT	.	_	4	punct	_	_
 {{< /conll >}}
 
-The `subj` relation has two deep sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value.
+The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value.
 
 {{< conll >}}
 # sent_fr = Il pleut dans ma maison
@@ -50,4 +50,14 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 5	dans	dans	ADP	_	_	4	comp:obl	_	Gloss=in
 6	la	le	DET	_	_	7	det	_	Gloss=the
 7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
+{{< /conll >}}
+
+
+{{< conll >}}
+# text_en = the number of employees became lower
+# text_cz = počet zaměstnanců se snížil
+1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
+2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
+3	se	se	PRON	_	_	4	comp@pass	_	_
+4	snížil	snížit	VERB	_	_	0	root	_	Gloss=lower
 {{< /conll >}}

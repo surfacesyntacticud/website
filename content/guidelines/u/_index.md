@@ -9,6 +9,7 @@ This page describes the universal principles used in SUD. Some pages are availab
 
 ## General Principles
 SUD differs from UD in several [general principles](./general_principles).
+The key differences between SUD and UD as well as a table summarizing the most frequent correspondences may be consulted [here](./correspondences).
 
 The other layers of annotations follow the UD guidelines. Please refer to UD for these aspects:
 
@@ -18,8 +19,6 @@ The other layers of annotations follow the UD guidelines. Please refer to UD for
   * [Features](https://universaldependencies.org/u/feat) ([single document](https://universaldependencies.org/u/feat/all.html))
     * [Layered features](https://universaldependencies.org/u/overview/feat-layers.html)
     * [Language-specific features](https://universaldependencies.org/ext-feat-index.html)
-
-A table summarizing the most frequent correspondences between SUD and UD relationships may be consulted [here](./correspondences).
 
 ## Specific SUD relations
 
