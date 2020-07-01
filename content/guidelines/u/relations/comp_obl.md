@@ -3,7 +3,35 @@ layout: default
 ---
 
 # **comp:obl**
-The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form.
+The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. In SUD we do not make a difference between indirect objects and oblique arguments. On the other hand, we do distinguish between core arguments and modifiers.
+
+Consider the following sentence **analysed in UD**.
+
+{{< conll >}}
+1	Last	last	ADJ	_	_	2	amod	_	_
+2	night	night	NOUN	_	_	5	obl:tmod	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	I	I	PRON	_	_	5	nsubj	_	_
+5	swam	swim	VERB	_	_	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	pool	pool	NOUN	_	_	5	obl	_	_
+{{< /conll >}}
+
+**In SUD** it would be analysed like this:
+
+{{< conll >}}
+1	Last	last	ADJ	_	_	2	mod	_	_
+2	night	night	NOUN	_	_	5	mod	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	I	I	PRON	_	_	5	subj	_	_
+5	swam	swim	VERB	_	_	0	root	_	_
+6	in	in	ADP	IN	_	5	udep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	pool	pool	NOUN	_	_	6	comp:obj	_	_
+{{< /conll >}}
+
+## Oblique argument of a verb
 
 {{< conll >}}
 1	it	it	PROPN	_	_	2	subj	_	_
@@ -33,8 +61,13 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 7	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
+## Oblique argument of a noun
+
+In the following light-verb construction, it is the noun that governs the complement.
+
 {{< conll >}}
-# text = I am afraid that this works
+# text_fr = j'ai peur que ça marche
+# text_en = I'm afraid that it works
 1	j'	je	PRON	_	_	2	subj	_	Gloss=I
 2	ai	avoir	VERB	_	_	0	root	_	Gloss=have
 3	peur	peur	NOUN	_	_	2	comp:obj@lvc	_	Gloss=fear
@@ -43,8 +76,11 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 6	marche	marcher	VERB	_	_	4	comp:obj	_	Gloss=works
 {{< /conll >}}
 
+## Oblique argument of an adverb
+
 {{< conll >}}
-# text = many modern buildings
+# text_fr = beaucoup de bâtiments modernes
+# text_en = many modern buildings
 1	beaucoup	beaucoup	ADV	_	_	0	root	_	Gloss=many
 2	de	de	VERB	_	_	1	comp:obl	_	Gloss=of
 3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	Gloss=buildings

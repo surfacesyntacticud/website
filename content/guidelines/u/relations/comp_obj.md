@@ -6,7 +6,7 @@ layout: default
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
 Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
-In the following examples we can see direct objects of the Spanish verb **ver**. With animate objects this verb takes the preposition **a**, however the object is still considered direct and therefore the relation stays `comp:obj`.
+In the following examples we can see direct objects of the Spanish verb *ver*. With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
 
 {{< conll >}}
 # text_es = Veo su foto
