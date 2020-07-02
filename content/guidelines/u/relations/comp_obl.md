@@ -31,7 +31,7 @@ Consider the following sentence **analysed in UD**.
 8	pool	pool	NOUN	_	_	6	comp:obj	_	_
 {{< /conll >}}
 
-## Oblique argument of a verb
+## Oblique complement of a verb
 
 {{< conll >}}
 1	it	it	PROPN	_	_	2	subj	_	_
@@ -61,9 +61,20 @@ Consider the following sentence **analysed in UD**.
 7	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
-## Oblique argument of a noun
+* It is also used for clausal complements commuting with an adpositional complement.
+Consider the two following examples:
 
-In the following light-verb construction, it is the noun that governs the complement.
+{{< conll >}}
+# text_en = he's afraid of immigration
+# text_fr = il a peur de l'immigration
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=I
+2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=have
+3	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	Gloss=fear
+4	de	de	ADP	_	_	3	comp:obl	_	Gloss=of
+5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	det	_	Gloss=the
+6	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	Gloss=immigration
+{{< /conll >}}
+
 
 {{< conll >}}
 # text_fr = j'ai peur que ça marche
@@ -76,6 +87,26 @@ In the following light-verb construction, it is the noun that governs the comple
 6	marche	marcher	VERB	_	_	4	comp:obj	_	Gloss=works
 {{< /conll >}}
 
+In the last sentence, *que ça marche* commutes with *de l'immigration*, therefore the relation going from *peur* to the head of the complement is labelled `comp:obl`.
+
+## Oblique complement of a noun
+
+Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. To learn more about these constructions, clic [here](../../particular_phenomena/lvc).
+
+{{< conll >}}
+# text_fr = China is facing serious problems
+# text_fr = la Chine fait face à de sérieux problèmes
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	_
+2	Chine	Chine	PROPN	_	_	3	subj	_	_
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	face	face	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
+5	à	à	ADP	_	_	4	comp:obl	_	_
+6	de	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	8	det	_	_
+7	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
+8	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
+{{< /conll >}}
+
+
 ## Oblique argument of an adverb
 
 {{< conll >}}
@@ -85,4 +116,15 @@ In the following light-verb construction, it is the noun that governs the comple
 2	de	de	VERB	_	_	1	comp:obl	_	Gloss=of
 3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	Gloss=buildings
 4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
+{{< /conll >}}
+
+## Oblique argument of an adjective
+
+{{< conll >}}
+# text = I'm sure you do
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
+2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	subj	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp:obl	_	_
 {{< /conll >}}
