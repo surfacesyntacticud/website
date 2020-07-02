@@ -5,27 +5,6 @@ layout: default
 # **comp:obj**
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
-Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
-In the following examples we can see direct objects of the Spanish verb *ver*. With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
-
-{{< conll >}}
-# text_es = Veo su foto
-# text_en = I see his photo
-1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
-2	su	su	DET	_	_	3	det	_	Gloss=his
-3	foto	foto	NOUN	_	_	1	comp:obj	_	Gloss=photo
-{{< /conll >}}
-
-{{< conll >}}
-# text_es = Veo a Clinton 
-# text_en = I see Clinton
-1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
-2	a	a	ADP	_	_	1	comp:obj	_	_
-3	Clinton	Clinton	PROPN	_	_	2	comp:obj	_	Gloss=Clinton
-{{< /conll >}}
-
-
-
 ## Direct object complements
 
 {{< conll >}}
@@ -45,6 +24,25 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 2	adore	love	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	this	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	bar	bar	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
+{{< /conll >}}
+
+Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
+In the following examples we can see direct objects of the Spanish verb *ver*. With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
+
+{{< conll >}}
+# text_es = Veo su foto
+# text_en = I see his photo
+1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
+2	su	su	DET	_	_	3	det	_	Gloss=his
+3	foto	foto	NOUN	_	_	1	comp:obj	_	Gloss=photo
+{{< /conll >}}
+
+{{< conll >}}
+# text_es = Veo a Clinton 
+# text_en = I see Clinton
+1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
+2	a	a	ADP	_	_	1	comp:obj	_	_
+3	Clinton	Clinton	PROPN	_	_	2	comp:obj	_	Gloss=Clinton
 {{< /conll >}}
 
 ## Direct complements of an adposition
@@ -130,3 +128,35 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 6	script	script	NOUN	_	_	7	compound	_	Gloss=script
 7	girl	girl	NOUN	_	_	5	comp:obj	_	Gloss=girl
 {{< /conll >}}
+
+## Complement of an adverb of comparison
+Constructions such as: *plus... que* (French), *more... than* (English), *più... di* (Italian), *bardziej... niż* (Polish).
+
+{{< conll >}}
+# text_en = techniques far more assertive than his predecessors
+1	techniques	technique	NOUN	NNS	Number=Plur	0	root	_	_
+2	far	far	ADV	RB	Degree=Pos	3	mod	_	_
+3	more	more	ADV	RBR	_	4	mod	_	_
+4	assertive	assertive	ADJ	JJ	Degree=Pos	1	mod	_	_
+5	than	than	ADP	IN	_	3	comp:obj	_	_
+6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	mod@poss	_	_
+7	predecessors	predecessor	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+{{< /conll >}}
+
+## Complement in consecutive constructions
+Constructions such as: *tellement... que* (French), *so... that* (English), *così... che* (Italian), *tak... że* (Polish).
+{{< conll >}}
+1	tellement	tellement	ADV	_	_	2	mod	_	_
+2	vaste	vaste	ADJ	_	_	0	root	_	_
+3	qu'	que	SCONJ	_	_	1	comp:obj	_	_
+4	on	on	PRON	_	_	7	subj	_	_
+5	s'	se	PRON	_	_	7	comp	_	_
+6	y	y	PRON	_	_	7	mod	_	_
+7	perd	perd	VERB	_	_	3	comp:obj	_	_
+{{< /conll >}}
+
+## Deep syntactic features
+The relation `comp:obj` can have these features:
+* [@x](../../deep_features/x)
+* [@agent](../../deep_features/agent)
+* [@lvc](../../deep_features/lvc)

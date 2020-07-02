@@ -107,8 +107,8 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 {{< /conll >}}
 
 
-## Oblique argument of an adverb
-
+## Oblique complement of an adverb or an adjective
+* Adverb
 {{< conll >}}
 # text_fr = beaucoup de bâtiments modernes
 # text_en = many modern buildings
@@ -118,8 +118,7 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
 {{< /conll >}}
 
-## Oblique argument of an adjective
-
+* Adjective
 {{< conll >}}
 # text = I'm sure you do
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -128,3 +127,9 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	subj	_	_
 5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp:obl	_	_
 {{< /conll >}}
+
+## Deep syntactic features
+The relation `comp:obl` can have these features:
+* [@x](../../deep_features/x)
+* [@agent](../../deep_features/agent)
+* [@lvc](../../deep_features/lvc)

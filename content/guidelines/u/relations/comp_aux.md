@@ -51,3 +51,9 @@ In case of multiple auxiliaries, our analysis differs from the one in UD.
 6	la	ko	PRON	CL	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	_
 7	mbugal	mbugal	VERB	VERB	Mood=Ind|VerbForm=Fin	4	comp:aux	_	SpaceAfter=No
 {{< /conll >}}
+
+## Deep syntactic features
+The relation `comp:aux` can have these features:
+* [@tense](../../deep_features/tense)
+* [@pass](../../deep_features/pass)
+* [@caus](../../deep_features/caus)

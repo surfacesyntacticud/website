@@ -71,3 +71,4 @@ For each linguistic phenomenon below, there is an explanation of how SUD takes i
 * [`coordination`](./particular_phenomena/coord)
 * [`idioms and titles`](./particular_phenomena/idioms_titles)
 * [`light verb constructions`](./particular_phenomena/lvc)
+* [`comparative and superlative degree`](./particular_phenomena/comparative)

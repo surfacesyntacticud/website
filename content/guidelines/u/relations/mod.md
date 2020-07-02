@@ -50,3 +50,8 @@ The `mod`relation is used for modifiers of verbs, nouns, adjectives, adverbs, au
 18	routine	routine	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	Gloss=routine
 19	.	.	PUNCT	_	_	4	punct	_	.
 {{< /conll >}}
+
+## Deep syntactic features
+The relation `mod` can have these features:
+* [@relcl](../../deep_features/relcl)
+* [@x](../../deep_features/x)
