@@ -32,7 +32,7 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 
 {{< conll >}}
 # sent_fr = Il pleut dans ma maison
-# text_en = It rains in my house
+# text_en = It's raining in my house
 1	Il	il	PRON	_	_	2	subj@expl	_	Gloss=it
 2	pleut	pleuvoir	VERB	_	_	0	root	_	Gloss=rains
 3	dans	dans	ADP	_	_	2	mod	_	Gloss=in
@@ -43,8 +43,16 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 The sub-relation `subj@pass` is used to indicate a passive construction.
 
 {{< conll >}}
+# text = This shall be applauded
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj@pass	_	Entity=(event-70)
+2	shall	shall	AUX	MD	VerbForm=Fin	0	root	_	_
+3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	_
+4	applauded	applaud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	comp:aux@pass	_	_
+{{< /conll >}}
+
+{{< conll >}}
 # text_fr = L'œuvre est située dans la galerie
-# text_en = The artwork is in the gallery.
+# text_en = The artwork is located in the gallery.
 1	L'	le	DET	_	_	2	det	_	Gloss=the
 2	œuvre	œuvre	NOUN	_	_	3	subj@pass	_	Gloss=artwork
 3	est	être	AUX	_	_	0	root	_	Gloss=is
@@ -56,10 +64,10 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 
 
 {{< conll >}}
-# text_en = the number of employees lowered
+# text_en = the number of employees decreased
 # text_cs = počet zaměstnanců se snížil
 1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
 2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
 3	se	se	PRON	_	_	4	comp@pass	_	_
-4	snížil	snížit	VERB	_	_	0	root	_	Gloss=lower
+4	snížil	snížit	VERB	_	_	0	root	_	Gloss=decrease
 {{< /conll >}}
