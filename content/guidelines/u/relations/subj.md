@@ -62,7 +62,6 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
 {{< /conll >}}
 
-
 {{< conll >}}
 # text_en = the number of employees decreased
 # text_cs = počet zaměstnanců se snížil
