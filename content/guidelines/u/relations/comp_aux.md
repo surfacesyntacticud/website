@@ -25,6 +25,14 @@ The `comp:aux` relation is used for the argument of auxiliaries, and corresponds
 In case of multiple auxiliaries, our analysis differs from the one in UD.
 
 {{< conll >}}
+1	We	we	PRON	_	_	2	subj	_	_
+2	might	may	AUX	_	_	0	root	_	_
+3	could	can	AUX	_	_	2	comp:aux	_	_
+4	go	go	VERB	_	_	3	comp:aux	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+{{< /conll >}}
+
+{{< conll >}}
 # text_en = If I had a similar chance, I wouldn't waste it
 # text_sk = Ak by som mal podobnú šancu, ja ju nepremrhám.
 1	Ak	ak	SCONJ	_	_	10	mod	_	Gloss=if
