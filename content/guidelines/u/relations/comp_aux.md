@@ -47,7 +47,6 @@ In case of multiple auxiliaries, our analysis differs from the one in UD.
 10	nepremrhám	premrhať	VERB	_	_	0	root	_	Gloss=not waste
 {{< /conll >}}
 
-
 {{< conll >}}
 # text_en = Every man that is missing, you will be punished
 # text_wo = Képp ku wuute dees na la mbugal, ñu folli la mbaa ñu rey la.
