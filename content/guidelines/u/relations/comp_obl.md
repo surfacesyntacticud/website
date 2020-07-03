@@ -3,7 +3,7 @@ layout: default
 ---
 
 # **comp:obl**
-The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. In SUD we do not make a difference between indirect objects and oblique arguments. On the other hand, we do distinguish between core arguments and modifiers.
+The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. In SUD we do not differentiate between indirect objects and oblique arguments. However, we do distinguish between core arguments and modifiers.
 
 Consider the following sentence **analysed in UD**.
 
@@ -18,7 +18,7 @@ Consider the following sentence **analysed in UD**.
 8	pool	pool	NOUN	_	_	5	obl	_	_
 {{< /conll >}}
 
-**In SUD** it would be analysed as follows:
+**In SUD**, it would be analysed as follows:
 
 {{< conll >}}
 1	Last	last	ADJ	_	_	2	mod	_	_
@@ -67,7 +67,7 @@ Consider the two following examples:
 {{< conll >}}
 # text_en = he's afraid of immigration
 # text_fr = il a peur de l'immigration
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=I
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=he
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=have
 3	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	Gloss=fear
 4	de	de	ADP	_	_	3	comp:obl	_	Gloss=of
@@ -91,7 +91,7 @@ In the last sentence, *que ça marche* commutes with *de l'immigration*, therefo
 
 ## Oblique complement of a noun
 
-Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. To learn more about these constructions, clic [here](../../particular_phenomena/lvc).
+Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../particular_phenomena/lvc).
 
 {{< conll >}}
 # text_fr = China is facing serious problems
