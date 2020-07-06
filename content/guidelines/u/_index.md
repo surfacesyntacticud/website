@@ -68,7 +68,7 @@ The main deep features are:
 ## Particular linguistic phenomena
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
-* [Coordination](./particular_phenomena/coord)
-* [Idioms and titles](./particular_phenomena/idioms_titles)
-* [Light verb constructions](./particular_phenomena/lvc)
-* [Comparative and superlative degree](./particular_phenomena/comparative)
+* [`Coordination`](./particular_phenomena/coord)
+* [`Idioms and titles`](./particular_phenomena/idioms_titles)
+* [`Light verb constructions`](./particular_phenomena/lvc)
+* [`Comparative, superlative and consecutive constructions`](./particular_phenomena/comparative)
