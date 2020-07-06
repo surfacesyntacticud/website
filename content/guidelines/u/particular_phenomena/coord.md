@@ -30,9 +30,8 @@ The first example below shows the annotation of a coordination in UD and the sec
 {{< /conll >}}
 
 ## Embedded coordination
-The conjunct of a coordination can be itself a coordination. Theoretically, this embedding can be iterated indefinitely but in corpora, there is generally one iteration.
-The use of the same label for all `conj` relations does not make it possible to distinguish embedded relations from surface relations in SUD because they form a single chain.
-In order to distinguish embedded `conj` relations from surface `conj` relations, we use the extension `emb`, as the following example shows.
+The conjunct of a coordination can itself be a coordination. Theoretically, this embedding can be nested indefinitely. In natural corpora, however, there is typically only one level of iteration.
+The `conj` label does not make a distinguish between embedded relations and surface relations because they form a single chain. However, these relations can be distinguished with the use of the extension `emb` for embedded coordinations, as the following example shows.
 
 {{< conll >}}
 1	John	John	PROPN	_	_	9	subj	_	_
