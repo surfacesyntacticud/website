@@ -3,10 +3,7 @@ layout: default
 ---
 # Light verb constructions
 
-A light verb is a verb that has little semantic content of its own and forms a construction with another word, usually a noun that brings the semantic value. The complements of these constructions are often attached to the noun (and not the verb), that is because:
-* the noun can form a phrase with the complement : "le projectile a tendance à se mettre en travers" -> "cette tendance à se mettre en travers doit être rectifiée"
-* it's the noun that is the predicate and controls the valency. In the previous example, HAVE is binary predicate, not a ternary predicate.
-
+A light verb construction (LVC) is a type of verbal structure in which a verb is coupled with another element – typically a noun phrase – which provides the primary semantic value. Common examples of LVCs in English include *take a walk*, *give a kiss*, or *have a drink*.
 
 {{< conll >}}
 # text_fr = faire face à la situation
@@ -17,4 +14,28 @@ A light verb is a verb that has little semantic content of its own and forms a c
 4	à	à	ADP	_	_	3	comp:obl	_	Gloss=to
 5	la	le	DET	_	_	6	det	_	Gloss=the
 6	situation	situation	NOUN	_	_	4	comp:obj	_	Gloss=situation
+{{< /conll >}}
+
+The complements of these constructions are often attached to the noun rather than the verb because:
+* the noun can form a phrase with the complement : "the projectile has the tendency to get in the way" -> "this tendency to get in the way needs to be resolved"
+* it's the noun that is the predicate and controls the valency. In the previous example, HAVE is binary predicate, not a ternary predicate.
+
+This first criterion explains the differing interpretations of the following two sentences. "A walk with his wife" forms a perfectly coherent phrase which allows for reformulations such as "the walk with his wife was very pleasant". However, "part in the discussion" is less semantically transparent and therefore less prone to such reformulations. Because of this, the verb "take" is treated as the head of the complement.
+
+{{< conll >}}
+1	He	he	PRON	_	_	2	subj	_	_
+2	took	take	VERB	_	_	0	root	_	_
+3	a	a	DET	_	_	4	det	_	_
+4	walk	walk	NOUN	_	_	2	comp:obj@lvc	_	_
+5	with	with	ADJ	–	–	4	mod	_	_
+6	his	his	DET	_	_	7	det	_	_
+7	wife	wife	NOUN	_	_	5	comp:obj	_	_
+{{< /conll >}}
+
+{{< conll >}}
+1	take	take	VERB	_	_	0	root	_	_
+2	part	part	NOUN	_	_	1	comp:obj@lvc	_	_
+3	in	in	ADP	_	_	1	comp:obl	_	_
+4	the	the	DET	_	_	5	det	_	_
+5	discussion	discussion	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
