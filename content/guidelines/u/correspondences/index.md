@@ -1,6 +1,6 @@
 ## Correspondences between SUD and UD
 
-This page is dedicated to exploring several key differences between SUD and UD labels, and the correspondences between the two schemes.
+This page is dedicated to exploring several key differences between SUD and UD labels, and the correspondences between the two schemes (For information about the conversion process, see [SUD corpora](../../../data)).
 
 SUD is a dependency-based annotation scheme. Annotation choices rely on surface-syntactic distributional criteria, while at the same time attempting to maintain convertibility with the UD annotation scheme as much as possible.
 
