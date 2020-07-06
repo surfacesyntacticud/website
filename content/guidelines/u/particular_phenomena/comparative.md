@@ -41,6 +41,7 @@ Sometimes, there is no grammatical word introducing the first term of the compar
 {{< /conll >}}
 
 {{< conll >}}
+# text_en = the best of the trilogy
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=the
 2	meilleur	meilleur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Gloss=best
 3	de	de	ADP	_	_	2	udep	_	Gloss=of
