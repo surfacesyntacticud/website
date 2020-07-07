@@ -5,9 +5,25 @@ title: Naija SUD Guidelines
 
 This page outlines various features specific to Naija.
 
-### comp:aux relationships
+### Annotation of dey
 
-The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux relationship, as so:
+The term dey in Naija performs two primary roles. The first is that of a copula. In these instances, dey is annotated as a verb and is connected to its complement with a `comp:pred` relation, as in the examples below.
+
+{{< conll >}}
+# text_en = It's sweet.
+1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=204377|AlignEnd=204666|Gloss=it
+2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=204666|AlignEnd=204954|Gloss=be
+3	sweet	sweet	ADJ	_	_	2	comp:pred	_	AlignBegin=204954|AlignEnd=205243|Gloss=sweet
+{{< /conll >}}
+
+{{< conll >}}
+# text_en = I'm fine.
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=5030|AlignEnd=5260|Gloss=I
+2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=5260|AlignEnd=5490|Gloss=be
+3	fine	fine	ADJ	_	_	2	comp:pred	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
+{{< /conll >}}
+
+This term is also used as an auxiliary verb which marks the imperfective aspect. In these cases, dey is annotated as an auxiliary and is connected to the following verb with a `comp:aux` relation.
 
 {{< conll >}}
 # text_en = So she was eating, sleeping, and everything.
@@ -20,6 +36,16 @@ The auxiliary verb dey is connected to the verbs it accompanies using a comp:aux
 7	sleep	sleep	VERB	_	_	6	comp:aux	_	AlignBegin=119581|AlignEnd=119861|Gloss=sleep
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=119861|AlignEnd=119891|Gloss=,
 9	everyting	everyting	PRON	_	_	6	conj:coord	_	AlignBegin=119891|AlignEnd=120391|Gloss=everything
+{{< /conll >}}
+
+{{< conll >}}
+# text_en = You don't sell on credit?
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=131630|AlignEnd=131917|Gloss=you
+2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=131917|AlignEnd=132204|Gloss=NEG
+3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=132204|AlignEnd=132491|Gloss=IPFV
+4	sell	sell	VERB	_	_	3	comp:aux	_	AlignBegin=132491|AlignEnd=132778|Gloss=sell
+5	credit	credit	NOUN	_	_	4	mod	_	AlignBegin=132778|AlignEnd=133065|Gloss=credit
+6	?	?	PUNCT	_	_	3	punct	_	AlignBegin=133065|AlignEnd=133065|Gloss=PUNCT
 {{< /conll >}}
 
 ### Zero copula
@@ -128,30 +154,4 @@ The subtype `compound:prt` is also used to connect the components of various phr
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=227990|AlignEnd=228120|Gloss=ACC.SG.3
 9	down	down	ADP	_	_	7	compound:prt	_	AlignBegin=228120|AlignEnd=228290|Gloss=down
 10	.	.	PUNCT	_	_	7	punct	_	AlignBegin=228290|AlignEnd=228290|Gloss=PUNCT
-{{< /conll >}}
-
-### Annotation of dey
-
-{{< conll >}}
-# text_en = You don't sell on credit?
-1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	subj	_	AlignBegin=131630|AlignEnd=131917|Gloss=you
-2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=131917|AlignEnd=132204|Gloss=NEG
-3	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=132204|AlignEnd=132491|Gloss=IPFV
-4	sell	sell	VERB	_	_	3	comp:aux	_	AlignBegin=132491|AlignEnd=132778|Gloss=sell
-5	credit	credit	NOUN	_	_	4	mod	_	AlignBegin=132778|AlignEnd=133065|Gloss=credit
-6	?	?	PUNCT	_	_	3	punct	_	AlignBegin=133065|AlignEnd=133065|Gloss=PUNCT
-{{< /conll >}}
-
-{{< conll >}}
-# text_en = It's sweet.
-1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=204377|AlignEnd=204666|Gloss=it
-2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=204666|AlignEnd=204954|Gloss=be
-3	sweet	sweet	ADJ	_	_	2	comp:pred	_	AlignBegin=204954|AlignEnd=205243|Gloss=sweet
-{{< /conll >}}
-
-{{< conll >}}
-# text_en = I'm fine.
-1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=5030|AlignEnd=5260|Gloss=I
-2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=5260|AlignEnd=5490|Gloss=be
-3	fine	fine	ADJ	_	_	2	comp:pred	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
 {{< /conll >}}
