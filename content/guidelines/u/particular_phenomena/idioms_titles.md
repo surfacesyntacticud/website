@@ -5,7 +5,7 @@ layout: default
 
 SUD offers several traits which allow annotators to mark idiomatic expressions and titles while still preserving the internal syntactic relationships between their various components. We have decided to distinguish these two categories from Multi-Word Expressions (MWEs), which represent a broader category which also includes named entities.
 
-For our purposes, "titles" refer to any title given to a film, book, painting, or other work of art, such as "Planet of the Apes," "Dark Side of the Moon," "American Gothic," or "Super Mario Bros." However, this excludes other named entities like events, holidays or locations, such as "The Gulf War", "Good Friday", or "The Eiffel Tower".
+For our purposes, "titles" refer to any title given to a film, book, painting, or other work of art, such as *Planet of the Apes*, *Dark Side of the Moon*, *American Gothic*, or *Super Mario Bros*. However, this excludes other named entities like events, holidays or locations, such as The Gulf War, Good Friday, or The Eiffel Tower.
 
 Idioms, meanwhile, refer to any figurative expression ranging from classic examples like "kick the bucket" to to extremely common phrases like "in general" whose precise meaning cannot directly be deduced from its constituents.
 
