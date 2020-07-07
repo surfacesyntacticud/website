@@ -13,7 +13,7 @@ Idioms and titles are annotated in the following way:
 
 - The **head** of the idiom or title contains the feature PhraseType=Idiom or PhraseType=Title
 - The **head** also contains an "external part of speech" feature (ExtPos) which denotes the element's function within the wider sentence.
-- The **remaining components** of the element will contain the feature PhraseType=Title or PhraseType=Idiom
+- The **remaining components** of the element will contain the feature InIdiom=Yes or InTitle=Yes.
 
 This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.  
 
