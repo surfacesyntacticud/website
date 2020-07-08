@@ -7,12 +7,12 @@ SUD offers several traits which allow annotators to mark idiomatic expressions a
 
 For our purposes, "titles" refer to any title given to a film, book, painting, or other work of art, such as *Planet of the Apes*, *Dark Side of the Moon*, *American Gothic*, or *Super Mario Bros*. However, this excludes other named entities like events, holidays or locations, such as The Gulf War, Good Friday, or The Eiffel Tower.
 
-Idioms, meanwhile, refer to any figurative expression ranging from classic examples like "kick the bucket" to to extremely common phrases like "in general" whose precise meaning cannot directly be deduced from its constituents.
+Idioms, meanwhile, refer to any figurative expression ranging from classic examples like "kick the bucket" to to extremely common phrases like "in general" whose precise meaning cannot directly be deduced from its constituents. Pronominal verbs, such as those common in Romance languages, are also treated as idioms.
 
 Idioms and titles are annotated in the following way:
 
 - The **head** of the idiom or title contains the feature PhraseType=Idiom or PhraseType=Title
-- The **head** also contains an "external part of speech" feature (ExtPos) which denotes the element's function within the wider sentence.
+- The **head** also contains an "external part of speech" feature (ExtPos) which denotes the element's function within the wider sentence. Please note that all titles will carry the ExtPos value of PROPN.
 - The **remaining components** of the element will contain the feature InIdiom=Yes or InTitle=Yes.
 
 This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.  
@@ -38,4 +38,11 @@ This approach has several advantages. By marking these categories with features 
 6	not	not	ADV	_	_	5	mod	_	_
 7	my	my	DET	_	_	8	det	_	_
 8	favorite	favorite	NOUN	_	_	5	comp:pred	_	_
+{{< /conll >}}
+
+{{< conll >}}
+# text_en = His name is Alejandro.
+1	Se	se	PRON	_	InIdiom=Yes	2	comp	_	Gloss=himself
+2	llama	llamar	VERB	_	ExtPos=VERB|PhraseType=Idiom	0	root	_	Gloss=calls
+3	Alejandro	Alejandro	PROPN	_	_	2	comp:pred	_	Gloss=Alejandro
 {{< /conll >}}
