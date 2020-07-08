@@ -38,14 +38,14 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 {{< /conll >}}
 
 {{< conll >}}
-# text_es = Veo a Clinton 
+# text_es = Veo a Clinton
 # text_en = I see Clinton
 1	Veo	ver	VERB	_	_	0	root	_	Gloss=I see
 2	a	a	ADP	_	_	1	comp:obj	_	_
 3	Clinton	Clinton	PROPN	_	_	2	comp:obj	_	Gloss=Clinton
 {{< /conll >}}
 
-## Direct complements of an adposition
+## Adposition arguments
 
 {{< conll >}}
 #text_fr = On a décidé d'aller au CROUS de Censier
