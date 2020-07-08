@@ -18,6 +18,7 @@ Idioms and titles are annotated in the following way:
 This approach has several advantages. By marking these categories with features rather than a `fixed` relation, we are able to preserve its internal syntactic relationships.  
 
 {{< conll >}}
+# shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, FEATS.ExtPos, FEATS.PhraseType, FEATS.InTitle
 1	Karen	Karen	PROPN	_	_	2	subj	_	_
 2	loved	love	VERB	_	_	0	root	_	_
 3	One	one	PRON	_	_	4	subj	_	_
@@ -30,6 +31,7 @@ This approach has several advantages. By marking these categories with features 
 {{< /conll >}}
 
 {{< conll >}}
+# shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, FEATS.ExtPos, FEATS.PhraseType, FEATS.InIdiom
 1	That	that	PRON	_	InIdiom=Yes	2	subj@pass	_	_
 2	said	say	VERB	_	ExtPos=ADV|PhraseType=Idiom	5	mod	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -42,6 +44,7 @@ This approach has several advantages. By marking these categories with features 
 
 {{< conll >}}
 # text_en = His name is Alejandro.
+# shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, FEATS.ExtPos, FEATS.PhraseType, FEATS.InIdiom
 1	Se	se	PRON	_	InIdiom=Yes	2	comp	_	Gloss=himself
 2	llama	llamar	VERB	_	ExtPos=VERB|PhraseType=Idiom	0	root	_	Gloss=calls
 3	Alejandro	Alejandro	PROPN	_	_	2	comp:pred	_	Gloss=Alejandro

@@ -5,49 +5,6 @@
 	--wordDistance:33;
 	text-align: center;
 } 
-.FORM {
-	/* 	font: 18px DejaVu Sans; */
-	/* 	fill: black; */
-	/* 	font-family:sans-serif; */
-		--wordDistance:55;
-		fill:black;
-		text-align: center;
-	} 
-
-.LEMMA {
-		font: 15px DejaVu Sans;
-		fill: black;
-		font-family:sans-serif;
-		text-align: center;
-		font-style: italic;
-		--wordDistance:22;
-	} 
-
-.MISC-Gloss {
-		font: 15px DejaVu Sans;
-		fill: rgb(124, 96, 86);
-		font-family:sans-serif;
-		text-align: center;
-		font-style: italic;
-		--wordDistance:11;
-	} 
-.UPOS {
-		font: 11px DejaVu Sans;
-		fill: rgb(80, 29, 125);
-		text-align: center;
-		--wordDistance:22;
-	} 
-
-
-
-.DEPREL {
-		font: 12px Arial;
-		fill: #501d7d;
-		font-style: oblique;
-		font-family:sans-serif;
-		--funcCurveDist:3; /* distance between the function name and the curves highest point */
-	} 
-
 
 .lemma {
 	font: 15px DejaVu Sans;
@@ -57,42 +14,24 @@
 	font-style: italic;
 } 
 
-
-.MISC-Gloss {
-	font: 15px DejaVu Sans;
-	fill: rgb(124, 96, 86);
-	font-family:sans-serif;
+.postag {
+	font: 11px DejaVu Sans;
+	fill: #E03737;
+	/* font-family:sans-serif; */
 	text-align: center;
-	font-style: italic;
-	--wordDistance:11;
 } 
 
-.xdeprel {
+.deprel {
 	font: 12px Arial;
+	fill: #1d2ec1;
 	font-style: oblique;
-	fill: #21ba45;
+	font-family:sans-serif;
 	--funcCurveDist:3; /* distance between the function name and the curves highest point */
-
-} 
-
-.xdep {
-	stroke: #21ba45;
-	fill: none;
-	--startOffset: 8;
-	--tokDepDist: 15; /* distance between tokens and depdendency relation */
-	--depMinHeight: 15; /* minimum height for dependency */
-	--wordDistanceFactor: -1; /* distant words get higher curves. this factor fixes how much higher */
 } 
 
 .arrowhead {
 	fill: white;
 	stroke: black;
-	stroke-width: .8;
-}
-
-.arrowheadxdep {
-	fill: white;
-	stroke: #21ba45;
 	stroke-width: .8;
 }
 
@@ -121,7 +60,7 @@
 
 .sentencebox {
 	margin-bottom: 0.6em;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid #aaa;
 	padding: 0.5em 0 0.17em 0;
 	margin-top: 1em;
 }
@@ -141,7 +80,7 @@
   }
   
   .button > paper-ripple {
-	border-radius: 0px;
+	border-radius: 2px;
 	overflow: hidden;
   }
 
@@ -161,90 +100,19 @@
 	text-align: center;
   }
 
+  /* logo animation transitions */
+  .arboratorlogo {
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+  }
+
+  .arboratorlogo:hover {
+	transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	opacity: .9;
+  }
 
 	.svgbox {
 		overflow-x: auto;
 	}
-
-
-
-
-nav {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-
-
-nav ul {
-    font-size: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    /* text-align: center; */
-	width: 100%;
-	
-}
-nav li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    position: relative;
-	/* min-width: 33%; */
-	
-}
-nav a {
-  
-	display: block;
-	font: normal 16px sans-serif;
-    padding-right: 9px;
-    text-decoration: none;
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-			transition: all .25s ease;
-		
-}
-
-nav li ul li:hover a {
-    background: #f5f5f5;
-}
-nav li ul {
-	
-	background: #fff;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    top: 10px;
-    visibility: hidden;
-    z-index: 1;
-    -webkit-transition: all .25s ease;
-       -moz-transition: all .25s ease;
-        -ms-transition: all .25s ease;
-         -o-transition: all .25s ease;
-            transition: all .25s ease;
-}
-nav li:hover ul {
-    opacity: 1;
-    top: 23px;
-	visibility: visible;
-}
-nav li ul li {
-	width: 130px;
-	display: inline-block;
-	border-bottom: 1px solid lightgrey;
-	background: #fff;
-	cursor:pointer;
-	
-}
-nav li ul a {
-	color: #000;
-	font: normal 16px/32px sans-serif
-}
-nav li ul a:hover {
-	color: #501d7d;
-	
-	text-decoration: none;
-}
-

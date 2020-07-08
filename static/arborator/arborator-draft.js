@@ -25,7 +25,7 @@ trees=[]; // list of tree objects
 uextras=[]; // list of comments. each comment is a hashtable position(=line)->comment 
 conlltrees=[]; // list of conll strings
 sentences=[]; // list of sentence strings
-shownfeatures=["FORM", "UPOS", "LEMMA", "MISC.Gloss"]; // recomputed in readConll
+theshownfeatures=["FORM", "UPOS", "LEMMA", "MISC.Gloss"]; // recomputed in readConll
 shownmetas=['text_en'];
 showAllConllButton = false;
 progressiveLoading = true; // false to make it load all trees at once (may overload the browser)
@@ -79,8 +79,9 @@ const defaultcss = `
 
 
 // public initialisation function
-this.ArboratorDraft = function(visuMode = 0, reverse = false) {
+this.ArboratorDraft = function(shownfeatures=false, reverse = false, visuMode = 0) {
 	// main function called from html file
+	if (shownfeatures) {theshownfeatures = shownfeatures;}
 	if(reverse) reverseMode = true;
 	if(visuMode==0){
 		$( ".expander" ).click(function(){
@@ -317,6 +318,10 @@ function conllNodesToTree(treeline) {
 		// } else{ sentence.push(word); }
 	});
 	META['text'] = sentence.join('')
+	if ('shownfeatures' in META) {
+		theshownfeatures = META['shownfeatures'].split(/,\s*/);
+		console.log(theshownfeatures);
+	}
 	return {tree:tree, uextra:uextra, sentence:META['text'], metas:META};
 }
 
@@ -474,7 +479,8 @@ function draw(div, tree) {
 	});	
 	var lastheight = 0;
 	var h=0;
-	for (var fea of shownfeatures) {
+	
+	for (var fea of theshownfeatures) {
 		if (fea=="FORM") continue;
 		somet=false;		
 		eachTexts.append('text')
