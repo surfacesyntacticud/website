@@ -48,26 +48,9 @@ This term is also used as an auxiliary verb which marks the imperfective aspect.
 6	?	?	PUNCT	_	_	3	punct	_	AlignBegin=133065|AlignEnd=133065|Gloss=PUNCT
 {{< /conll >}}
 
-### Zero copula
+### Annotation of copulas
 
-In Naija, the copula is not always needed to link subjects to their predicates. In cases where no copula is present, the predicate is connected to its subject via a `subj` relationship.
-
-{{< conll >}}
-# text_en = It's not good.
-1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=it
-2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98254|AlignEnd=98522|Gloss=NEG
-3	good	good	ADJ	_	_	0	root	_	AlignBegin=98522|AlignEnd=98791|Gloss=good
-{{< /conll >}}
-
-{{< conll >}}
-# text_en = It's plenty.
-1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=74280|AlignEnd=74920|Gloss=it
-2	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=74920|AlignEnd=75560|Gloss=plenty
-{{< /conll >}}
-
-### The copulas be, na, and dey
-
-However, Naija also contains three words which can effectively function as copulas. The first, *be*, is annotated as a verb, and is connected to the subject via a `subj` relationship and to the predicate via the `comp:pred` relationship. The verb *dey* follows the same scheme when used as a copula. We also treat *na* in a similar fashion, though it is tagged as a particle rather than a verb.
+In addition to *dey*, Naija contains two other words that can function as copulas: *be* and *na*. Like *dey*, *be*, is annotated as a verb, and is connected to the subject via a `subj` relationship and to the predicate via the `comp:pred` relationship. We also treat *na* in a similar fashion, though it is tagged as a particle rather than a verb.
 
 {{< conll >}}
 # text_en = She was pretending to be a city girl.
@@ -99,6 +82,23 @@ However, Naija also contains three words which can effectively function as copul
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=5030|AlignEnd=5260|Gloss=I
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=5260|AlignEnd=5490|Gloss=be
 3	fine	fine	ADJ	_	_	2	comp:pred	_	AlignBegin=5490|AlignEnd=5720|Gloss=fine
+{{< /conll >}}
+
+### Zero copula
+
+However, the copula is not always needed to link subjects to their predicates. In cases where no copula is present, the predicate is connected to its subject via a `subj` relationship.
+
+{{< conll >}}
+# text_en = It's not good.
+1	e	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=97985|AlignEnd=98254|Gloss=it
+2	no	no	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98254|AlignEnd=98522|Gloss=NEG
+3	good	good	ADJ	_	_	0	root	_	AlignBegin=98522|AlignEnd=98791|Gloss=good
+{{< /conll >}}
+
+{{< conll >}}
+# text_en = It's plenty.
+1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=74280|AlignEnd=74920|Gloss=it
+2	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=74920|AlignEnd=75560|Gloss=plenty
 {{< /conll >}}
 
 ### Compounds and phrasal verbs

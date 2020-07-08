@@ -83,7 +83,7 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 18	skills	skill	NOUN	NNS	Number=Plur	16	conj	_	Entity=(abstract-123)abstract-121)|SpaceAfter=No
 {{< /conll >}}
 
-## Subordinating conjunctions
+## Subordinating conjunction arguments
 
 {{< conll >}}
 1	this	this	PRON	_	_	2	subj	_	_
