@@ -5,11 +5,15 @@ layout: default
 # **comp:pred**
 The `comp:pred` relation is used for predicative arguments of verbs.
 
+> English
+
 {{< conll >}}
 1	I	I	PRON	_	_	2	subj	_	_
 2	was	be	AUX	_	_	0	root	_	_
 3	thirteen	thirteen	NUM	_	_	2	comp:pred	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
@@ -19,6 +23,8 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 5	disgruntled	disgruntled	ADJ	_	_	3	comp:pred	_	_
 {{< /conll >}}
 
+> English
+
 {{< conll >}}
 1	Let	let	VERB	_	_	0	root	_	_
 2	them	them	PRON	_	_	1	comp:obj	_	_
@@ -26,6 +32,8 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 4	you	you	PRON	_	_	3	comp:obj	_	_
 5	shout	shout	VERB	_	_	3	comp:pred	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	Prague	Prague	PROPN	_	_	2	subj	_	_
@@ -44,6 +52,8 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 14	world	world	NOUN	NN	Number=Sing	12	comp:obj	_	Entity=place-1)place-11)place-12)|SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
+
+> French
 
 {{< conll >}}
 # text_en = The South is considered a dynamic and rich area in terms of industry.
@@ -64,6 +74,8 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 {{< /conll >}}
 
 The `comp:pred` relation can also be used in certain subordinating constructions.
+
+> French
 
 {{< conll >}}
 # text = Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie

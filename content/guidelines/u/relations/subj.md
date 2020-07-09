@@ -7,12 +7,15 @@ layout: default
 The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the
 `nsubj` and `csubj` relationships as defined by UD, as the following examples show.
 
+> English
 
 {{< conll >}}
 1	A	a	DET	_	_	2	det	_	_
 2	man	man	NOUN	_	_	3	subj	_	_
 3	walks	walk	VERB	_	_	0	root	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 # sent_id = GUM_whow_joke-55
@@ -30,6 +33,8 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 
 The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value.
 
+> French
+
 {{< conll >}}
 # sent_fr = Il pleut dans ma maison
 # text_en = It's raining in my house
@@ -42,6 +47,8 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 
 The sub-relation `subj@pass` is used to indicate a passive construction.
 
+> English
+
 {{< conll >}}
 # text = This shall be applauded
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj@pass	_	Entity=(event-70)
@@ -49,6 +56,8 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	_
 4	applauded	applaud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	comp:aux@pass	_	_
 {{< /conll >}}
+
+> French
 
 {{< conll >}}
 # text_fr = L'œuvre est située dans la galerie
@@ -61,6 +70,8 @@ The sub-relation `subj@pass` is used to indicate a passive construction.
 6	la	le	DET	_	_	7	det	_	Gloss=the
 7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
 {{< /conll >}}
+
+> Czech
 
 {{< conll >}}
 # text_en = the number of employees decreased

@@ -7,6 +7,8 @@ The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adve
 
 Consider the following sentence **analysed in UD**.
 
+> English
+
 {{< conll >}}
 1	Last	last	ADJ	_	_	2	amod	_	_
 2	night	night	NOUN	_	_	5	obl:tmod	_	_
@@ -19,6 +21,8 @@ Consider the following sentence **analysed in UD**.
 {{< /conll >}}
 
 **In SUD**, it would be analysed as follows:
+
+> English
 
 {{< conll >}}
 1	Last	last	ADJ	_	_	2	mod	_	_
@@ -33,6 +37,8 @@ Consider the following sentence **analysed in UD**.
 
 ## Oblique complement of a verb
 
+> English
+
 {{< conll >}}
 1	it	it	PROPN	_	_	2	subj	_	_
 2	belongs	belong	VERB	_	_	0	root	_	_
@@ -40,6 +46,8 @@ Consider the following sentence **analysed in UD**.
 4	a	a	DET	_	_	5	det	_	_
 5	past	past	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	coming	come	VERB	_	_	0	root	_	_
@@ -50,6 +58,8 @@ Consider the following sentence **analysed in UD**.
 6	see	see	VERB	_	_	5	comp:obj	_	_
 7	concerts	concert	NOUN	_	_	6	comp:obj	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Entity=(person-8)
@@ -64,6 +74,8 @@ Consider the following sentence **analysed in UD**.
 * It is also used for clausal complements commuting with an adpositional complement.
 Consider the two following examples:
 
+> French
+
 {{< conll >}}
 # text_en = he's afraid of immigration
 # text_fr = il a peur de l'immigration
@@ -75,6 +87,7 @@ Consider the two following examples:
 6	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	Gloss=immigration
 {{< /conll >}}
 
+> French
 
 {{< conll >}}
 # text_fr = j'ai peur que ça marche
@@ -93,6 +106,8 @@ In the last sentence, *que ça marche* commutes with *de l'immigration*, therefo
 
 Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../particular_phenomena/lvc).
 
+> French
+
 {{< conll >}}
 # text_fr = China is facing serious problems
 # text_fr = la Chine fait face à de sérieux problèmes
@@ -109,6 +124,9 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 
 ## Oblique complement of an adverb or an adjective
 * Adverb
+
+> French
+
 {{< conll >}}
 # text_fr = beaucoup de bâtiments modernes
 # text_en = many modern buildings
@@ -119,6 +137,9 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 {{< /conll >}}
 
 * Adjective
+
+> English
+
 {{< conll >}}
 # text = I'm sure you do
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_

@@ -5,6 +5,8 @@ layout: default
 # **mod**
 The `mod`relation is used for modifiers of verbs, nouns, adjectives, adverbs, auxiliaries, adpositions and conjunctions.
 
+> English
+
 {{< conll >}}
 1	a	a	DET	_	_	2	det	_	_
 2	country	country	NOUN	_	_	0	root	_	_
@@ -15,6 +17,8 @@ The `mod`relation is used for modifiers of verbs, nouns, adjectives, adverbs, au
 7	language	language	NOUN	_	_	8	compound	_	_
 8	groups	group	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	Even	even	ADV	_	_	2	mod	_	_
@@ -27,6 +31,8 @@ The `mod`relation is used for modifiers of verbs, nouns, adjectives, adverbs, au
 8	pitied	pity	VERB	_	_	0	root	_	_
 9	him	he	PRON	_	_	8	comp:obj	_	_
 {{< /conll >}}
+
+> French
 
 {{< conll >}}
 # text = Cerebral concussions have become so commun in this sport that one can consider them the routine.

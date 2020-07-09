@@ -9,12 +9,16 @@ The governor and the dependent of a `udep` relation can have any POS. The `udep`
 
 As shown in the [correspondences between SUD and UD](../../correspondences), the `udep` label is used while automatically converting an `obl` label from a UD annotation. This is because `obl` can correspond to both `comp:obl` and `mod` in SUD.
 
+> English
+
 {{< conll >}}
 1	An	a	DET	_	_	2	det	_	_
 2	act	act	NOUN	_	_	0	root	_	_
 3	of	of	ADP	_	_	2	udep	_	_
 4	creation	creation	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	She	she	PRON	_	_	2	subj	_	_
@@ -23,6 +27,8 @@ As shown in the [correspondences between SUD and UD](../../correspondences), the
 4	this	this	DET	_	_	5	det	_	_
 5	discomfiture	discomfiture	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+> Spanish
 
 {{< conll >}}
 # text_es = Ficha de Juanjo Ciércolen en Don Balón

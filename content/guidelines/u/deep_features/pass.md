@@ -9,12 +9,15 @@ The `@pass` feature is used for the arguments of **passive auxiliaries**.
 
 The relation between the auxiliary and the verb is marked `comp:aux@pass` and the subject of the auxiliary bears the `subj@pass` feature.
 
+> English
+
 {{< conll >}}
 1	They	they	PRON	_	_	2	subj@pass	_	_
 2	were	be	AUX	_	_	0	root	_	_
 3	killed	kill	VERB	_	_	2	comp:aux@pass	_	_
 {{< /conll >}}
 
+> French
 
 {{< conll >}}
 # text_fr = Le château est ensuite vendu
@@ -28,6 +31,8 @@ The relation between the auxiliary and the verb is marked `comp:aux@pass` and th
 
 In case of **passive reflexive constructions**, the subject is analysed with a regular `subj` relation and the pronoun with the `comp@pass` relation. For more information about the usage of `comp`, see the [dedicated page](../../relations/comp).
 
+> French
+
 {{< conll >}}
 # text_fr = L'affaire se complique un peu
 # text_en = The case gets a little complicated
@@ -40,6 +45,8 @@ In case of **passive reflexive constructions**, the subject is analysed with a r
 {{< /conll >}}
 
 Complements of the verbs in a passive construction are marked `comp:obj@pass`
+
+> French
 
 {{< conll >}}
 # text_en = It is decided that the execution of the sentence is postponed

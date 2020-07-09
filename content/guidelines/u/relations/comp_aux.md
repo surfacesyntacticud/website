@@ -6,12 +6,16 @@ layout: default
 
 The `comp:aux` relation is used for the argument of auxiliaries, and corresponds to the `aux` relationship as defined by UD.
 
+> English
+
 {{< conll >}}
 1	Do	do	AUX	_	_	0	root	_	_
 2	you	you	PRON	_	_	1	subj	_	_
 3	remember	remember	VERB	_	_	1	comp:aux	_	_
 4	?	?	PUNCT	_	_	1	punct	_	_
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	It	it	PRON	_	_	2	subj	_	_
@@ -24,6 +28,8 @@ The `comp:aux` relation is used for the argument of auxiliaries, and corresponds
 
 In case of multiple auxiliaries, our analysis differs from the one in UD.
 
+> Southern American English
+
 {{< conll >}}
 1	We	we	PRON	_	_	2	subj	_	_
 2	might	may	AUX	_	_	0	root	_	_
@@ -31,6 +37,8 @@ In case of multiple auxiliaries, our analysis differs from the one in UD.
 4	go	go	VERB	_	_	3	comp:aux	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 {{< /conll >}}
+
+> Slovak
 
 {{< conll >}}
 # text_en = If I had a similar chance, I wouldn't waste it
@@ -46,6 +54,8 @@ In case of multiple auxiliaries, our analysis differs from the one in UD.
 9	ju	on	PRON	_	_	10	comp:obj	_	Gloss=it
 10	nepremrhám	premrhať	VERB	_	_	0	root	_	Gloss=not waste
 {{< /conll >}}
+
+> Wolof
 
 {{< conll >}}
 # text_en = Every man that is missing, you will be punished

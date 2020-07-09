@@ -7,6 +7,8 @@ The `comp:obj` relation is used for direct object complements, including direct 
 
 ## Direct object complements
 
+> English
+
 {{< conll >}}
 1	Norton	Norton	PROPN	_	_	2	subj	_	_
 2	spent	spend	VERB	_	_	0	root	_	_
@@ -16,6 +18,8 @@ The `comp:obj` relation is used for direct object complements, including direct 
 6	early	early	ADJ	_	_	7	mod	_	_
 7	life	life	NOUN	_	_	4	comp:obj	_	_
 {{< /conll >}}
+
+> French
 
 {{< conll >}}
 # text_fr = j'adore ce bar
@@ -29,6 +33,8 @@ The `comp:obj` relation is used for direct object complements, including direct 
 Usually, in order to determine whether an object is direct or not, it suffices to know if it forms a construction with a preposition. If it doesn't, the object is direct. According to different languages, this criterion may be insufficient.
 In the following examples we can see direct objects of the Spanish verb *ver*. With animate objects this verb takes the preposition *a*, however the object is still considered direct and therefore the relation stays `comp:obj`.
 
+> Spanish
+
 {{< conll >}}
 # text_es = Veo su foto
 # text_en = I see his photo
@@ -36,6 +42,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 2	su	su	DET	_	_	3	det	_	Gloss=his
 3	foto	foto	NOUN	_	_	1	comp:obj	_	Gloss=photo
 {{< /conll >}}
+
+> Spanish
 
 {{< conll >}}
 # text_es = Veo a Clinton
@@ -46,6 +54,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 {{< /conll >}}
 
 ## Adposition arguments
+
+> French
 
 {{< conll >}}
 #text_fr = On a décidé d'aller au CROUS de Censier
@@ -61,6 +71,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 9	de	de	ADP	_	_	8	mod	_	Gloss=of
 10	Censier	Censier	PROPN	_	_	9	comp:obj	_	Gloss=Censier
 {{< /conll >}}
+
+> English
 
 {{< conll >}}
 1	Get	get	VERB	VB	VerbForm=Inf	0	root	_	_
@@ -85,6 +97,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 
 ## Subordinating conjunction arguments
 
+> English
+
 {{< conll >}}
 1	this	this	PRON	_	_	2	subj	_	_
 2	means	mean	VERB	_	_	0	root	_	_
@@ -98,6 +112,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 10	two	two	NUM	_	_	11	det	_	_
 11	sacrifices	sacrifice	NOUN	_	_	9	comp:obj	_	_
 {{< /conll >}}
+
+> Spanish
 
 {{< conll >}}
 #text_es = Afirmó que sigue el criterio europeo y que trata de incentivar el mercado
@@ -117,6 +133,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 13	mercado	mercado	NOUN	NOUN	Gender=Masc|Number=Sing	11	comp:obj	_	Gloss=market
 {{< /conll >}}
 
+> French
+
 {{< conll >}}
 #text_fr = il faut que tu deviennes script girl.
 #text_en = You need to become a script girl.
@@ -132,6 +150,8 @@ In the following examples we can see direct objects of the Spanish verb *ver*. W
 ## Complement of an adverb of comparison
 Constructions such as: *plus... que* (French), *more... than* (English), *più... di* (Italian), *bardziej... niż* (Polish).
 
+> English
+
 {{< conll >}}
 # text_en = techniques far more assertive than his predecessors
 1	techniques	technique	NOUN	NNS	Number=Plur	0	root	_	_
@@ -142,6 +162,8 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	mod@poss	_	_
 7	predecessors	predecessor	NOUN	NNS	Number=Plur	5	comp:obj	_	_
 {{< /conll >}}
+
+> French
 
 ## Complement in consecutive constructions
 Constructions such as: *tellement... que* (French), *so... that* (English), *così... che* (Italian), *tak... że* (Polish).
