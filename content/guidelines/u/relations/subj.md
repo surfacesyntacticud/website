@@ -31,7 +31,7 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 
 ## Deep syntactic features
 
-The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value.
+The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj@expl` is used to indicate that the subject is present to fill in an obligatory syntactic position and has no semantic value. You can find more information about the expletive constructions on this [page](../../deep_features/expletive)
 
 > French
 
@@ -45,7 +45,7 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
 {{< /conll >}}
 
-The sub-relation `subj@pass` is used to indicate a passive construction.
+The sub-relation `subj@pass` is used to indicate a passive construction. You can find more information about the expletive constructions on this [page](../../deep_features/pass)
 
 > English
 
