@@ -356,3 +356,10 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+img[src$='#floatleft']
+{
+	float:left;
+  padding-right:20px;
+}
+

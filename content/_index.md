@@ -7,6 +7,8 @@ title: Surface Syntactic Universal Dependencies (SUD)
 
 <center>⚠️ This website is in construction ⚠️</center>
 
+![Surface Syntactic Universal Dependencies (SUD)](/images/sud.svg#floatleft)
+
 SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly perfect degree of two-way convertibility with the Universal Dependencies scheme (UD). Contrary to UD, it is based on syntactic criteria (favoring functional heads) and the relations are defined on distributional and functional bases.
 
 ## An Example:
@@ -32,8 +34,8 @@ The SUD annotation scheme is described in the publications below:
 
   * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Improving Surface-syntactic Universal Dependencies (SUD): surface-syntactic relations and deep syntactic features](https://hal.inria.fr/hal-02266003v1) presented at [TLT 2019](https://syntaxfest.github.io/syntaxfest19/tlt2019/tlt2019.html).
   * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [SUD or Surface-Syntactic Universal Dependencies: An annotation scheme near-isomorphic to UD](https://hal.inria.fr/hal-01930614v1) presented at [UDW 2018](https://universaldependencies.org/udw18/).
-
   * Some linguistic arguments in favor of SUD can be found in the Glossa article: Timothy Osborne, Kim Gerdes [The status of function words in dependency grammar: A critique of Universal Dependencies (UD)](https://www.glossa-journal.org/article/10.5334/gjgl.537/)
+  * Comparing syntactic complexity and cognitive constraint of SUD and UD: Yan, Jianwei, and Haitao Liu. [Which annotation scheme is more expedient to measure syntactic difficulty and cognitive demand?.](https://www.aclweb.org/anthology/W19-7903.pdf) Presented at [Quasy](https://quasy-2019.webnode.com/), SyntaxFest 2019.
 
 ## SUD relations overview
 

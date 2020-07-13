@@ -229,3 +229,7 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+img[src$='#floatleft'] {
+  float: left;
+  padding-right: 20px; }
