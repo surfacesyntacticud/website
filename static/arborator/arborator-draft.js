@@ -170,7 +170,7 @@ function pushAndDrawSVG(element, pnode) {
 					<li id="showconll`+svgIdIndex+`"><a>🗏 Show CoNLL</a></li>
 					<li id="pnglink`+svgIdIndex+`"><a>🖼 Save PNG</a></li>
 					<li id="svglink`+svgIdIndex+`"><a>🖍️ Save SVG</a></li>
-					<li ><a href="https://github.com/Arborator/arborator-draft" target="_blank">🛈 Arborator</a></li>
+					<li ><a href="https://github.com/Arborator/arborator-draft" target="_blank">🛈 Info Arborator</a></li>
 				</ul>
 			</li>
 		</ul>`);
@@ -494,7 +494,8 @@ function draw(div, tree) {
 				h = parseInt(getComputedStyle(this).fontSize, 20);
 				return tree[d["ID"]]["x"]; //<-- previous length to return
 			})
-			.attr("y", svgDefaultHeight-fontSize+lastheight+h);
+			.attr("y", svgDefaultHeight-fontSize+lastheight+h)
+			.append('title').text(function(d) {return  fea.split('.').slice(-1)[0]+": "+fea.split('.').reduce((value,el) => value[el], d); });
 			if (somet) lastheight+=h; // found at least once the feature
 	}
 	// final adjustments:
