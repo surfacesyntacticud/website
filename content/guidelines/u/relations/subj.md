@@ -4,8 +4,7 @@ layout: default
 
 # **subj**
 
-The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the
-`nsubj` and `csubj` relationships as defined by UD, as the following examples show.
+The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the `nsubj` and `csubj` relationships as defined by UD, as the following examples show.
 
 > English
 
@@ -45,7 +44,10 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 5	maison	maison	NOUN	_	_	3	comp:obj	_	Gloss=house
 {{< /conll >}}
 
-The sub-relation `subj@pass` is used to indicate a passive construction. You can find more information about the expletive constructions on this [page](../../deep_features/pass)
+Meanwhile, the sub-relation `subj@pass` is used to indicate a passive construction. This sub-relation can be used for both standard passive constructions, and for mediopassive constructions.
+You can find more information about expletive constructions on this [page](../../deep_features/pass).
+
+### Passive constructions
 
 > English
 
@@ -71,6 +73,8 @@ The sub-relation `subj@pass` is used to indicate a passive construction. You can
 7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
 {{< /conll >}}
 
+### Mediopassive constructions
+
 > Czech
 
 {{< conll >}}
@@ -78,6 +82,18 @@ The sub-relation `subj@pass` is used to indicate a passive construction. You can
 # text_cs = počet zaměstnanců se snížil
 1	počet	počet	NOUN	_	_	4	subj@pass	_	Gloss=number
 2	zaměstnanců	zaměstnanec	NOUN	_	_	1	mod	_	Gloss=employees.PL.GEN
-3	se	se	PRON	_	_	4	comp@pass	_	_
+3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
 4	snížil	snížit	VERB	_	_	0	root	_	Gloss=decrease
+{{< /conll >}}
+
+> French
+
+{{< conll >}}
+# text_en = the book is selling well
+# text_cs = le livre se vend bien
+1	le	le	DET	_	_	2	det	_	Gloss=the
+2	livre	livre	NOUN	_	_	4	subj@pass	_	Gloss=book
+3	se	se	PRON	_	_	4	comp@pass	_	Gloss=itself
+4	vend	vendre	VERB	_	_	0	root	_	Gloss=sell
+5	bien	bien	ADV	_	_	4	mod	_	Gloss=well
 {{< /conll >}}
