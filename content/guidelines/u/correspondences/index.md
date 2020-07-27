@@ -54,9 +54,9 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
         <tr>
           <td>iobj</td>
         </tr>
-        <tr><td>obl</td><td>udep</td></tr>
+        <tr><td>nmod</td><td>udep</td></tr>
         <tr>
-          <td rowspan>obl, acl, nmod</td>
+          <td rowspan>obl, acl</td>
           <td rowspan=5>mod</td>
         </tr>
         <tr><td>advcl</td></tr>
@@ -69,6 +69,13 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
         </tr>
         <tr>
           <td>...@fixed</td>
+        </tr>
+        <tr>
+          <td>det</td>
+          <td rowspan=2>det</td>
+        </tr>
+        <tr>
+          <td>nummod</td>
         </tr>
 
     </tbody>
