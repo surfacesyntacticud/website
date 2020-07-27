@@ -3,7 +3,7 @@ layout: default
 ---
 
 # **comp:obl**
-The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. In SUD we do not differentiate between indirect objects and oblique arguments. However, we do distinguish between core arguments and modifiers.
+The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. Unlike UD, SUD does not make a distinction between indirect objects and oblique arguments. SUD instead makes the distinction between arguments and modifiers.
 
 Consider the following sentence **analysed in UD**.
 

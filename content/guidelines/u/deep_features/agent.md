@@ -28,9 +28,20 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 {{< /conll >}}
 
 {{< conll >}}
-1	Il	il	PRON	_	_	2	subj	_	_
-2	fait	faire	AUX	_	_	0	root	_	_
-3	accélérer	accélérer	VERB	_	_	2	comp:aux@caus	_	_
-4	ses	son	DET	_	_	5	det	_	_
-5	troupes	troupe	NOUN	_	_	2	comp:obj@agent	_	_
+# text_en = He makes his troops go faster.
+1	Il	il	PRON	_	_	2	subj	_	Gloss=he
+2	fait	faire	AUX	_	_	0	root	_	Gloss=make
+3	accélérer	accélérer	VERB	_	_	2	comp:aux@caus	_	Gloss=accelerate
+4	ses	son	DET	_	_	5	det	_	Gloss=his
+5	troupes	troupe	NOUN	_	_	2	comp:obj@agent	_	Gloss=troops
+{{< /conll >}}
+
+{{< conll >}}
+# text_en = You're making us eat a pizza.
+1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj@caus	_	Gloss=you
+2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	3	comp:obl@agent	_	Gloss=us
+3	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=make
+4	manger	manger	VERB	_	VerbForm=Inf	3	comp:aux@caus	_	Gloss=eat
+5	une	un	DET	_	_	6	det	_	Gloss=a
+6	pizza	pizza	PUNCT	_	_	4	punct	_	Gloss=pizza
 {{< /conll >}}
