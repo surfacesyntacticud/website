@@ -103,7 +103,7 @@ However, the copula is not always needed to link subjects to their predicates. I
 
 ### Compounds and phrasal verbs
 
-In our annotations of Naija, the `compound` relation is frequently used for noun compounds such as "phone book". In these contexts, `compound` functions much like the `mod` relation, except that it links two nouns together rather than a noun to an adjective.
+Our annotation of Naija makes frequent use of the `compound` relation. In our annotation system, this relation is systematically applied to relationships between two nouns in which one of them acts as a form of modifier. In this sense, `compound` functions much like the `mod` relation, except that it links two nouns together rather than a noun to an adjective.
 
 {{< conll >}}
 # text_en = It's not food for kids?
@@ -131,6 +131,19 @@ In our annotations of Naija, the `compound` relation is frequently used for noun
 4	girl	girl	NOUN	_	_	2	comp:pred	_	AlignBegin=77084|AlignEnd=77282|deprel_main_pred=comp:pred|Gloss=girl|head_MST=8
 {{< /conll >}}
 
+The `compound` relation is also used in some relations between nouns and adjectives, such as *dry cleaner*, which are considered fixed expressions whose meaning cannot be directly understood from its constituent parts
+
+{{< conll >}}
+# text_en = You can take it to the dry cleaner.
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	subj	_	AlignBegin=119950|AlignEnd=120306|deprel_main_pred=subj|Gloss=NOM.2|head_MST=2
+2	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=120306|AlignEnd=120661|deprel_main_pred=root|Gloss=ABIL|head_MST=0
+3	carry	carry	VERB	_	_	2	comp:aux	_	AlignBegin=120661|AlignEnd=121017|deprel_main_pred=comp:aux|Gloss=carry|head_MST=2
+4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=121017|AlignEnd=121373|deprel_main_pred=comp:obj|Gloss=ACC.SG.3|head_MST=3
+5	go	go	VERB	_	_	3	compound:svc	_	AlignBegin=121373|AlignEnd=121729|deprel_main_pred=compound:svc|Gloss=go|head_MST=3
+6	dry	dry	ADJ	_	_	7	compound	_	AlignBegin=121729|AlignEnd=122084|deprel_main_pred=mod|Gloss=dry|head_MST=7
+7	cleaner	cleaner	NOUN	_	_	5	comp:obj	_	AlignBegin=122084|AlignEnd=122440|deprel_main_pred=comp:obj|Gloss=cleaner|head_MST=5
+{{< /conll >}}
+
 The `compound` relation is also used un numbers containing more than one word.
 
 {{< conll >}}
@@ -155,3 +168,5 @@ The subtype `compound:prt` is also used to connect the components of various phr
 9	down	down	ADP	_	_	7	compound:prt	_	AlignBegin=228120|AlignEnd=228290|Gloss=down
 10	.	.	PUNCT	_	_	7	punct	_	AlignBegin=228290|AlignEnd=228290|Gloss=PUNCT
 {{< /conll >}}
+
+Please note that other languages might use the `compound` relation in a more limited set of contexts, if at all. For a more general overview of this relation, please consult the dedicated page.

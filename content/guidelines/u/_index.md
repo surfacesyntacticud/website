@@ -36,6 +36,7 @@ SUD has 4 specific syntactic relations and a few extended relations:
 
 SUD shares a number of syntactic relations with UD, the list of which is given below (links to UD related page are given):
   [vocative](https://universaldependencies.org/u/dep/vocative.html),
+  [compound](https://universaldependencies.org/u/dep/compound.html),
   [dislocated](https://universaldependencies.org/u/dep/dislocated.html),
   [discourse](https://universaldependencies.org/u/dep/discourse.html),
   [appos](https://universaldependencies.org/u/dep/appos.html),
@@ -72,3 +73,4 @@ For each linguistic phenomenon below, there is an explanation of how SUD takes i
 * [`Idioms and titles`](./particular_phenomena/idioms_titles)
 * [`Light verb constructions`](./particular_phenomena/lvc)
 * [`Comparative, superlative and consecutive constructions`](./particular_phenomena/comparative)
+* [`Compounds and flats`](./particular_phenomena/compounds)
