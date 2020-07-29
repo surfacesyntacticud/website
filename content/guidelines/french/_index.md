@@ -9,7 +9,7 @@ This page outlines various features specific to French.
 
 ## Cleft constructions
 
-As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relation,  the cleft constructions are analysed with a `comp:cleft` relation going from the head of the main sentence going to the head of the complement.
+As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relation,  the cleft constructions are analysed with a `comp:cleft` relation going from the head of the main sentence to the head of the complement.
 
 
 * **que**
