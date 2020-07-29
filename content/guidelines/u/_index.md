@@ -59,7 +59,6 @@ The main deep features are:
 [`@agent`](deep_features/agent),
 [`@caus`](deep_features/caus),
 [`@expl`](deep_features/expletive),
-[`@fixed`](deep_features/fixed),
 [`@lvc`](deep_features/lvc),
 [`@pass`](deep_features/pass),
 [`@relcl`](deep_features/relcl),
