@@ -32,7 +32,7 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 11	write	write	VERB	_	_	10	comp@obj	_	_
 {{< /conll >}}
 
-While this feature is most often used in relationships between finite verbs and the infinitives they govern, note that the governing element is not necessarily a verb. The following example highlights how the `@x`feature can apply to the relation between an infinitive and a governing adjective. 
+While this feature is most often used in relationships between finite verbs and the infinitives they govern, note that the governing element does not necessarily need to be a verb. The following example highlights how the `@x`feature can apply to the relation between an infinitive and a governing adjective.
 
 {{< conll >}}
 1	I	I	PRON	_	_	2	subj	_	_

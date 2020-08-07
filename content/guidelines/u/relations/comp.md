@@ -24,13 +24,12 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 {{< conll >}}
 # text_fr = Christine s'en veut à son amie
 # text_en = Christine is angry at her friend
-1	Christine	Christine	PROPN	_	_	4	subj	_	Gloss=Christine
-2	s'	se	PRON	_	_	4	comp	_	Gloss=herself
-3	en	en	PRON	_	_	4	comp	_	Gloss=of
-4	veut	vouloir	VERB	_	_	0	root	_	Gloss=want
-5	à	à	ADP	_	_	4	comp:obl	_	Gloss=to
-6	son	son	DET	_	_	7	det	_	Gloss=her
-7	amie	ami	NOUN	_	_	5	comp:obj	_	Gloss=friend
+1	Christine	Christine	PROPN	_	_	3	subj	_	Gloss=Christine
+2	en	en	PRON	_	_	3	comp	_	Gloss=of
+3	veut	vouloir	VERB	_	_	0	root	_	Gloss=want
+4	à	à	ADP	_	_	3	comp:obl	_	Gloss=to
+5	son	son	DET	_	_	6	det	_	Gloss=her
+6	amie	ami	NOUN	_	_	4	comp:obj	_	Gloss=friend
 {{< /conll >}}
 
 {{< conll >}}
