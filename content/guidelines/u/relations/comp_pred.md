@@ -56,6 +56,21 @@ The `comp:pred` relation is used for predicative arguments of verbs.
 > French
 
 {{< conll >}}
+# sent_id = fr-ud-train_12228
+# text = Je trouve cette attitude totalement inadmissible !
+# text_en = I find this attitude totally unacceptable!
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Gloss=I
+2	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=find
+3	cette	ce	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	det	_	Gloss=this
+4	attitude	attitude	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	Gloss=attitude
+5	totalement	totalement	ADV	_	_	6	mod	_	Gloss=totally
+6	inadmissible	inadmissible	ADJ	_	Number=Sing	2	comp:pred	_	Gloss=unacceptable
+7	!	!	PUNCT	_	_	2	punct	_	Gloss=!
+{{< /conll >}}
+
+> French
+
+{{< conll >}}
 # text_en = The South is considered a dynamic and rich area in terms of industry.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=the
 2	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	3	subj@pass	_	Gloss=south
