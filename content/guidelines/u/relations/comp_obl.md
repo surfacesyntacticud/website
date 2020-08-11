@@ -5,7 +5,7 @@ layout: default
 # **comp:obl**
 The `comp:obl` relation is used for oblique arguments of verbs, adjectives, adverbs, nouns or pronouns, regardless of their form. Unlike UD, SUD does not make a distinction between indirect objects and oblique arguments. SUD instead makes the distinction between arguments and modifiers.
 
-Consider the following sentence **analysed in UD**.
+Consider the following sentence **analyzed in UD**.
 
 > English
 
@@ -20,7 +20,7 @@ Consider the following sentence **analysed in UD**.
 8	pool	pool	NOUN	_	_	5	obl	_	_
 {{< /conll >}}
 
-**In SUD**, it would be analysed as follows:
+**In SUD**, it would be analyzed as follows:
 
 > English
 
@@ -71,20 +71,19 @@ Consider the following sentence **analysed in UD**.
 7	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll >}}
 
-* It is also used for clausal complements commuting with an adpositional complement.
+The `comp:obl` relation is also used for clausal complements commuting with an adpositional complement.
 Consider the two following examples:
 
 > French
 
 {{< conll >}}
-# text_en = he's afraid of immigration
-# text_fr = il a peur de l'immigration
+# text_en = He's afraid of the spider
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Gloss=he
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=have
 3	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj@lvc	_	Gloss=fear
 4	de	de	ADP	_	_	3	comp:obl	_	Gloss=of
 5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	det	_	Gloss=the
-6	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	Gloss=immigration
+6	araignée	araignée	PROPN	_	_	4	comp:obj	_	Gloss=spider
 {{< /conll >}}
 
 > French
@@ -100,30 +99,30 @@ Consider the two following examples:
 6	marche	marcher	VERB	_	_	4	comp:obj	_	Gloss=works
 {{< /conll >}}
 
-In the last sentence, *que ça marche* commutes with *de l'immigration*, therefore the relation going from *peur* to the head of the complement is labelled `comp:obl`.
+In the last sentence, *que ça marche* commutes with *de l'araignée*, therefore the relation going from *peur* to the head of the complement is labelled `comp:obl`.
 
 ## Oblique complement of a noun
 
-Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../particular_phenomena/lvc).
+Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be used for the complement of a noun. This happens when the noun is part of a light verb construction. For more information about these constructions, please visit our [dedicated page](../../particular_phenomena/lvc).
 
 > French
 
 {{< conll >}}
-# text_fr = China is facing serious problems
-# text_fr = la Chine fait face à de sérieux problèmes
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	_
-2	Chine	Chine	PROPN	_	_	3	subj	_	_
-3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	face	face	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
-5	à	à	ADP	_	_	4	comp:obl	_	_
-6	de	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	8	det	_	_
-7	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	_
-8	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	SpaceAfter=No
+# text_en = China is facing serious problems
+# text = la Chine fait face à de sérieux problèmes
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Art	2	det	_	Gloss=the
+2	Chine	Chine	PROPN	_	_	3	subj	_	Gloss=China
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=does
+4	face	face	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	Gloss=face
+5	à	à	ADP	_	_	4	comp:obl	_	Gloss=to
+6	de	un	DET	_	Definite=Ind|Number=Plur|Person=3|PronType=Art	8	det	_	Gloss=of
+7	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Plur	8	mod	_	Gloss=serious
+8	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	Gloss=problems
 {{< /conll >}}
 
 
 ## Oblique complement of an adverb or an adjective
-* Adverb
+**Adverb**
 
 > French
 
@@ -136,7 +135,7 @@ Like the example above shows (*J'ai peur des araignées*) `comp:obl` can also be
 4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
 {{< /conll >}}
 
-* Adjective
+**Adjective**
 
 > English
 
