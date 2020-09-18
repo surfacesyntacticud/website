@@ -25,7 +25,6 @@ The `subj` relation is used for all subjects, regardless of their form (nominal 
 3	joke	joke	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	crucial	crucial	ADJ	JJ	Degree=Pos	4	comp:pred	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	4	punct	_	_
 {{< /conll >}}
 
 ## Deep syntactic features
@@ -45,7 +44,7 @@ The `subj` relation has two deep syntactic sub-relations. The sub-relation `subj
 {{< /conll >}}
 
 Meanwhile, the sub-relation `subj@pass` is used to indicate a passive construction. This sub-relation can be used for both standard passive constructions, and for mediopassive constructions.
-You can find more information about expletive constructions on this [page](../../deep_features/pass).
+You can find more information about passive constructions on this [page](../../deep_features/pass).
 
 ### Passive constructions
 
@@ -62,15 +61,13 @@ You can find more information about expletive constructions on this [page](../..
 > French
 
 {{< conll >}}
-# text_fr = L'œuvre est située dans la galerie
-# text_en = The artwork is located in the gallery.
-1	L'	le	DET	_	_	2	det	_	Gloss=the
-2	œuvre	œuvre	NOUN	_	_	3	subj@pass	_	Gloss=artwork
-3	est	être	AUX	_	_	0	root	_	Gloss=is
-4	située	situer	VERB	_	_	3	comp:aux@pass	_	Gloss=placed
-5	dans	dans	ADP	_	_	4	comp:obl	_	Gloss=in
-6	la	le	DET	_	_	7	det	_	Gloss=the
-7	galerie	galerie	NOUN	_	_	5	comp:obj	_	Gloss=gallery
+# text = Il fut bâti en 1998.
+# text_en = It was build in 1998.
+1	Il	il	PRON	_	_	2	subj@pass	_	Gloss=It
+2	fut	être	AUX	_	_	0	root	_	Gloss=was
+3	bâti	bâtir	VERB	_	_	2	comp:aux@pass	_	Gloss=built
+4	en	en	ADP	_	_	2	mod	_	Gloss=in
+5	1998	1998	NUM	_	_	4	comp:obj	_	Gloss=1998
 {{< /conll >}}
 
 ### Mediopassive constructions

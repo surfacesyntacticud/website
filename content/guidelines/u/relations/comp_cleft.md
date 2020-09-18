@@ -46,7 +46,7 @@ The `comp:cleft` relation is used in cleft sentences for the dependency from the
 23	royale	royal	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	Gloss=royal
 {{< /conll >}}
 
-Sometimes, there is an ambiguity between a relative clause and a cleft clause. Consider the sentence `It is the electric car that I chose`.
+Sometimes, there is an ambiguity between a relative clause and a cleft clause. Consider the sentence *It is the electric car that I chose*.
 
 If someone utters this sentence in a context where they must choose between a gasoline car and an electric car, the sentence is interpreted as a cleft sentence with the following annotation.
 

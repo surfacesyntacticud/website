@@ -10,32 +10,14 @@ Consider the following sentence **analyzed in UD**.
 > English
 
 {{< conll >}}
-1	Last	last	ADJ	_	_	2	amod	_	_
-2	night	night	NOUN	_	_	5	obl:tmod	_	_
-3	,	,	PUNCT	_	_	5	punct	_	_
-4	I	I	PRON	_	_	5	nsubj	_	_
-5	swam	swim	VERB	_	_	0	root	_	_
-6	in	in	ADP	IN	_	8	case	_	_
-7	the	the	DET	DT	_	8	det	_	_
-8	pool	pool	NOUN	_	_	5	obl	_	_
+1	it	it	PRON	_	_	2	nsubj	_	_
+2	belongs	belong	VERB	_	_	0	root	_	_
+3	to	to	ADP	_	_	5	case	_	_
+4	a	a	DET	_	_	5	det	_	_
+5	past	past	NOUN	_	_	2	obl	_	_
 {{< /conll >}}
 
 **In SUD**, it would be analyzed as follows:
-
-> English
-
-{{< conll >}}
-1	Last	last	ADJ	_	_	2	mod	_	_
-2	night	night	NOUN	_	_	5	mod	_	_
-3	,	,	PUNCT	_	_	5	punct	_	_
-4	I	I	PRON	_	_	5	subj	_	_
-5	swam	swim	VERB	_	_	0	root	_	_
-6	in	in	ADP	IN	_	5	udep	_	_
-7	the	the	DET	DT	_	8	det	_	_
-8	pool	pool	NOUN	_	_	6	comp:obj	_	_
-{{< /conll >}}
-
-## Oblique complement of a verb
 
 > English
 
@@ -46,6 +28,8 @@ Consider the following sentence **analyzed in UD**.
 4	a	a	DET	_	_	5	det	_	_
 5	past	past	NOUN	_	_	3	comp:obj	_	_
 {{< /conll >}}
+
+## Oblique complement of a verb
 
 > English
 
@@ -130,7 +114,7 @@ Like the example above shows (*Il a peur de l'araignée*) `comp:obl` can also be
 # text_fr = beaucoup de bâtiments modernes
 # text_en = many modern buildings
 1	beaucoup	beaucoup	ADV	_	_	0	root	_	Gloss=many
-2	de	de	VERB	_	_	1	comp:obl	_	Gloss=of
+2	de	de	ADP	_	_	1	comp:obl	_	Gloss=of
 3	bâtiments	bâtiment	NOUN	_	_	2	comp:obj	_	Gloss=buildings
 4	modernes	moderne	ADJ	_	_	3	mod	_	Gloss=modern
 {{< /conll >}}

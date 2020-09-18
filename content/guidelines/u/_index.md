@@ -35,21 +35,21 @@ SUD has 4 specific syntactic relations and a few extended relations:
    * [`mod`](relations/mod)
 
 SUD shares a number of syntactic relations with UD, the list of which is given below (links to UD related page are given):
-  [vocative](https://universaldependencies.org/u/dep/vocative.html),
-  [compound](https://universaldependencies.org/u/dep/compound.html),
-  [dislocated](https://universaldependencies.org/u/dep/dislocated.html),
-  [discourse](https://universaldependencies.org/u/dep/discourse.html),
-  [appos](https://universaldependencies.org/u/dep/appos.html),
-  [det](https://universaldependencies.org/u/dep/det.html),
-  [clf](https://universaldependencies.org/u/dep/clf.html),
-  [conj](https://universaldependencies.org/u/dep/conj.html),
-  [cc](https://universaldependencies.org/u/dep/cc.html),
-  [flat](https://universaldependencies.org/u/dep/flat.html),
-  [parataxis](https://universaldependencies.org/u/dep/parataxis.html),
-  [orphan](https://universaldependencies.org/u/dep/orphan.html),
-  [goeswith](https://universaldependencies.org/u/dep/goeswith.html),
-  [reparandum](https://universaldependencies.org/u/dep/reparandum.html),
-  [punct](https://universaldependencies.org/u/dep/punct.html).
+  [`vocative`](https://universaldependencies.org/u/dep/vocative.html),
+  [`compound`](https://universaldependencies.org/u/dep/compound.html),
+  [`dislocated`](https://universaldependencies.org/u/dep/dislocated.html),
+  [`discourse`](https://universaldependencies.org/u/dep/discourse.html),
+  [`appos`](https://universaldependencies.org/u/dep/appos.html),
+  [`det`](https://universaldependencies.org/u/dep/det.html),
+  [`clf`](https://universaldependencies.org/u/dep/clf.html),
+  [`conj`](https://universaldependencies.org/u/dep/conj.html),
+  [`cc`](https://universaldependencies.org/u/dep/cc.html),
+  [`flat`](https://universaldependencies.org/u/dep/flat.html),
+  [`parataxis`](https://universaldependencies.org/u/dep/parataxis.html),
+  [`orphan`](https://universaldependencies.org/u/dep/orphan.html),
+  [`goeswith`](https://universaldependencies.org/u/dep/goeswith.html),
+  [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html),
+  [`punct`](https://universaldependencies.org/u/dep/punct.html).
 
 ## SUD deep features
 In SUD, dependency relations are designed to describe syntactic surface relations.
@@ -68,8 +68,8 @@ The main deep features are:
 ## Particular linguistic phenomena
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
-* [`Coordination`](./particular_phenomena/coord)
-* [`Idioms and titles`](./particular_phenomena/idioms_titles)
-* [`Light verb constructions`](./particular_phenomena/lvc)
-* [`Comparative, superlative and consecutive constructions`](./particular_phenomena/comparative)
-* [`Compounds and flats`](./particular_phenomena/compounds)
+* [Coordination](./particular_phenomena/coord)
+* [Idioms and titles](./particular_phenomena/idioms_titles)
+* [Light verb constructions](./particular_phenomena/lvc)
+* [Comparative, superlative and consecutive constructions](./particular_phenomena/comparative)
+* [Compounds and flats](./particular_phenomena/compounds)
