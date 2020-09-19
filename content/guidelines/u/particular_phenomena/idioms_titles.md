@@ -21,7 +21,7 @@ This approach has several advantages. By marking these categories with features 
 # shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, FEATS.ExtPos, FEATS.PhraseType, FEATS.InTitle
 1	Karen	Karen	PROPN	_	_	2	subj	_	_
 2	loved	love	VERB	_	_	0	root	_	_
-3	One	one	PRON	_	_	4	subj	_	_
+3	One	one	PRON	_	InTitle=Yes	4	subj	_	_
 4	Flew	fly	VERB	_	ExtPos=PROPN|PhraseType=Title	2	comp:obj	_	_
 5	Over	over	ADP	_	InTitle=Yes	4	comp:obl	_	_
 6	the	the	DET	_	InTitle=Yes	7	det	_	_
