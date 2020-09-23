@@ -49,3 +49,23 @@ This approach has several advantages. By marking these categories with features 
 2	llama	llamar	VERB	_	ExtPos=VERB|PhraseType=Idiom	0	root	_	Gloss=calls
 3	Alejandro	Alejandro	PROPN	_	_	2	comp:pred	_	Gloss=Alejandro
 {{< /conll >}}
+
+When their is no clear internal syntactic annotation, the relation `unk` is used.
+
+{{< conll >}}
+# sent_id = fr-ud-train_10134
+# text_en = I found the rates applied here to be quite correct.
+# text = Personnellement, j'ai trouvé tout à fait correct les tarifs appliqués ici.
+# shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, MISC.ExtPos, MISC.PhraseType, MISC.InIdiom
+1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Gloss=I
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=--
+3	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	Gloss=found
+4	tout	tout	ADV	_	_	7	mod	_	ExtPos=ADV|PhraseType=Idiom|Gloss=quite
+5	à	à	ADP	_	_	4	unk	_	InIdiom=Yes|Gloss=--
+6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes|Gloss=--
+7	correct	correct	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	3	comp:pred	_	Gloss=correct
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Gloss=the
+9	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	Gloss=rates
+10	appliqués	appliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	mod	_	Gloss=applied
+11	ici	ici	ADV	_	_	10	mod	_	Gloss=here
+{{< /conll >}}
