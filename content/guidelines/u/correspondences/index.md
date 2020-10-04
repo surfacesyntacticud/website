@@ -64,11 +64,8 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
         <tr><td>amod</td></tr>
         <tr><td>nummod</td></tr>
         <tr>
-          <td rowspan=2>fixed</td>
-          <td>unk@fixed</td>
-        </tr>
-        <tr>
-          <td>...@fixed</td>
+          <td>fixed</td>
+          <td>encoded in node features (see <a href="../particular_phenomena/idioms_titles">here</a>)</td>
         </tr>
         <tr>
           <td>det</td>

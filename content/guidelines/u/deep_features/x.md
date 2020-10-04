@@ -19,6 +19,7 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 {{< /conll >}}
 
 {{< conll >}}
+# shownfeatures = FORM, UPOS, LEMMA, MISC.Gloss, MISC.ExtPos, MISC.PhraseType, MISC.InIdiom
 1	the	the	DET	_	_	2	det	_	_
 2	developer	developer	NOUN	_	_	3	subj	_	_
 3	has	have	AUX	_	_	0	root	_	_
@@ -26,8 +27,8 @@ The `@x` feature is used to annotate relationships with verbs that do not have a
 5	use	use	VERB	_	_	4	comp:obj	_	_
 6	another	another	ADJ	_	_	7	mod	_	_
 7	language	language	NOUN	_	_	5	comp:obj	_	_
-8	in	in	ADP	_	_	5	mod@x	_	_
-9	order	order	NOUN	_	_	8	unk@fixed	_	_
+8	in	in	ADP	_	_	5	mod@x	_	ExtPos=ADP|PhraseType=Idiom
+9	order	order	NOUN	_	_	8	unk	_	InIdiom=Yes
 10	to	to	PART	_	_	8	comp@obj	_	_
 11	write	write	VERB	_	_	10	comp@obj	_	_
 {{< /conll >}}
