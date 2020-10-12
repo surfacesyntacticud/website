@@ -163,10 +163,11 @@ Constructions such as: *plus... que* (French), *more... than* (English), *più..
 7	predecessors	predecessor	NOUN	NNS	Number=Plur	5	comp:obj	_	_
 {{< /conll >}}
 
-> French
-
 ## Complement in consecutive constructions
 Constructions such as: *tellement... que* (French), *so... that* (English), *così... che* (Italian), *tak... że* (Polish).
+
+> French
+
 {{< conll >}}
 1	tellement	tellement	ADV	_	_	2	mod	_	_
 2	vaste	vaste	ADJ	_	_	0	root	_	_
