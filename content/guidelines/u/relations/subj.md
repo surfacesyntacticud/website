@@ -94,3 +94,13 @@ You can find more information about passive constructions on this [page](../../d
 4	vend	vendre	VERB	_	_	0	root	_	Gloss=sell
 5	bien	bien	ADV	_	_	4	mod	_	Gloss=well
 {{< /conll >}}
+
+> Russian
+
+{{< conll >}}
+# text_en = the book is selling well
+# text_ru = книга хорошо продаётся
+1	книга	книга	NOUN	_	_	3	subj@pass	_	Gloss=book
+2	хорошо	хорошо	ADV	_	_	3	mod	_	Gloss=well
+3	продаётся	продаваться	VERB	_	_	0	root	_	Gloss=is selling
+{{< /conll >}}
