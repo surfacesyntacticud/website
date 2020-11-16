@@ -27,3 +27,5 @@ The `@lvc` feature is used for arguments of light verbs.
 5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	det	_	Gloss=the
 6	araignée	araignée	PROPN	_	_	4	comp:obj	_	Gloss=spider
 {{< /conll >}}
+
+See [issue #5](https://github.com/surfacesyntacticud/guidelines/issues/5) for a discussion about light verb construction annotation in SUD.

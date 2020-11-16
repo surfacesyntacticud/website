@@ -29,7 +29,7 @@ The `@agent` feature is used for arguments that are agents of their governor at 
 
 {{< conll >}}
 # text_en = He makes his troops go faster.
-1	Il	il	PRON	_	_	2	subj	_	Gloss=he
+1	Il	il	PRON	_	_	2	subj@caus	_	Gloss=he
 2	fait	faire	AUX	_	_	0	root	_	Gloss=make
 3	accélérer	accélérer	VERB	_	_	2	comp:aux@caus	_	Gloss=accelerate
 4	ses	son	DET	_	_	5	det	_	Gloss=his
