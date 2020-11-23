@@ -2,36 +2,33 @@
 layout: default
 ---
 
-In version 2.7 of (S)UD data, released in November 2020:
- * 3 corpora are maintained in the SUD format (called **Native SUD**)
- * All 183 corpora of UD 2.7 are automatically converted to SUD from the corresponding UD data.
+In version 2.7 of SUD data, released in November 2020:
+ * 3 corpora are built in the SUD format (called **Native SUD**)
+ * 180 corpora of UD 2.7 are automatically converted to SUD from the corresponding UD data.
 
 # Native SUD corpora
 
 In the table below, the 3 native SUD corpora are given.
 Note that each corresponding UD version is obtained by automatic conversion.
 
-| Corpus | Github | Grew-match |
+| Corpus | Files | Grew-match |
 |--------|------------|-------|
-| [`SUD_French-GSD`](https://github.com/surfacesyntacticud/SUD_French-GSD) | [`2.7`](https://github.com/surfacesyntacticud/SUD_French-GSD/tree/r2.7) [`latest`](https://github.com/surfacesyntacticud/SUD_French-GSD/tree/master) | [`latest`](http://match.grew.fr/?corpus=SUD_French-GSD@latest) |
-| [`SUD_French-Spoken`](https://github.com/surfacesyntacticud/SUD_French-Spoken) | [`2.7`](https://github.com/surfacesyntacticud/SUD_French-Spoken/tree/r2.7) [`latest`](https://github.com/surfacesyntacticud/SUD_French-Spoken/tree/master) | [`latest`](http://match.grew.fr/?corpus=SUD_French-Spoken@latest) |
-| [`SUD_Naija-NSC`](https://github.com/surfacesyntacticud/SUD_Naija-NSC) | [`2.7`](https://github.com/surfacesyntacticud/SUD_Naija-NSC/tree/r2.7) [`latest`](https://github.com/surfacesyntacticud/SUD_Naija-NSC/tree/master) | [`latest`](http://match.grew.fr/?corpus=SUD_Naija-NSC@latest) |
+| [`SUD_French-GSD`](https://github.com/surfacesyntacticud/SUD_French-GSD) | [2.7](https://github.com/surfacesyntacticud/SUD_French-GSD/archive/r2.7.zip) -- [latest](https://github.com/surfacesyntacticud/SUD_French-GSD/archive/master.zip) | [2.7](http://match.grew.fr/?corpus=SUD_French-GSD@2.7) -- [latest](http://match.grew.fr/?corpus=SUD_French-GSD@latest) |
+| [`SUD_French-Spoken`](https://github.com/surfacesyntacticud/SUD_French-Spoken) | [2.7](https://github.com/surfacesyntacticud/SUD_French-Spoken/archive/r2.7.zip) -- [latest](https://github.com/surfacesyntacticud/SUD_French-Spoken/archive/master.zip) | [2.7](http://match.grew.fr/?corpus=SUD_French-Spoken@2.7) -- [latest](http://match.grew.fr/?corpus=SUD_French-Spoken@latest) |
+| [`SUD_Naija-NSC`](https://github.com/surfacesyntacticud/SUD_Naija-NSC) | [2.7](https://github.com/surfacesyntacticud/SUD_Naija-NSC/archive/r2.7.zip) -- [latest](https://github.com/surfacesyntacticud/SUD_Naija-NSC/archive/master.zip) | [2.7](http://match.grew.fr/?corpus=SUD_Naija-NSC@2.7) -- [latest](http://match.grew.fr/?corpus=SUD_Naija-NSC@latest) |
 
-# Universal dependencies corpora converted in SUD
+# SUD data for version 2.7
 
-**NB** In order to give a consistent set of corpora, the 3 native SUD corpora also appear in this list.
-But the data below for these 3 corpora is the result of the conversion from the UD version (hence a double conversion SUD &rarr; UD &rarr; SUD).
-The concerned corpora are marked with a ":warning:" symbol.
+All UD (version 2.7), except the 3 ones coming from native SUD (`UD_French-GSD`, `UD_French-Spoken` and `UD_Naija-NSC`) are converted in SUD format with the [UD &rarr; SUD conversion system](https://github.com/surfacesyntacticud/tools/tree/master/converter) (usable with the [Grew](https://grew.fr) software).
 
-
-The 183 UD (version 2.7) corpora are converted in SUD format with the [UD &rarr; SUD conversion system](https://github.com/surfacesyntacticud/tools/tree/master/converter) (usable with the [Grew](https://grew.fr) software).
-
-The data below are built with:
-  * [version 2.7 of UD corpora](http://hdl.handle.net/11234/1-3424)
-  * [tag `v2.7` of the conversion system](https://github.com/surfacesyntacticud/tools/tree/v2.7/converter)
+Hence, the data below are built with:
+  * The 3 native SUD described above
+  * 180 corpora converted:
+    * from [version 2.7 of UD corpora](http://hdl.handle.net/11234/1-3424)
+    * with [tag `v2.7` of the conversion system](https://github.com/surfacesyntacticud/tools/tree/v2.7/converter)
 
 ## Download all corpora
-Download the full set of 183 SUD corpora: [sud-treebanks-v2.7.tgz](https://www.grew.fr/download/sud-treebanks-v2.7.tgz).
+Download the full set of 183 SUD corpora: [sud-treebanks-v2.7.tgz](https://www.grew.fr/download/sud-treebanks-v2.7.tgz) (:warning: the file was changed on November 23th, consider reloading if needed).
 
 ## Access to each corpus
 
@@ -98,11 +95,11 @@ In the table below, for each corpus you can access to the [Grew-match](http://ma
 | :new: `Finnish-OOD` | [[Query](http://match.grew.fr/?corpus=SUD_Finnish-OOD@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Finnish-OOD@2.7_table.html)] |
 | `French-FQB` | [[Query](http://match.grew.fr/?corpus=SUD_French-FQB@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-FQB@2.7_table.html)] |
 | `French-FTB` | [[Query](http://match.grew.fr/?corpus=SUD_French-FTB@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-FTB@2.7_table.html)] |
-| `French-GSD` :warning:: see [Native](./#native-sud-corpora) | [[Query](http://match.grew.fr/?corpus=SUD_French-GSD@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-GSD@2.7_table.html)] |
+| `French-GSD` (Native) | [[Query](http://match.grew.fr/?corpus=SUD_French-GSD@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-GSD@2.7_table.html)] |
 | `French-ParTUT` | [[Query](http://match.grew.fr/?corpus=SUD_French-ParTUT@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-ParTUT@2.7_table.html)] |
 | `French-PUD` | [[Query](http://match.grew.fr/?corpus=SUD_French-PUD@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-PUD@2.7_table.html)] |
 | `French-Sequoia` | [[Query](http://match.grew.fr/?corpus=SUD_French-Sequoia@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-Sequoia@2.7_table.html)] |
-| `French-Spoken` :warning:: see [Native](./#native-sud-corpora)  | [[Query](http://match.grew.fr/?corpus=SUD_French-Spoken@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-Spoken@2.7_table.html)] |
+| `French-Spoken` (Native)  | [[Query](http://match.grew.fr/?corpus=SUD_French-Spoken@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_French-Spoken@2.7_table.html)] |
 | `Galician-CTG` | [[Query](http://match.grew.fr/?corpus=SUD_Galician-CTG@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Galician-CTG@2.7_table.html)] |
 | `Galician-TreeGal` | [[Query](http://match.grew.fr/?corpus=SUD_Galician-TreeGal@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Galician-TreeGal@2.7_table.html)] |
 | `German-GSD` | [[Query](http://match.grew.fr/?corpus=SUD_German-GSD@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_German-GSD@2.7_table.html)] |
@@ -157,7 +154,7 @@ In the table below, for each corpus you can access to the [Grew-match](http://ma
 | `Mbya_Guarani-Thomas` | [[Query](http://match.grew.fr/?corpus=SUD_Mbya_Guarani-Thomas@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Mbya_Guarani-Thomas@2.7_table.html)] |
 | `Moksha-JR` | [[Query](http://match.grew.fr/?corpus=SUD_Moksha-JR@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Moksha-JR@2.7_table.html)] |
 | :new:`Munduruku-TuDeT` | [[Query](http://match.grew.fr/?corpus=SUD_Munduruku-TuDeT@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Munduruku-TuDeT@2.7_table.html)] |
-| `Naija-NSC` :warning:: see [Native](./#native-sud-corpora)  | [[Query](http://match.grew.fr/?corpus=SUD_Naija-NSC@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Naija-NSC@2.7_table.html)] |
+| `Naija-NSC` (Native) | [[Query](http://match.grew.fr/?corpus=SUD_Naija-NSC@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Naija-NSC@2.7_table.html)] |
 | :new: `Nayini-AHA` | [[Query](http://match.grew.fr/?corpus=SUD_Nayini-AHA@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Nayini-AHA@2.7_table.html)] |
 | `North_Sami-Giella` | [[Query](http://match.grew.fr/?corpus=SUD_North_Sami-Giella@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_North_Sami-Giella@2.7_table.html)] |
 | `Norwegian-Bokmaal` | [[Query](http://match.grew.fr/?corpus=SUD_Norwegian-Bokmaal@2.7)] [[Relations](http://match.grew.fr/_meta/SUD_Norwegian-Bokmaal@2.7_table.html)] |
