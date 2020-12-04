@@ -51,6 +51,22 @@ SUD shares a number of syntactic relations with UD, the list of which is given b
   [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html),
   [`punct`](https://universaldependencies.org/u/dep/punct.html).
 
+However, we must stress that there are some differences between the usage of some of these relations in UD and SUD. Namely, the relations `appos`, `conj` and `reparandum` are only used when analysing written texts. When analysing oral texts, we use instead the relations `conj:appos`, `conj:coord` and `conj:dicto` respectively. The same goes for `parataxis` which is used differently in SUD when analysing oral textes. We will explain the details in the section below.
+
+## Relations specific to SUD used when analysing oral texts
+ * [relations for paradigmatic lists](oral_language/conj)
+   * [`conj:dicto`](oral_language/conj_dicto)
+   * [`conj:coord`](oral_language/conj_coord)
+   * [`conj:appos`](oral_language/conj_appos)
+ * [relations analysing macrosyntax](oral_language/macrosyntax)
+   * [`dislocated`](oral_language/conj_dicto)
+   * [`vocative`](oral_language/conj_dicto)
+   * [`discourse`](oral_language/conj_dicto)
+   * [`parataxis:parenth`](oral_language/parataxis_parenth)
+   * [`parataxis:insert`](oral_language/parataxis_insert)
+   * [`parataxis:obj`](oral_language/parataxis_obj)
+
+
 ## SUD deep features
 In SUD, dependency relations are designed to describe syntactic surface relations.
 Information related to deep syntax or semantics is given on dependencies with *deep features* which are extensions to dependency label introduced by the `@` symbol.

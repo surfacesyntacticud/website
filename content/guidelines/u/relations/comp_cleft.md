@@ -58,7 +58,7 @@ If someone utters this sentence in a context where they must choose between a ga
 3	the	the	DET	_	_	5	det	_	_
 4	electric	electric	ADJ	_	_	5	mod	_	_
 5	car	car	NOUN	_	_	2	comp:pred	_	_
-6	that	that	SCONJ	_	_	8	comp:obj	_	_
+6	that	that	PRON	_	_	8	comp:obj	_	_
 7	I	I	PRON	_	_	8	subj	_	_
 8	chose	choose	VERB	_	_	2	comp:cleft	_	_
 {{< /conll >}}
