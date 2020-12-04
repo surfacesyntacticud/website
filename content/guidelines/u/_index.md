@@ -85,14 +85,17 @@ The main deep features are:
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
 * [Coordination](./particular_phenomena/coord)
-* [Idioms and titles](./particular_phenomena/idioms_titles)
+* [Idioms and titles](./ExtPos/idioms_titles)
 * [Light verb constructions](./particular_phenomena/lvc)
 * [Comparative, superlative and consecutive constructions](./particular_phenomena/comparative)
 * [Compounds and flats](./particular_phenomena/compounds)
 
-## Analysing phenomena specific to the oral language
+## Usages of the ExtPos feature
+In SUD, the External POS (ExtPos) feature is used to designate multi-word units which together behave like a certain part of speech, even though none of their constituents carry that part of speech. A detailed description of the ExtPos feature and its usages can be found [here](./ExtPos/index.md).  
 
-SUD is also used to annotate texts of oral language. The oral language has some specifics that are sometimes complicated to analyse.
-Below, we propose the analysis of a few phenomena.
+## Analyzing phenomena specific to spoken language
+
+SUD is also used to annotate oral corpora. Spoken language is distinct from written texts in several ways, which can sometimes make it more difficult to analyze.
+Below, we propose analyses of several such phenomena.
 
 * [Disfluencies](./oral_language/disfulencies)
