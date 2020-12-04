@@ -85,13 +85,13 @@ The main deep features are:
 For each linguistic phenomenon below, there is an explanation of how SUD takes it into account.
 
 * [Coordination](./particular_phenomena/coord)
-* [Idioms and titles](./ExtPos/idioms_titles)
+* [Idioms and titles](./extpos/idioms_titles)
 * [Light verb constructions](./particular_phenomena/lvc)
 * [Comparative, superlative and consecutive constructions](./particular_phenomena/comparative)
 * [Compounds and flats](./particular_phenomena/compounds)
 
 ## Usages of the ExtPos feature
-In SUD, the External POS (ExtPos) feature is used to designate multi-word units which together behave like a certain part of speech, even though none of their constituents carry that part of speech. A detailed description of the ExtPos feature and its usages can be found [here](./ExtPos/index.md).  
+In SUD, the External POS (ExtPos) feature is used to designate multi-word units which together behave like a certain part of speech, even though none of their constituents carry that part of speech. A detailed description of the ExtPos feature and its usages can be found [here](./extpos/general).  
 
 ## Analyzing phenomena specific to spoken language
 
