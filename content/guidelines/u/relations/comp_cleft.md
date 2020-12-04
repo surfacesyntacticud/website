@@ -60,7 +60,7 @@ If someone utters this sentence in a context where they must choose between a ga
 5	car	car	NOUN	_	_	2	comp:pred	_	_
 6	that	that	SCONJ	_	_	2	comp:cleft	_	_
 7	I	I	PRON	_	_	8	subj	_	_
-8	chose	choose	VERB	_	_	6	comp:obj	_	_
+8	chose	choose	VERB	_	_	6	mod@relcl	_	_
 {{< /conll >}}
 
 But if the sentence is uttered in a context where the speaker is referring to one of several electric cars, the sentence is interpreted as having a relative clause with the following annotation.
