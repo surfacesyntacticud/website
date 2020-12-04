@@ -74,9 +74,9 @@ For each linguistic phenomenon below, there is an explanation of how SUD takes i
 * [Comparative, superlative and consecutive constructions](./particular_phenomena/comparative)
 * [Compounds and flats](./particular_phenomena/compounds)
 
-## Analysing phenomena specific to the oral language
+## Analyzing phenomena specific to spoken language
 
-SUD is also used to annotate texts of oral language. The oral language has some specifics that are sometimes complicated to analyse.
-Below, we propose the analysis of a few phenomena.
+SUD is also used to annotate oral corpora. Spoken language is distinct from written texts in several ways, which can sometimes make it more difficult to analyze.
+Below, we propose analyses of several such phenomena.
 
 * [Disfluencies](./oral_language/disfulencies)
