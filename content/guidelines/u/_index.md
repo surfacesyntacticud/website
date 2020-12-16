@@ -54,14 +54,14 @@ SUD shares a number of syntactic relations with UD, the list of which is given b
 However, we must stress that there are some differences between the usage of some of these relations in UD and SUD. Namely, the relations `appos`, `conj` and `reparandum` are only used when analysing written texts. When analysing oral texts, we use instead the relations `conj:appos`, `conj:coord` and `conj:dicto` respectively. The same goes for `parataxis` which is used differently in SUD when analysing oral textes. We will explain the details in the section below.
 
 ## Relations specific to SUD used when analysing oral texts
- * [relations for paradigmatic lists](oral_language/conj)
+ * [relations of conjunctional structures](oral_language/conj)
    * [`conj:dicto`](oral_language/conj_dicto)
    * [`conj:coord`](oral_language/conj_coord)
    * [`conj:appos`](oral_language/conj_appos)
  * [relations analysing macrosyntax](oral_language/macrosyntax)
-   * [`dislocated`](oral_language/conj_dicto)
-   * [`vocative`](oral_language/conj_dicto)
-   * [`discourse`](oral_language/conj_dicto)
+   * [`dislocated`](oral_language/dislocated)
+   * [`vocative`](oral_language/vocative)
+   * [`discourse`](oral_language/discourse)
    * [`parataxis:parenth`](oral_language/parataxis_parenth)
    * [`parataxis:insert`](oral_language/parataxis_insert)
    * [`parataxis:obj`](oral_language/parataxis_obj)
