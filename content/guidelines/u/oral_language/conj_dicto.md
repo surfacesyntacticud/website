@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Use of the relation conj:dicto
+title: conj:dicto
 ---
 
-This relation is used to indicate difluencies when a speaker corrects his speech.
+This relation is used to indicate difluencies when a speaker corrects his speech. It is parallel to the [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html) relationship used in UD and for analysis of written texts in UD.
 
+> French
 
 {{< conll >}}
 # sent_id = ParisStories_2019_stagePrimaire_15
@@ -23,3 +24,21 @@ This relation is used to indicate difluencies when a speaker corrects his speech
 {{< /conll >}}
 
 Note that `conj:dicto` goes from the first element to the second, while `reparandum` goes the opposite way.
+
+This may result in some incoherencies. Note the following example. In this sentence we have two options of annotation. We can annotate the *é~* with an unknown POS (`X`). In that case `X` is the head of a `subj` relation which is undesirable (only `VERB` and `AUX` should be head of a `subj` relation). The other option would be to guess the POS and lemma of the unfinished word with the risk of guessing it wrong. In our case the token *é~* would be annotated with the lemma *être* and POS `AUX`. In this scenario, *é~* becomes part of the paradigm of the conjugated verb *être* which is also undesirable.
+
+In SUD we decided to adopt the following analysis.
+
+> French
+
+{{< conll >}}
+# text_fr = C' é~ c' était vraiment
+# text_en = It w~ it was really
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
+2	é~	é~	X	_	_	0	root	_	_
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
+4	était	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
+5	vraiment	vraiment	ADV	_	_	4	mod	_	_
+{{< /conll >}}
+
+For more examples on disfluencies, you can refer to [this page](../disfulencies).

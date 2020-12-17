@@ -34,7 +34,7 @@ To analyse constructions of repetition or reformulation, we use the relation `co
 16	.	.	PUNCT	_	_	5	punct	_	_
 {{< /conll >}}
 
-The `conj:dicto` relation applies also when the linked word are not the same.
+The `conj:dicto` relation applies also when the linked words are not the same.
 
 > French
 
@@ -61,26 +61,6 @@ The `conj:dicto` relation applies also when the linked word are not the same.
 
 Sometimes speakers utter a half-finished construction. In that case, it may happen that a word cannot be attached to its head, because the speaker decided not to utter it.
 
-In this example we can see the construction *Je lis son le portrait de notre de votre héros* (English: *I'im reading his the portrayal of our of your hero*). This construction causes some issues because we can't attach the word *notre* to its semantic head *hero* because of the presence of the second *de*.
-
-If the sentence was *portrait de notre votre héros* (English: *portrayal of our your hero*) we could use the `conj:dicto` relation to attach *votre* to *notre*.
-
-> French
-
-{{< conll >}}
-# text = portrait de notre votre héros
-# text_en = portrayal of our your hero
-1	portrait	portrait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	de	de	ADP	_	_	1	udep	_	_
-3	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	5	det	_	_
-4	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	3	conj:dicto	_	_
-5	héros	héros	NOUN	_	Gender=Masc	2	comp:obj	_	_
-{{< /conll >}}
-
-In these cases we prefer to attach the two words *de* with a `conj:dicto` relation and link the word *notre* to the first *de* as an incomplete object.
-
-Here is the complete analysis of the sentence.
-
 > French
 
 {{< conll >}}
@@ -97,6 +77,22 @@ Here is the complete analysis of the sentence.
 9	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	10	det	_	_
 10	héros	héros	NOUN	_	Gender=Masc	8	comp:obj	_	_
 {{< /conll >}}
+
+In this example we can see the construction *Je lis son le portrait de notre de votre héros* (English: *I'im reading his the portrayal of our of your hero*). This construction causes some issues because we can't attach the word *notre* to its semantic head *héros* because of the presence of the second *de*.
+
+If the sentence was *portrait de notre votre héros* (English: *portrayal of our your hero*) we could use the `conj:dicto` relation to attach *votre* to *notre*.
+
+{{< conll >}}
+# text = portrait de notre votre héros
+# text_en = portrayal of our your hero
+1	portrait	portrait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	1	udep	_	_
+3	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	5	det	_	_
+4	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	3	conj:dicto	_	_
+5	héros	héros	NOUN	_	Gender=Masc	2	comp:obj	_	_
+{{< /conll >}}
+
+In these cases we prefer to attach the two words *de* with a `conj:dicto` relation and link the word *notre* to the first *de* as an incomplete object - `comp:obj@scrap`.
 
 
 Below we can see an example when a speaker starts with one word, then decides it doesn't fit and searches for a more fitting word.
@@ -119,8 +115,6 @@ Below we can see an example when a speaker starts with one word, then decides it
 12	besogne	besogne	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 13	de	de	ADP	_	_	9	mod	_	_
 14	lui-même	lui-même	PRON	_	_	13	comp:obj	_	_
-15	sur	sur	ADP	_	_	9	mod	_	_
-16	place	place	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 {{< /conll >}}
 
 
