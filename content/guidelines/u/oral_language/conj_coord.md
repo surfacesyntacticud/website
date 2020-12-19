@@ -3,7 +3,7 @@ layout: default
 title: conj:coord
 ---
 
-This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. 
+This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. It is parallel to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD and in SUD for written language.
 
 > French
 

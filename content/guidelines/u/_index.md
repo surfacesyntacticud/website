@@ -58,7 +58,7 @@ However, we must stress that there are some differences between the usage of som
    * [`conj:dicto`](oral_language/conj_dicto)
    * [`conj:coord`](oral_language/conj_coord)
    * [`conj:appos`](oral_language/conj_appos)
- * [relations analysing macrosyntax](oral_language/macrosyntax)
+ * [propositions with no visible marker](oral_language/macrosyntax)
    * [`dislocated`](oral_language/dislocated)
    * [`vocative`](oral_language/vocative)
    * [`discourse`](oral_language/discourse)
