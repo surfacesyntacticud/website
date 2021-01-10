@@ -23,9 +23,11 @@ This relation is used to indicate difluencies when a speaker corrects his speech
 10	.	.	PUNCT	_	_	_	_	_	_
 {{< /conll >}}
 
-Note that `conj:dicto` goes from the first element to the second, while `reparandum` goes the opposite way.
+Note that `conj:dicto` (SUD) considers the first element as the head of the next one, while `reparandum` (UD) considers these constructions as reparations and considers the last element as head. 
+This is because UD relies more on the semantics - it is the last element that holds the meaning. SUD on the other hand relies on the syntactic aspect and considers that it is the first element that occupies the syntactic position.
 
 This may result in some incoherencies. Note the following example. In this sentence we have two options of annotation. We can annotate the *é~* with an unknown POS (`X`). In that case `X` is the head of a `subj` relation which is undesirable (only `VERB` and `AUX` should be head of a `subj` relation). The other option would be to guess the POS and lemma of the unfinished word with the risk of guessing it wrong. In our case the token *é~* would be annotated with the lemma *être* and POS `AUX`. In this scenario, *é~* becomes part of the paradigm of the conjugated verb *être* which is also undesirable.
+
 
 In SUD we decided to adopt the following analysis.
 
