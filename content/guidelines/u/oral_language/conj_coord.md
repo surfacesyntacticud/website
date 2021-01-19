@@ -113,4 +113,4 @@ This helps to reduce cumbersome long-distance relations. We also believe it to b
 {{< /conll >}}
 
 
-For more information about coordinaiton, see the [dedicated page](../../particular_phenomena/coord).
+For more information about coordination, see the [dedicated page](../../particular_phenomena/coord).
