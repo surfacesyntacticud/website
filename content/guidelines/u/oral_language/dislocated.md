@@ -3,7 +3,7 @@ layout: default
 title: dislocated
 ---
 
-The `dislocated` relation is used to analyze detached elements that do not enter in the core grammatical relations of a sentence. 
+The `dislocated` relation is used to analyze detached elements that do not enter in the core grammatical relations of a sentence.
 
 >French
 {{< conll >}}
@@ -19,7 +19,30 @@ The `dislocated` relation is used to analyze detached elements that do not enter
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	_
 {{< /conll >}}
 
-Here is an example with French tonic pronouns.
+>Naija
+{{< conll >}}
+# sent_id = JOS_21_Marriage-Talk-With-Oscar-1_DG__167
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_21_Marriage-Talk-With-Oscar-1_DG.mp3
+# speaker_id = Sp139
+# text = anyting wey go disturb my sleep < I no dey like am //
+# text_en = Anything that will disturb my sleep, I don't like it.
+# text_ortho = Anyting wey go disturb my sleep, I no dey like am.
+1	anyting	anyting	PRON	_	_	10	dislocated	_	AlignBegin=307870|AlignEnd=308103|Gloss=anything
+2	wey	wey	SCONJ	_	_	1	mod@relcl	_	AlignBegin=308103|AlignEnd=308335|Gloss=REL
+3	go	go	AUX	_	Aspect=Prosp	2	comp:obj	_	AlignBegin=308335|AlignEnd=308568|Gloss=PROSP
+4	disturb	disturb	VERB	_	_	3	comp:aux	_	AlignBegin=308568|AlignEnd=308801|Gloss=disturb
+5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	6	mod:poss	_	AlignBegin=308801|AlignEnd=309034|Gloss=POSS.SG.1
+6	sleep	sleep	VERB	_	_	4	comp:obj	_	AlignBegin=309034|AlignEnd=309266|Gloss=sleep
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=309266|AlignEnd=309266|Gloss=PUNCT
+8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=309266|AlignEnd=309499|Gloss=NOM.SG.1
+9	no	no	PART	_	Polarity=Neg	10	mod	_	AlignBegin=309499|AlignEnd=309732|Gloss=NEG
+10	dey	dey	AUX	_	Aspect=Imp	0	root	_	AlignBegin=309732|AlignEnd=309965|Gloss=IPFV
+11	like	like	VERB	_	_	10	comp:aux	_	AlignBegin=309965|AlignEnd=310197|Gloss=like
+12	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=310197|AlignEnd=310430|Gloss=ACC.SG.3
+13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=310430|AlignEnd=310430|Gloss=PUNCT
+{{< /conll >}}
+
+This relation can also be used for pronouns which are detached from the core syntactic structure of an utterance, such as French tonic pronouns.
 
 >French
 {{< conll >}}
@@ -34,6 +57,19 @@ Here is an example with French tonic pronouns.
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	Gloss=not
 {{< /conll >}}
 
+>Naija
+{{< conll >}}
+# text = me < I no worry o //
+# text_en = Me, I'm not worried.
+# text_ortho = Me, I no worry o.
+1	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated	_	AlignBegin=10080|AlignEnd=10305|Gloss=me
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=10305|AlignEnd=10305|Gloss=PUNCT
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=10305|AlignEnd=10529|Gloss=NOM.SG.1
+4	no	no	PART	_	Polarity=Neg	5	mod	_	AlignBegin=10529|AlignEnd=10754|Gloss=NEG
+5	worry	worry	VERB	_	_	0	root	_	AlignBegin=10754|AlignEnd=10978|Gloss=worry
+6	o	o	PART	_	PartType=Disc	5	mod:emph	_	AlignBegin=10978|AlignEnd=11203|Gloss=EMPH
+7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=15020|AlignEnd=15020|Gloss=PUNCT
+{{< /conll >}}
 
 In case of multiple propositions in one sentence, `dislocated` is used when the second proposition doesn't hold any actual information value and it cannot be neither separated nor negated.
 
