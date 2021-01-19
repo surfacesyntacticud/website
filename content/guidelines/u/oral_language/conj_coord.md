@@ -54,4 +54,4 @@ Thanks to this, the relation distance is shorter. We also believe it is a more a
 23	ensemble	ensemble	ADV	_	_	22	mod	_	_
 {{< /conll >}}
 
-For more information about coordinaiton, see the [dedicated page](../../particular_phenomena/coord).
+For more information about coordination, see the [dedicated page](../../particular_phenomena/coord).

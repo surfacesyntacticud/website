@@ -3,9 +3,10 @@ layout: default
 title: dislocated
 ---
 
-The `dislocated` relation is used to analyze detached elements that do not enter in the core grammatical relations of a sentence. 
+The `dislocated` relation is used to analyze detached elements that do not enter in the core grammatical relations of a sentence.
 
 >French
+
 {{< conll >}}
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22,6 +23,7 @@ The `dislocated` relation is used to analyze detached elements that do not enter
 Here is an example with French tonic pronouns.
 
 >French
+
 {{< conll >}}
 # text_fr = Moi je pense qu' il vient pas
 # text_en = I think he is not coming
@@ -39,6 +41,7 @@ In case of multiple propositions in one sentence, `dislocated` is used when the 
 
 Let's consider the following example:
 >French
+
 {{< conll >}}
 # text = j'ai des copines euh actuellement euh , je m'entends super bien avec
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No

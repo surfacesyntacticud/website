@@ -5,6 +5,7 @@ title: parataxis:obj
 A direct discourse is attached its governor by the relation `parataxis:obj`.
 
 >French
+
 {{< conll >}}
 # text = Ce qui est horrible c' est de se dire je n' en sortirai jamais
 1	Ce	ce	PRON	_	_	6	dislocated	_	_

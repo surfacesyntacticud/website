@@ -10,6 +10,7 @@ Ex: *He comes on wednesday, I think.* In this sentence *I think* is a discourse 
 
 
 >French
+
 {{< conll >}}
 # text_fr = Ils sont un peu euh , un peu choqués je pense
 # text_en = They are a bit um, a bit shocked I think
@@ -30,6 +31,7 @@ Ex: *He comes on wednesday, I think.* In this sentence *I think* is a discourse 
 The `discourse` relation is also used for simple discourse markers such as interjections or adverbs.
 
 >French
+
 {{< conll >}}
 # text_fr = Enfin c'était un shooting photo .
 # text_en = Well it was a photo shooting .
