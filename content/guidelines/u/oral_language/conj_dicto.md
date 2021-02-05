@@ -3,7 +3,36 @@ layout: default
 title: conj:dicto
 ---
 
-This relation is used to indicate difluencies when a speaker corrects his speech. It is parallel to the [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html) relationship used in UD and for analysis of written texts in UD.
+This relation is used to indicate difluencies when a speaker corrects his speech and to analyse reformulations. The relation `conj:coord` is used to link two different objects, two referants (ex: *Mary and John* are two different referents). The relation `conj:dicto` on the other hand is used to link two denotations of the same referent (ex: *the desert in Kenya, the Kenya desert* is denoting the same referant).
+
+The ability of `conj:dicto` to anlyse both disfluencies and reformulations is the reason why we don't use the the [`reparandum`](https://universaldependencies.org/u/dep/reparandum.html) relationship as used in UD. For the moment, it is only used in SUD for analysis of written texts.
+
+> French
+
+{{< conll >}}
+# text_fr = puisque les les les les c~ les capitales les grandes villes ne me disaient rien du tout
+# text_en = since I didn't know anything at all about the the the the c ~ the capitals the big cities
+1	puisque	puisque	SCONJ	_	_	0	root	_	Gloss=since
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	Gloss=the
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	conj:dicto	_	Gloss=the
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	conj:dicto	_	Gloss=the
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	conj:dicto	_	Gloss=the
+6	c~	c~	X	_	_	14	subj	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	Gloss=the
+8	capitales	capitale	NOUN	_	Gender=Fem|Number=Plur	6	conj:dicto	_	Gloss=capitals
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	Gloss=the
+10	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	Gloss=big
+11	villes	ville	NOUN	_	Gender=Fem|Number=Plur	8	conj:dicto	_	Gloss=cities
+12	ne	ne	ADV	_	Polarity=Neg	14	mod	_	Gloss=not
+13	me	lui	PRON	_	_	14	comp:obl	_	Gloss=me
+14	disaient	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	Gloss=tell
+15	rien	rien	PRON	_	_	14	comp:obj	_	Gloss=nothis
+16-17	du	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	15	mod	_	Gloss=of
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Gloss=it
+18	tout	tout	ADV	_	_	16	comp:obj	_	Gloss=all
+{{< /conll >}}
+
 
 > French
 
