@@ -11,15 +11,15 @@ This relation is used to indicate difluencies when a speaker corrects his speech
 # sent_id = ParisStories_2019_stagePrimaire_15
 # text_fr = j'ai j'ai vraiment adoré ce côté là .
 # text_en = I did I did really like that part
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
-2	ai	ai~	AUX	_	Number=Sing|Person=1	0	root	_	_
-3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
-4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
-5	vraiment	vraiment	ADV	_	_	6	mod	_	_
-6	adoré	adorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-7	ce	ce	DET	_	_	8	det	_	_
-8	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	là	là	ADV	_	_	8	mod	_	_
+1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|Gloss=I
+2	ai	ai~	AUX	_	Number=Sing|Person=1	0	root	_	Gloss=have
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No|Gloss=I
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	Gloss=have
+5	vraiment	vraiment	ADV	_	_	6	mod	_	Gloss=really
+6	adoré	adorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	Gloss=loved
+7	ce	ce	DET	_	_	8	det	_	Gloss=that
+8	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	Gloss=part
+9	là	là	ADV	_	_	8	mod	_	Gloss=that
 10	.	.	PUNCT	_	_	_	_	_	_
 {{< /conll >}}
 
@@ -60,11 +60,11 @@ In SUD we decided to adopt the following analysis.
 {{< conll >}}
 # text_fr = C' é~ c' était vraiment
 # text_en = It w~ it was really
-1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
+1	C'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	Gloss=it
 2	é~	é~	X	_	_	0	root	_	_
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-4	était	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
-5	vraiment	vraiment	ADV	_	_	4	mod	_	_
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	Gloss=it
+4	était	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	Gloss=was
+5	vraiment	vraiment	ADV	_	_	4	mod	_	Gloss=really
 {{< /conll >}}
 
 For more examples on disfluencies, you can refer to [this page](../disfulencies).

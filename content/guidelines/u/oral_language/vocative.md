@@ -6,10 +6,11 @@ The `vocative` relation is used when a speaker directly addresses a listener in 
 
 >French
 {{< conll >}}
-# text = Merci beaucoup monsieur
-1	Merci	merci	NOUN	_	_	0	root	_	_
-2	beaucoup	beaucoup	ADV	_	_	1	mod	_	_
-3	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	_
+# text_fr = Merci beaucoup monsieur
+# text_en = Thank you very much sir
+1	Merci	merci	NOUN	_	_	0	root	_	Gloss=thanks
+2	beaucoup	beaucoup	ADV	_	_	1	mod	_	Gloss=much
+3	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	Gloss=sir
 {{< /conll >}}
 
 >Naija

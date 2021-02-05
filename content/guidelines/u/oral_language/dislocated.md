@@ -8,16 +8,18 @@ The `dislocated` relation is used to analyze detached elements that do not enter
 >French
 
 {{< conll >}}
-1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	duré	durer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
-4	dix	dix	NUM	_	Number=Plur	5	det	_	_
-5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	silence	silence	NOUN	_	Gender=Masc|Number=Sing	2	dislocated	_	_
-8	autour	autour	ADV	_	_	7	mod	_	_
-9	de	de	ADP	_	_	8	comp:obl	_	_
-10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	_
+# text_fr = ça a duré dix ans le silence autour de moi
+# text_en = çthe silence around me lasted for ten years
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	Gloss=that
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=has
+3	duré	durer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	Gloss=lasted
+4	dix	dix	NUM	_	Number=Plur	5	det	_	Gloss=ten
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	Gloss=years
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Gloss=the
+7	silence	silence	NOUN	_	Gender=Masc|Number=Sing	2	dislocated	_	Gloss=silence
+8	autour	autour	ADV	_	_	7	mod	_	Gloss=around
+9	de	de	ADP	_	_	8	comp:obl	_	Gloss=of
+10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	Gloss=me
 {{< /conll >}}
 
 >Naija
@@ -79,19 +81,20 @@ Let's consider the following example:
 >French
 
 {{< conll >}}
-# text = j'ai des copines euh actuellement euh , je m'entends super bien avec
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
-2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	dislocated	_	_
-3	des	de+le	DET	_	_	4	det	_	_
-4	copines	copine	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
-5	actuellement	actuellement	ADV	_	_	2	mod	_	_
+# text_fr = j'ai des copines euh actuellement euh , je m'entends super bien avec
+# text_fr = I have friends uh currently uh, I get along really well with (them)
+1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No|Gloss=I
+2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	dislocated	_	Gloss=have
+3	des	de+le	DET	_	_	4	det	_	Gloss=the
+4	copines	copine	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	Gloss=friends
+5	actuellement	actuellement	ADV	_	_	2	mod	_	Gloss=currently
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-8	m'	le	PRON	_	_	9	comp:obj	_	SpaceAfter=No
-9	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	super	super	ADV	_	_	11	mod	_	_
-11	bien	bien	ADV	_	_	9	mod	_	_
-12	avec	avec	ADP	_	_	9	comp:obl	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	Gloss=I
+8	m'	le	PRON	_	_	9	comp:obj	_	SpaceAfter=No|Gloss=myself
+9	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=get_along
+10	super	super	ADV	_	_	11	mod	_	Gloss=super
+11	bien	bien	ADV	_	_	9	mod	_	Gloss=well
+12	avec	avec	ADP	_	_	9	comp:obl	_	Gloss=with
 {{< /conll >}}
 
 In this sentence, the proposition *J'ai des copines* (*I have some friends*) doesn't provide any information. The fact that the speaker has some friends is considered as obvious and we cannot negate it or question it. The informational content of this sentence is **about** these friends, not about the fact that the speaker has some.
