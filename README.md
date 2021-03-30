@@ -48,15 +48,31 @@ git submodule update --remote --merge
 
 ### Draw a dependency graph in a page
 
-With Kim's [arborator-draft](https://github.com/Arborator/arborator-draft), it is possible to draw dependency graphs from CoNLL data in the source page with the following syntax:
+With Kirian's [reactive-dep-tree](https://github.com/kirianguiller/reactive-dep-tree), it is possible to draw **reactive** dependency graphs from CoNLL data in the source page with the following syntax:
 
+```md
+{{< rawhtml >}}
+    <reactive-dep-tree
+      interactive="true"
+      shown-metas="text_en"
+      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      hidden-features="XPOS"
+      conll="
+      # text_en = What do you have?
+      # text = Qu'est ce que tu as ?
+      1	Qu'	que	PRON	_	_	2	comp:pred	_	Gloss=what
+      2	est	être	AUX	_	_	0	root	_	Gloss=is
+      3	ce	ce	PRON	_	_	2	subj@expl	_	Gloss=it
+      4	que	que	PRON	_	_	6	comp:obj	_	Gloss=that
+      5	tu	il	PRON	_	_	6	subj	_	Gloss=you
+      6	as	avoir	VERB	_	_	2	comp:cleft	_	Gloss=have
+      7	?	?	PUNCT	_	_	2	punct	_	_
+      "
+    ></reactive-dep-tree>
+{{< /rawhtml >}}
 ```
-{{< conll >}}
-1	A	a	DET	_	_	2	det	_	_
-2	man	man	NOUN	_	_	3	subj	_	_
-3	walks	walk	VERB	_	_	0	root	_	_
-{{< /conll >}}
-```
+
+To see more about differents passable parameters, please refer to the documentation of the [reactive-dep-tree](https://github.com/kirianguiller/reactive-dep-tree) library
 
 :warning: you must use a tabulation character to separate columns in the CoNLL code.
 
