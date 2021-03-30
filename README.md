@@ -25,6 +25,15 @@ Once Hugo is installed, you have to run the following command from the main dire
 
 and the website is available on http://localhost:1313/ and is updated dynamically each time you save your file.
 
+## Update production website
+
+From the root of your site:
+
+```
+git submodule update --remote --merge
+```
+
+
 
 ## Modification of the website
 
