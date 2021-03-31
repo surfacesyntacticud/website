@@ -12,16 +12,27 @@ title: Surface Syntactic Universal Dependencies (SUD)
 SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly perfect degree of two-way convertibility with the Universal Dependencies scheme (UD). Contrary to UD, it is based on syntactic criteria (favoring functional heads) and the relations are defined on distributional and functional bases.
 
 ## An Example:
-{{< conll >}}
-# sent_id = email-enronsent19_01-0071
-# text = I'm happy about this.
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
-2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	happy	happy	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
-4	about	about	ADP	IN	_	3	mod	_	_
-5	SUD	SUD	PROPN	DT	Number=Sing	4	comp:obj	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	_
-{{< /conll >}}
+
+{{< rawhtml >}}
+    <reactive-dep-tree
+      interactive="true"
+      shown-metas="text_en"
+      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      hidden-features="XPOS"
+      conll="
+      # sent_id = email-enronsent19_01-0071
+      # text = I'm happy about this.
+      1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
+      2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+      3	happy	happy	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
+      4	about	about	ADP	IN	_	3	mod	_	_
+      5	SUD	SUD	PROPN	DT	Number=Sing	4	comp:obj	_	SpaceAfter=No
+      6	.	.	PUNCT	.	_	2	punct	_	_
+      "
+    ></reactive-dep-tree>
+{{< /rawhtml >}}
+
+
 
 To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/french/) and [Naija](guidelines/pcm/) pages.
 

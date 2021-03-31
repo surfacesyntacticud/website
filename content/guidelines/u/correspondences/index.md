@@ -83,41 +83,58 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
 
 ### Example of a sentence annotated in SUD (above) and UD (below).
 ![Surface Syntactic Universal Dependencies (SUD)](/images/sud.svg#floatleft)
-{{< conll >}}
-# sent_id = email-enronsent38_01-0114
-# text = I am out of the office today but will be back tomorrow.
-# shownfeatures = FORM, UPOS
-1	I	_	PRON	_	_	2	subj	_	_
-2	am	_	AUX	_	_	0	root	_	_
-3	out	_	ADP	_	_	2	comp:pred	_	_
-4	of	_	ADP	_	_	3	comp:obj	_	_
-5	the	_	DET	_	_	6	det	_	_
-6	office	_	NOUN	_	_	4	comp:obj	_	_
-7	today	_	NOUN	_	_	2	mod	_	_
-8	but	_	CCONJ	_	_	9	cc	_	_
-9	will	_	AUX	_	_	2	conj	_	_
-10	be	_	AUX	_	_	9	comp:aux	_	_
-11	back	_	ADV	_	_	10	comp:pred	_	_
-12	tomorrow	_	NOUN	_	_	9	mod	_	_
-13	.	_	PUNCT	.	_	2	punct	_	_
-{{< /conll >}}
+{{< rawhtml >}}
+    <reactive-dep-tree
+      interactive="true"
+      shown-metas="text_en"
+      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      hidden-features="XPOS"
+      conll="
+      # sent_id = email-enronsent38_01-0114
+      # text = I am out of the office today but will be back tomorrow.
+      # shownfeatures = FORM, UPOS
+      1	I	_	PRON	_	_	2	subj	_	_
+      2	am	_	AUX	_	_	0	root	_	_
+      3	out	_	ADP	_	_	2	comp:pred	_	_
+      4	of	_	ADP	_	_	3	comp:obj	_	_
+      5	the	_	DET	_	_	6	det	_	_
+      6	office	_	NOUN	_	_	4	comp:obj	_	_
+      7	today	_	NOUN	_	_	2	mod	_	_
+      8	but	_	CCONJ	_	_	9	cc	_	_
+      9	will	_	AUX	_	_	2	conj	_	_
+      10	be	_	AUX	_	_	9	comp:aux	_	_
+      11	back	_	ADV	_	_	10	comp:pred	_	_
+      12	tomorrow	_	NOUN	_	_	9	mod	_	_
+      13	.	_	PUNCT	.	_	2	punct	_	_
+      "
+    ></reactive-dep-tree>
+{{< /rawhtml >}}
 
 ![Universal Dependencies (UD)](/images/ud.svg#floatleft)
-{{< conll >}}
-# sent_id = email-enronsent38_01-0114
-# text = I am out of the office today but will be back tomorrow.
-# shownfeatures = FORM, UPOS
-1	I	_	PRON	_	_	6	nsubj	_	_
-2	am	_	AUX	_	_	6	cop	_	_
-3	out	_	ADP	_	_	6	case	_	_
-4	of	_	ADP	_	_	6	case	_	_
-5	the	_	DET	_	_	6	det	_	_
-6	office	_	NOUN	_	_	0	root	_	_
-7	today	_	NOUN	_	_	6	obl:tmod	_	_
-8	but	_	CCONJ	_	_	11	cc	_	_
-9	will	_	AUX	_	_	11	aux	_	_
-10	be	_	AUX	_	_	11	cop	_	_
-11	back	_	ADV	_	_	6	conj	_	_
-12	tomorrow	_	NOUN	_		11	obl:tmod	_	_
-13	.	_	PUNCT	.	_	6	punct	_	_
-{{< /conll >}}
+{{< rawhtml >}}
+    <reactive-dep-tree
+      interactive="true"
+      shown-metas="text_en"
+      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      hidden-features="XPOS"
+      conll="
+      # sent_id = email-enronsent38_01-0114
+      # text = I am out of the office today but will be back tomorrow.
+      # shownfeatures = FORM, UPOS
+      1	I	_	PRON	_	_	6	nsubj	_	_
+      2	am	_	AUX	_	_	6	cop	_	_
+      3	out	_	ADP	_	_	6	case	_	_
+      4	of	_	ADP	_	_	6	case	_	_
+      5	the	_	DET	_	_	6	det	_	_
+      6	office	_	NOUN	_	_	0	root	_	_
+      7	today	_	NOUN	_	_	6	obl:tmod	_	_
+      8	but	_	CCONJ	_	_	11	cc	_	_
+      9	will	_	AUX	_	_	11	aux	_	_
+      10	be	_	AUX	_	_	11	cop	_	_
+      11	back	_	ADV	_	_	6	conj	_	_
+      12	tomorrow	_	NOUN	_		11	obl:tmod	_	_
+      13	.	_	PUNCT	.	_	6	punct	_	_
+      "
+    ></reactive-dep-tree>
+{{< /rawhtml >}}
+
