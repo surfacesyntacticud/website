@@ -76,6 +76,7 @@ In cases of ambiguity, pronominalization can be a useful test for determining de
       shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
       hidden-features="XPOS"
       conll="
+      1	He	he	PRON	_	_	2	subj	_	_
       2	has	have	VERB	_	_	0	root	_	_
       3	a	a	DET	_	_	4	det	_	_
       4	date	date	NOUN	_	_	2	comp:obj@lvc	_	_
@@ -85,7 +86,7 @@ In cases of ambiguity, pronominalization can be a useful test for determining de
       "
     ></reactive-dep-tree>
 {{< /rawhtml >}}
-1	He	he	PRON	_	_	2	subj	_	_
+
 
 {{< rawhtml >}}
     <reactive-dep-tree
