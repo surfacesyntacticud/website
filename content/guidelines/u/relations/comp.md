@@ -11,6 +11,8 @@ In most cases, SUD native corpora are directly annotated with the sub-relations,
 
 In **French**, the `comp` label is frequently used to annotate reflexive pronouns and other pronominal clitics which contribute to the formation of pronominal verbs when it is difficult to determine the role of a pronoun. In constructions such as *Il s'en sort* the pronoun *se* no longer provides the semantic value of an argument of the verb. However, it fits so well into the typical argument structure that it is hard to recognize that it cannot be de-pronominalized. For this reason, we annotate the relation with a `comp` label.
 
+> French
+
 {{< rawhtml >}}
     <reactive-dep-tree
       interactive="true"
@@ -29,6 +31,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
     ></reactive-dep-tree>
 {{< /rawhtml >}}
 
+> French
 
 {{< rawhtml >}}
     <reactive-dep-tree
@@ -37,7 +40,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
       shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
       hidden-features="XPOS"
       conll="
-      # text_fr = Christine s'en veut à son amie
+      # text_fr = Christine en veut à son amie
       # text_en = Christine is angry at her friend
       1	Christine	Christine	PROPN	_	_	3	subj	_	Gloss=Christine
       2	en	en	PRON	_	_	3	comp	_	Gloss=of
@@ -49,6 +52,7 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
     ></reactive-dep-tree>
 {{< /rawhtml >}}
 
+> French
 
 {{< rawhtml >}}
     <reactive-dep-tree
@@ -69,6 +73,8 @@ In **French**, the `comp` label is frequently used to annotate reflexive pronoun
 
 In the case of **passive reflexive constructions**, the pronoun is labelled `comp` with the deep syntactic feature `@pass`.
 
+> French
+
 {{< rawhtml >}}
     <reactive-dep-tree
       interactive="true"
@@ -78,7 +84,7 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
       conll="
       # text_fr = Il se situe à environ 13 kilomètres
       # text_en = It is situated about 13 kilometers to the north-east
-      1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	wordform=il|Gloss=it
+      1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il|Gloss=it
       2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	Gloss=is
       3	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=situated
       4	à	à	ADP	_	_	3	comp:obl	_	Gloss=at
