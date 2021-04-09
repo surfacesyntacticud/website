@@ -28,7 +28,7 @@ Hence, the data below are built with:
     * with [tag `v2.7` of the conversion system](https://github.com/surfacesyntacticud/tools/tree/v2.7/converter)
 
 ## Download all corpora
-Download the full set of 183 SUD corpora: [sud-treebanks-v2.7.tgz](https://www.grew.fr/download/sud-treebanks-v2.7.tgz) (:warning: the file was changed on November 23th, consider reloading if needed).
+Download the full set of 183 SUD corpora: [sud-treebanks-v2.7.tgz](https://grew.fr/download/sud-treebanks-v2.7.tgz) (:warning: the file was changed on November 23th, consider reloading if needed).
 
 ## Access to each corpus
 
