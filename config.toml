@@ -71,7 +71,7 @@ pygmentsStyle = "pygments"
     weight = 3
   [[menu.nav]]
     name = "Comparison with UD"
-    url = "/guidelines/u/correspondences"
+    url = "/conversions"
     weight = 4
   [[menu.nav]]
     name = "GitHub project"

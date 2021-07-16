@@ -9,7 +9,7 @@ This page describes the universal principles used in SUD. Some pages are availab
 
 ## General Principles
 SUD differs from UD in several [general principles](./general_principles).
-The key differences between SUD and UD as well as a table summarizing the most frequent correspondences may be consulted [here](./correspondences).
+The key differences between SUD and UD as well as a table summarizing the most frequent correspondences may be consulted [here](../../conversions).
 
 The other layers of annotations follow the UD guidelines. Please refer to UD for these aspects:
 
