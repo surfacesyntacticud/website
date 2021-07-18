@@ -22,14 +22,14 @@ It also explains how this can be adapted to languages specificities.
 ## Reversing relations
 
 Defining rules for reversing relations is tricky mainly for two reasons:
-  * When more than one relations to be reversed have the same head, the order of the reverse operation produced different output. Some mechanism to described the wanted order is necessary.
-  * When reversing a relation from `N` to `M` into a relation from `M` to `N`, we have to decide for each dependent of `N` if it should be lifted up to `M` or if it should stay on `M`.
+  * When more than one relations to be reversed have the same head, the order of the reverse operation produced different output. Some mechanism to describe the wanted order is necessary.
+  * When reversing a relation from `N` to `M` into a relation from `M` to `N`, we have to decide for each dependent of `N` if it should be lifted up to `M` or if it should stay on `N`.
 
 ### Choosing the order
 
 To constraint the order, a numeric level is given to each edge to be reversed and then:
  * edge with the smallest level have higher priority
- * if two edges have the same level and are on the same side of the head, the closest one have higher priority
+ * if two edges have the same level and are on the same side of the head, the closest one has higher priority
  * if two edges have the same level and are on both sides of the head, the one before the head has higher priority.
 
 The default levels are:

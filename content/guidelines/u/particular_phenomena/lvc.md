@@ -72,7 +72,7 @@ This first criterion explains the differing interpretations of the following two
 {{< /rawhtml >}}
 
 
-In cases of ambiguity, pronominalization can be a useful test for determining dependencies. Pronominalizing "He has a date with his girlfriend" as "the date, he has it with his girlfriend" would sound awkward to most native English speakers. However, pronominalizing "He took a walk with his wife" as "the walk, he took it with his wife" sounds much more natural. This explains the different syntactic interpretations of the following sentencs.
+In cases of ambiguity, pronominalization can be a useful test for determining dependencies. Pronominalizing "He has a date with his girlfriend" as "the date, he has it with his girlfriend" would sound awkward to most native English speakers. However, pronominalizing "He took a walk with his wife" as "the walk, he took it with his wife" sounds much more natural. This explains the different syntactic interpretations of the following sentences.
 
 > English
 
