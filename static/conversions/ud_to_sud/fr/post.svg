@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with dep2pict 2.35.0 -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="425.49316" height="160.53906">
+<rect x="0" y="0" width="425.49316" height="160.53906" style="fill:transparent;fill-opacity:1;" />
+<g  transform="translate(0,114.89844) scale(2,2)">
+<text id="word__N_1" x="19.5549" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="19.5549" dy="12.8633">ce</tspan>
+</text>
+<text id="subword__N_1" x="19.5549" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="19.5549" dy="8.33691">PRON</tspan>
+</text>
+<text id="word__N_2" x="59.1099" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="59.1099" dy="12.8633">que</tspan>
+</text>
+<text id="subword__N_2" x="59.1099" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="59.1099" dy="8.33691">PRON</tspan>
+</text>
+<text id="word__N_3" x="101.494" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="101.494" dy="12.8633">nous</tspan>
+</text>
+<text id="subword__N_3" x="101.494" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="101.494" dy="8.33691">PRON</tspan>
+</text>
+<text id="word__N_4" x="149.44" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="149.44" dy="12.8633">avons</tspan>
+</text>
+<text id="subword__N_4" x="149.44" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="149.44" dy="8.33691">AUX</tspan>
+</text>
+<text id="word__N_5" x="192.875" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="192.875" dy="12.8633">été</tspan>
+</text>
+<text id="subword__N_5" x="192.875" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="192.875" dy="8.33691">AUX</tspan>
+</text>
+
+<marker id="markerendword_0" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_1__N_2__acl:relcl" x="35.55493" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >acl:relcl</text>
+<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 19.55493,-13.40625 19.55493,-18.40625 A 3 3 0 0 1 22.55493,-21.40625 L 48.60986,-21.40625 A 3 3 0 0 1 51.60986,-18.40625 L 51.60986,-13.40625" ></path>
+<marker id="markerendword_1" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_2__N_3__nsubj" x="83.60986" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >nsubj</text>
+<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 66.60986,-13.40625 66.60986,-18.40625 A 3 3 0 0 1 69.60986,-21.40625 L 98.49365,-21.40625 A 3 3 0 0 1 101.49365,-18.40625 L 101.49365,-13.40625" ></path>
+<marker id="markerendword_2" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_2__N_4__aux:tense" x="105.10986" y="-34.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >aux:tense</text>
+<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 61.60986,-13.40625 61.60986,-28.40625 A 3 3 0 0 1 64.60986,-31.40625 L 146.43994,-31.40625 A 3 3 0 0 1 149.43994,-28.40625 L 149.43994,-13.40625" ></path>
+<marker id="markerendword_3" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_2__N_5__cop" x="124.60986" y="-44.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >cop</text>
+<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 56.60986,-13.40625 56.60986,-38.40625 A 3 3 0 0 1 59.60986,-41.40625 L 189.87451,-41.40625 A 3 3 0 0 1 192.87451,-38.40625 L 192.87451,-13.40625" ></path>
+
+
+</g>
+</svg>

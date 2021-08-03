@@ -19,38 +19,63 @@ It also explains how this can be adapted to languages specificities.
  * `specific_expr_close`: Remove specific nodes and edges introduced by the dual package `specific_expr_init`.
  * `Onf (unk_rel)`: Rename all non-SUD relations to `unk` (backoff package).
   
-## Reversing relations
-
 Defining rules for reversing relations is tricky mainly for two reasons:
-  * When more than one relations to be reversed have the same head, the order of the reverse operation produced different output. Some mechanism to describe the wanted order is necessary.
+  * When more than one relations to be reversed have the same head, the order of the reverse operations produced different output. Some mechanism to describe the wanted order is necessary.
   * When reversing a relation from `N` to `M` into a relation from `M` to `N`, we have to decide for each dependent of `N` if it should be lifted up to `M` or if it should stay on `N`.
 
-### Choosing the order
+## Choosing the order when reversing relations
 
 To constraint the order, a numeric level is given to each edge to be reversed and then:
- * edge with the smallest level have higher priority
- * if two edges have the same level and are on the same side of the head, the closest one has higher priority
- * if two edges have the same level and are on both sides of the head, the one before the head has higher priority.
+  1. edge with the smallest level have higher priority
+  2. if two edges have the same level and are on the same side of the head, the closest one has higher priority
+  3. if two edges have the same level and are on both sides of the head, the one after the head has higher priority.
 
-The default levels are:
+By default, the 4 relations `case`, `cop`, `aux` and `mark` (and their subtypes) are given the level 10.
+
+We give below examples of conversions with multiple reversing of relations.
+In Japanese or in German, the default rules are applied.
+The order can be changed by adding different levels to specific relations before calling the package `specific_expr_init` (see examples below for French and Wolof).
+
+### Japanese
+In Japanese all UD relation `case`, `cop`, `aux` and `mark` are left-headed. The constraint 2 applies.
+
+| ![ud_logo](/images/ud.svg) | ![sud_logo](/images/sud.svg) |
+|:---------:|:---------:|
+| ![japanese_ud_ex](/conversions/ud_to_sud/ja/3_rel.svg) | ![japanese_ud_ex](/conversions/ud_to_sud/ja/3_rel__sud_u.svg) |
+
+### German
+In German, there are many cases with edges on both sides. Contraint 3 applies here:
+
+| ![ud_logo](/images/ud.svg) | ![sud_logo](/images/sud.svg) |
+|:---------:|:---------:|
+| ![german_ud_ex](/conversions/ud_to_sud/de/bilat.svg) | ![german_sud_ex](/conversions/ud_to_sud/de/bilat__sud_u.svg) |
+
+### French
+
+In French, levels are set to:
  * `case` or `case:*` &rarr; 10
  * `cop` or `cop:*` &rarr; 20
  * `aux:caus` or `aux:pass` &rarr; 30
  * `aux` or `aux:*` (≠ `aux:caus` or `aux:pass`) &rarr; 40
  * `mark` or `mark:*` &rarr; 50
 
-The order can be changed by adding different levels to specific relation before calling the package `specific_expr_init` (see examples below for Wolof or German).
- 
-### Lifting dependencies
+From the UD annotation:
 
-TODO
+![french_example_ud](/conversions/ud_to_sud/fr/post.svg)
 
-## Adapt to a specific language
+The universal conversion produces:
+
+![french_example_ud_default](/conversions/ud_to_sud/fr/post__sud_u.svg)
+
+And the conversion with the French specific levels (see [GitHub](https://github.com/surfacesyntacticud/tools/blob/master/converter/grs/fr_UD_to_SUD.grs)):
+
+![french_example_ud_specif](/conversions/ud_to_sud/fr/post__sud_fr.svg)
+
 
 ### Wolof
 
-In Wolof, the lemma *na* must always be the head of the whole structure, so it must be the last relation to be reversed. This can be specified with a rule:
- 
+In Wolof, the lemma *na* must always be the head of the whole structure, so it must be the last relation to be reversed. This can be specified with a rule: 
+
 ```grew
 rule na {
   pattern { e: V -[aux]-> A; A[lemma="na"] }
@@ -60,18 +85,19 @@ rule na {
 
 From the UD annotation:
 
-![sequoia](/conversions/ud_to_sud/wo_na.svg)
+![wolof_example_ud](/conversions/ud_to_sud/wo/na.svg)
 
 The universal conversion produces:
 
-![sequoia](/conversions/ud_to_sud/wo_na__sud_u.svg)
+![wolof_example_ud_default](/conversions/ud_to_sud/wo/na__sud_u.svg)
 
 And the conversion with the new `na` rule produces (see [GitHub](https://github.com/surfacesyntacticud/tools/blob/master/converter/grs/wo_UD_to_SUD.grs)):
 
+![wolof_example_ud_specif](/conversions/ud_to_sud/wo/na__sud_wo.svg)
 
 
-![sequoia](/conversions/ud_to_sud/wo_na__sud_wo.svg)
 
-### German
+
+## Lifting dependencies
 
 TODO

@@ -1,0 +1,9 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = dev-s343
+# text = Beides sollte gelöscht werden!
+1	Beides	beide	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	subj@pass	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gelöscht	löschen	VERB	VVPP	VerbForm=Part	4	comp:aux@pass	_	_
+4	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	2	comp:aux	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	_
+

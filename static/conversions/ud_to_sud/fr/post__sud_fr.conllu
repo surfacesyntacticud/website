@@ -1,0 +1,9 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = fr-ud-test_00067
+# text = Attention : même la conversion n'est pas un changement total, encore moins un reniement de ce que nous avons été.
+1	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	5	comp:pred	_	_
+3	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	_
+4	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
+

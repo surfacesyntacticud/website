@@ -1,0 +1,10 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = wo_wtb-ud-train_1758
+# text = Firnde loolu doon na feeñi.
+1	Firnde	firnde	NOUN	NOUN	_	3	subj	_	_
+2	loolu	boobu	DET	DET	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	1	det	_	_
+3	doon	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Past	0	root	_	_
+4	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	3	comp:aux	_	_
+5	feeñi	feeñi	VERB	VERB	Mood=Ind|VerbForm=Fin	4	comp:aux	_	SpaceAfter=No
+6	.	.	PUNCT	PERIOD	_	3	punct	_	_
+

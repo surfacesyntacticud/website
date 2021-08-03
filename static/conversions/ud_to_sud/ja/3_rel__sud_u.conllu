@@ -1,0 +1,11 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc id = train-s5145
+# sent_id = train-s5145
+# text = 基本的には面食い。
+1	基本	基本	NOUN	名詞-普通名詞-一般	_	2	comp:obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No
+2	的	的	PART	接尾辞-形状詞的	_	3	comp:pred	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=形状詞-一般|SpaceAfter=No
+3	に	だ	AUX	助動詞	_	4	comp:obj	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No
+4	は	は	ADP	助詞-係助詞	_	5	subj	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No
+5	面食い	面食い	NOUN	名詞-普通名詞-一般	_	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No
+6	。	。	PUNCT	補助記号-句点	_	5	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|SpaceAfter=Yes
+

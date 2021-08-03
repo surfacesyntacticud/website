@@ -1,0 +1,8 @@
+# sent_id = fr-ud-test_00067
+# text = Attention : même la conversion n'est pas un changement total, encore moins un reniement de ce que nous avons été.
+18	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	0	root	_	_
+19	que	que	PRON	_	PronType=Rel	18	acl:relcl	_	_
+20	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+22	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	SpaceAfter=No
+
