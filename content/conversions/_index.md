@@ -65,7 +65,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
         <tr><td>nummod</td></tr>
         <tr>
           <td>fixed</td>
-          <td>encoded in node features (see <a href="../extpos/idioms_titles">here</a>)</td>
+          <td>encoded in node features (see <a href="../guidelines/u/extpos/idioms_titles">here</a>)</td>
         </tr>
         <tr>
           <td>det</td>
@@ -87,7 +87,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
     <reactive-dep-tree
       interactive="true"
       shown-metas="text_en"
-      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      shown-features="UPOS,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
       hidden-features="XPOS"
       conll="
       # sent_id = email-enronsent38_01-0114
@@ -115,7 +115,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
     <reactive-dep-tree
       interactive="true"
       shown-metas="text_en"
-      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      shown-features="UPOS,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
       hidden-features="XPOS"
       conll="
       # sent_id = email-enronsent38_01-0114
