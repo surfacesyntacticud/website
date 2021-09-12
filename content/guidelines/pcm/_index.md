@@ -726,17 +726,17 @@ However, this is not the case when a title is connected to a determiner or other
 {{< /rawhtml >}}
 
 
-Official multi-word titles such as *Minister of Foreign Affairs* are treated as titles (see [here](../u/extpos/idioms_titles) for a detailed guide). The head of the title is given an ExtPos of `PROPN`.
+Official multi-word titles such as *Minister of Foreign Affairs* are treated as titles (see [here](../u/extpos/idioms_titles) for a detailed guide). The head of the title is given an `ExtPos` of `PROPN`.
 {{< rawhtml >}}
     <reactive-dep-tree
       interactive="true"
       shown-metas="text_en"
-      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.Gloss"
+      shown-features="UPOS,LEMMA,FEATS.Tense,FEATS.VerbForm,FEATS.Number,FEATS.Person,MISC.ExtPos,MISC.Gloss,MISC.InTitle,MISC.Title"
       hidden-features="XPOS"
       conll="
       # text_en = The Minister of Foreign Affairs, Geoffrey Onyeama Godfrey.
       1	di	di	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=46977|AlignEnd=47085|Gloss=DEF.ART
-      2	Minister	minister	NOUN	_	_	0	comp:obj	_	AlignBegin=47085|AlignEnd=47482|ExtPos=PROPN|Gloss=minister|PhraseType=Title
+      2	Minister	minister	NOUN	_	_	0	comp:obj	_	AlignBegin=47085|AlignEnd=47482|ExtPos=PROPN|Gloss=minister|Title=Yes
       3	of	of	ADP	_	_	2	mod	_	AlignBegin=47482|AlignEnd=47587|Gloss=of|InTitle=Yes
       4	Foreign	foreign	ADJ	_	_	5	mod	_	AlignBegin=47587|AlignEnd=47827|Gloss=foreign|InTitle=Yes
       5	Affairs	affair	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=47827|AlignEnd=48301|Gloss=affair.PL|InTitle=Yes

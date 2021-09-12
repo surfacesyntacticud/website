@@ -90,7 +90,9 @@ For each linguistic phenomenon below, there is an explanation of how SUD takes i
 * [Compounds and flats](./particular_phenomena/compounds)
 
 ## Usages of the ExtPos feature
-In SUD, the External POS (ExtPos) feature is used to designate multi-word units which together behave like a certain part of speech, even though none of their constituents carry that part of speech. A detailed description of the ExtPos feature and its usages can be found [here](./extpos/general).  
+In SUD, the External POS (`ExtPos`) feature is used to designate multi-word units which together behave like a certain part of speech, even though none of their constituents carry that part of speech.
+It can also be used for cases where the internal POS of a token is different its usage.
+A detailed description of the `ExtPos` feature and its usages can be found [here](./extpos/) and on the [Idioms and titles](./extpos/idioms_titles) page.
 
 ## Analyzing phenomena specific to spoken language
 
