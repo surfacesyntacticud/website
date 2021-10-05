@@ -34,7 +34,7 @@ Cleft sentences are an extremely common construction in Naija, making the `comp:
       # text_en = Laziness, that’s what destroyed you.
       1	laziness	laziness	NOUN	_	_	3	dislocated	_	AlignBegin=370809|AlignEnd=371360|Gloss=laziness
       2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=371360|AlignEnd=371390|Gloss=PUNCT
-      3	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=371390|AlignEnd=371510|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+      3	na	na	PART	_	PartType=Cop	0	root	_	AlignBegin=371390|AlignEnd=371510|ExtPos=SCONJ|Gloss=be|Idiom=Yes
       4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=371510|AlignEnd=371563|Gloss=NOM.SG.3
       5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=371563|AlignEnd=371563|Gloss=PUNCT
       6	scatter	scatter	VERB	_	_	3	comp:cleft	_	AlignBegin=371563|AlignEnd=371990|Gloss=scatter
@@ -559,7 +559,7 @@ Note that references to radio stations which use this format nevertheless contai
       hidden-features="XPOS"
       conll="
       # text_en = Bronze FM, one O one point five
-      1	Bronze	bronze	NOUN	_	_	0	comp:obj	_	AlignBegin=166800|AlignEnd=167090|ExtPos=PROPN|Gloss=bronze|PhraseType=Title
+      1	Bronze	bronze	NOUN	_	_	0	comp:obj	_	AlignBegin=166800|AlignEnd=167090|ExtPos=PROPN|Gloss=bronze|Title=Yes
       2	FM	FM	NOUN	_	_	1	flat	_	AlignBegin=167090|AlignEnd=167559|Gloss=FM|InTitle=Yes
       3	|a	|a	PUNCT	_	_	4	punct	_	AlignBegin=167559|AlignEnd=167589|Gloss=PUNCT
       4	one	one	NUM	_	NumType=Card	2	mod:appos	_	AlignBegin=167589|AlignEnd=167780|Gloss=one
@@ -619,7 +619,7 @@ In Naija, multi-word placenames and organizations are currently annotated with a
       2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=102457|AlignEnd=102537|Gloss=NOM.SG.1
       3	con	con	AUX	_	Aspect=Cons	0	root	_	AlignBegin=102537|AlignEnd=102657|Gloss=CONS
       4	come	come	VERB	_	_	3	comp:aux	_	AlignBegin=102657|AlignEnd=102837|Gloss=come
-      5	Port	Port	NOUN	_	_	4	comp:obj	_	AlignBegin=102837|AlignEnd=102947|ExtPos=PROPN|Gloss=Port|PhraseType=Title
+      5	Port	Port	NOUN	_	_	4	comp:obj	_	AlignBegin=102837|AlignEnd=102947|ExtPos=PROPN|Gloss=Port|Title=Yes
       6	Harcourt	Harcourt	PROPN	_	_	5	flat	_	AlignBegin=102947|AlignEnd=103137|Gloss=Harcourt|InTitle=Yes
       7	for	for	ADP	_	_	4	mod	_	AlignBegin=103137|AlignEnd=103261|Gloss=for
       8	twenty	twenty	NUM	_	NumType=Card	7	comp:obj	_	AlignBegin=103261|AlignEnd=103704|Gloss=twenty.CARD
@@ -643,7 +643,7 @@ In Naija, multi-word placenames and organizations are currently annotated with a
       4	born	born	VERB	_	_	3	comp:aux	_	AlignBegin=5131|AlignEnd=5296|Gloss=give_birth
       5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=5296|AlignEnd=5360|Gloss=ACC.SG.1
       6	for	for	ADP	_	_	4	comp:obl	_	AlignBegin=5360|AlignEnd=5856|Gloss=for
-      7	Wuse	Wuse	PROPN	_	_	6	comp:obj	_	AlignBegin=5856|AlignEnd=6183|ExtPos=PROPN|Gloss=Wuse|PhraseType=Title
+      7	Wuse	Wuse	PROPN	_	_	6	comp:obj	_	AlignBegin=5856|AlignEnd=6183|ExtPos=PROPN|Gloss=Wuse|Title=Yes
       8	General	general	ADJ	_	_	7	flat	_	AlignBegin=6183|AlignEnd=6580|Gloss=general|InTitle=Yes
       9	Hospital	hospital	NOUN	_	_	8	flat	_	AlignBegin=6580|AlignEnd=7052|Gloss=hospital|InTitle=Yes
       10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=7052|AlignEnd=7082|Gloss=PUNCT
@@ -659,7 +659,7 @@ In Naija, multi-word placenames and organizations are currently annotated with a
       hidden-features="XPOS"
       conll="
       # text_en = Manchester United, oh this sports club!
-      1	Manchester	Manchester	PROPN	_	_	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|ExtPos=PROPN|Gloss=Manchester|PhraseType=Title
+      1	Manchester	Manchester	PROPN	_	_	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|ExtPos=PROPN|Gloss=Manchester|Title=Yes
       2	United	United	ADJ	_	_	1	flat	_	AlignBegin=119365|AlignEnd=120036|Gloss=United|InTitle=Yes
       3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=120036|AlignEnd=120066|Gloss=PUNCT
       4	oh	oh	INTJ	_	_	7	discourse	_	AlignBegin=120066|AlignEnd=120355|Gloss=oh
