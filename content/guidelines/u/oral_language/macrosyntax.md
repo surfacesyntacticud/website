@@ -11,11 +11,11 @@ This approach can be used to analyse two elements that are placed side by side w
 This phenomenon is frequent in languages and especially in oral speech. We gather these cases under the `parataxis` relation.
 
 We distinguish:
-   * [`parataxis:parenth`](../parataxis_parenth) for parenthetical clauses (that can form independant sentences)
-   * [`parataxis:insert`](../parataxis_insert) for inserted clauses (that cannot form an independent sentece)
+   * [`parataxis:parenth`](../parataxis_parenth) for parenthetical clauses (that can form independent sentences)
+   * [`parataxis:insert`](../parataxis_insert) for inserted clauses (that cannot form an independent sentence)
    * [`parataxis:obj`](../parataxis_obj) for attaching direct discourse
 
-However, there are three other cases that are not gathered under the `parataxis` relationship. The following three relations link elements to the main proposition on a marcrosyntactic level. In some cases, these elements can be propositions, but also simple elements.
+However, there are three other cases that are not gathered under the `parataxis` relationship. The following three relations link elements to the main proposition on a macrosyntactic level. In some cases, these elements can be propositions, but also simple elements.
    * [`dislocated`](../dislocated)
    * [`vocative`](../vocative)
    * [`discourse`](../discourse)

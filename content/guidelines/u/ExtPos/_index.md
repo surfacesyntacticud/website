@@ -7,7 +7,7 @@ The `ExtPos` feature was introduced to facilitate the annotation of idioms, titl
 
 See [Idioms and titles](./extpos/idioms_titles) page for examples of idioms and titles annotations.
 
-The usage of `ExtPos` was also generalized to cases of single token which are given a `upos`  but they are used in the syntactic structure with another role.
+The usage of `ExtPos` was also generalized to cases of single tokens which are given a `upos`  but they are used in the syntactic structure with another role.
 
 ## Examples of single tokens with an ExtPos
 
