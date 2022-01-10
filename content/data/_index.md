@@ -8,7 +8,7 @@ In version 2.9 of SUD data, released in December 2021:
 
 # Native SUD corpora
 
-In the table below, the 4 native SUD corpora are given.
+In the table below, the 5 native SUD corpora are given.
 Note that each corresponding UD version is obtained by automatic conversion.
 
 | Corpus | Files | Grew-match |
