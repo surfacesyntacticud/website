@@ -42,11 +42,13 @@ Automatic conversion to the SUD format is available [here](data).
 
 ## Publications
 
-### Papers about the SUD annotation scheme
+### Papers about the SUD annotation scheme and SUD annotated corpora
 
-  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Starting a new treebank? Go SUD! Theoretical and practical benefits of the Surface-Syntactic distributional approach](https://hal.inria.fr/hal-03509136v1) to be presented at [DepLing 2021](http://depling.org/depling2021/).
-  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Improving Surface-syntactic Universal Dependencies (SUD): surface-syntactic relations and deep syntactic features](https://hal.inria.fr/hal-02266003v1) presented at [TLT 2019](https://syntaxfest.github.io/syntaxfest19/tlt2019/tlt2019.html).
-  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [SUD or Surface-Syntactic Universal Dependencies: An annotation scheme near-isomorphic to UD](https://hal.inria.fr/hal-01930614v1) presented at [UDW 2018](https://universaldependencies.org/udw18/).
+  * Sylvain Kahane, Bernard Caron, Emmett Strickland, Kim Gerdes [Annotation guidelines of UD and SUD treebanks for spoken corpora: a proposal](https://aclanthology.org/2021.tlt-1.4.pdf) in [TLT 2021](https://tlt2021.phil.hhu.de/)
+  * Sylvain Kahane, Martine Vanhove, Rayan Ziane, Bruno Guillaume. [A morph-based and a word-based treebank for Beja](https://aclanthology.org/2021.tlt-1.5.pdf) in [TLT 2021](https://tlt2021.phil.hhu.de/).
+  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Starting a new treebank? Go SUD! Theoretical and practical benefits of the Surface-Syntactic distributional approach](https://hal.inria.fr/hal-03509136v1) in [DepLing 2021](http://depling.org/depling2021/).
+  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Improving Surface-syntactic Universal Dependencies (SUD): surface-syntactic relations and deep syntactic features](https://hal.inria.fr/hal-02266003v1) in [TLT 2019](https://syntaxfest.github.io/syntaxfest19/tlt2019/tlt2019.html).
+  * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [SUD or Surface-Syntactic Universal Dependencies: An annotation scheme near-isomorphic to UD](https://hal.inria.fr/hal-01930614v1) in [UDW 2018](https://universaldependencies.org/udw18/).
 
 ### Other publications related to SUD
 
