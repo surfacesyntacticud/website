@@ -87,3 +87,6 @@ nav li ul a:hover {
 img[alt="taxonomy"] {
   width: 100%;
 }
+
+img[alt=gm] { width: 30px; }
+img[alt=gh] { width: 30px; }

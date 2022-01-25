@@ -5,8 +5,6 @@ title: Surface Syntactic Universal Dependencies (SUD)
 
 ---
 
-<center>⚠️ This website is in construction ⚠️</center>
-
 ![Surface Syntactic Universal Dependencies (SUD)](/images/sud.svg#floatleft)
 
 SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly perfect degree of two-way convertibility with the Universal Dependencies scheme (UD). Contrary to UD, it is based on syntactic criteria (favoring functional heads) and the relations are defined on distributional and functional bases.
@@ -44,7 +42,7 @@ Automatic conversion to the SUD format is available [here](data).
 
 ### Papers about the SUD annotation scheme and SUD annotated corpora
 
-  * Sylvain Kahane, Bernard Caron, Emmett Strickland, Kim Gerdes [Annotation guidelines of UD and SUD treebanks for spoken corpora: a proposal](https://aclanthology.org/2021.tlt-1.4.pdf) in [TLT 2021](https://tlt2021.phil.hhu.de/)
+  * Sylvain Kahane, Bernard Caron, Emmett Strickland, Kim Gerdes [Annotation guidelines of UD and SUD treebanks for spoken corpora: a proposal](https://aclanthology.org/2021.tlt-1.4.pdf) in [TLT 2021](https://tlt2021.phil.hhu.de/).
   * Sylvain Kahane, Martine Vanhove, Rayan Ziane, Bruno Guillaume. [A morph-based and a word-based treebank for Beja](https://aclanthology.org/2021.tlt-1.5.pdf) in [TLT 2021](https://tlt2021.phil.hhu.de/).
   * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Starting a new treebank? Go SUD! Theoretical and practical benefits of the Surface-Syntactic distributional approach](https://hal.inria.fr/hal-03509136v1) in [DepLing 2021](http://depling.org/depling2021/).
   * Kim Gerdes, Bruno Guillaume, Sylvain Kahane, Guy Perrier. [Improving Surface-syntactic Universal Dependencies (SUD): surface-syntactic relations and deep syntactic features](https://hal.inria.fr/hal-02266003v1) in [TLT 2019](https://syntaxfest.github.io/syntaxfest19/tlt2019/tlt2019.html).
