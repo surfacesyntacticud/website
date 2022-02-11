@@ -740,7 +740,7 @@ Official multi-word titles such as *Minister of Foreign Affairs* are treated as 
       3	of	of	ADP	_	_	2	mod	_	AlignBegin=47482|AlignEnd=47587|Gloss=of|InTitle=Yes
       4	Foreign	foreign	ADJ	_	_	5	mod	_	AlignBegin=47587|AlignEnd=47827|Gloss=foreign|InTitle=Yes
       5	Affairs	affair	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=47827|AlignEnd=48301|Gloss=affair.PL|InTitle=Yes
-      6	Geoffrey	Geoffrey	PROPN	_	_	3	mod:appos	_	AlignBegin=48331|AlignEnd=48727|Gloss=Geoffrey
+      6	Geoffrey	Geoffrey	PROPN	_	_	2	mod:appos	_	AlignBegin=48331|AlignEnd=48727|Gloss=Geoffrey
       7	Onyeama	Onyeama	PROPN	_	_	6	flat	_	AlignBegin=48727|AlignEnd=49343|Gloss=Onyeama
       8	Godfrey	Godfrey	PROPN	_	_	7	flat	_	AlignBegin=49343|AlignEnd=49799|Gloss=Godfrey
       "
