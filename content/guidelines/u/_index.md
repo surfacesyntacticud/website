@@ -5,7 +5,7 @@ title: SUD Guidelines
 
 SUD is a Surface-syntax Universal Dependencies scheme. SUD follows the Surface syntax criteria (favoring functional heads) and can be automatically converted to the UD scheme.
 
-This page describes the universal principles used in SUD. Some pages are available for specific usage of SUD in [French](../french) and [Naija](../pcm).
+This page describes the universal principles used in SUD. Some pages are available for specific usage of SUD in [French](../fr) and [Naija](../pcm).
 
 ## General Principles
 SUD differs from UD in several [general principles](./general_principles).

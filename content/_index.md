@@ -32,7 +32,7 @@ SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly
 
 
 
-To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/french/) and [Naija](guidelines/pcm/) pages.
+To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/fr/) and [Naija](guidelines/pcm/) pages.
 
 
 ## Data
