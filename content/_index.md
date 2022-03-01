@@ -1,8 +1,7 @@
 ---
-title: ""
 date: 2020-04-26T17:45:38+02:00
 title: Surface Syntactic Universal Dependencies (SUD)
-
+src: _index.md
 ---
 
 ![Surface Syntactic Universal Dependencies (SUD)](/images/sud.svg#floatleft)

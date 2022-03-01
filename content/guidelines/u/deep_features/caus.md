@@ -1,8 +1,8 @@
 ---
 layout: default
+title: "@caus"
+src: guidelines/u/deep_features/caus.md
 ---
-
-# **@caus**
 
 The `@caus` feature is used for the argument of causative auxiliaries.
 {{< conll >}}

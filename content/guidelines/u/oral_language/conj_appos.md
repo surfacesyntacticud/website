@@ -1,6 +1,7 @@
 ---
 layout: default
 title: conj:appos
+src: guidelines/u/oral_language/conj_appos.md
 ---
 
 This relation is used for appositions. In an apposition, conjuncts have the same referent, but two clearly different denotations. The conjunct in apposition forms a predication in the background (in *Mary, my best friend*, the second conjunct *my best friend* is a predication on the first conjunct *Mary*, it is equivalent to *Mary is my best friend*).

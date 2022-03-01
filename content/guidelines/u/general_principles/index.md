@@ -1,4 +1,9 @@
-## General principles
+---
+layout: default
+title: General principles
+src: guidelines/u/general_principles/index.md
+---
+
 The main differences with respect to UD are the following:
 
  * The definition of relations is based on the **syntactic position** and not on semantic relations or the category of the dependents. In other words, two units that commute and exclude each other occupy the same position and must have the same function.

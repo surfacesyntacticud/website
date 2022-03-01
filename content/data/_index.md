@@ -1,5 +1,7 @@
 ---
 layout: default
+title: SUD data
+src: data/_index.md
 ---
 
 In version 2.9 of SUD data, released in December 2021:

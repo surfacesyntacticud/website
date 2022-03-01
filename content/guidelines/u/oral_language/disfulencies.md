@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Disfluencies in oral language
+src: guidelines/u/oral_language/disfluencies.md
 ---
 
 In oral language, speakers form sentences while speaking, which means that sometimes they might search for words while speaking. 

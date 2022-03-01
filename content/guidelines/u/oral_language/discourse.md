@@ -1,6 +1,7 @@
 ---
 layout: default
 title: discourse
+src: guidelines/u/oral_language/discourse.md
 ---
 
 The `discourse` relation is used to link discourse markers. These markers are not clearly linked to the structure of the sentence, except in an expressive way.

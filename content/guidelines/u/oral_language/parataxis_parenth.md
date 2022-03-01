@@ -1,6 +1,7 @@
 ---
 layout: default
 title: parataxis:parenth
+src: guidelines/u/oral_language/parataxis_parenth.md
 ---
 
 The `parataxis:parenth` relation is used for parenthetical clauses, in the sense that the clause is backgrounded (as if it were inside parentheses). A parenthetical clause could form an independent sentence.

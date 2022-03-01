@@ -1,8 +1,9 @@
 ---
 layout: default
+title: comp:obj
+src: guidelines/u/relations/comp_obj.md
 ---
 
-# **comp:obj**
 The `comp:obj` relation is used for direct object complements, including direct complements of an adposition or a subordinating conjunction.
 
 ## Direct object complements

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: vocative
+src: guidelines/u/oral_language/vocative.md
 ---
+
 The `vocative` relation is used when a speaker directly addresses a listener in an utterance.
 
 >French

@@ -1,4 +1,8 @@
-# Conversion from UD to SUD
+---
+layout: default
+title: Conversion from UD to SUD
+src: conversions/ud_to_sud.md
+---
 
 This page describes the process used in the conversion from UD to SUD.
 It also explains how this can be adapted to languages specificities.

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Macrosyntactic relations
+src: guidelines/u/oral_language/macrosyntax.md
 ---
 
 In this part we will present relations that we use to analyse relations beyond the microsyntactic analysis between a governor and its dependant.

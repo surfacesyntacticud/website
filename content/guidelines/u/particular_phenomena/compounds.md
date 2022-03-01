@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Compound
+src: guidelines/u/particular_phenomena/compounds.md
 ---
-# Compound
 
 SUD shares with with UD its `compound` relation, though the exact usage of this relationship is determined on a language-by-language basis. SUD annotations for some languages, such as French, do not use the `compound` relation at all.
 

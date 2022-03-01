@@ -1,8 +1,9 @@
 ---
 layout: default
+title: "@tense"
+src: guidelines/u/deep_features/tense.md
 ---
 
-# **@tense**
 The `@tense` feature is used for the argument of tense auxiliaries.
 
 {{< conll >}}

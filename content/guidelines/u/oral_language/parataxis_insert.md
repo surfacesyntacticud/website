@@ -1,6 +1,7 @@
 ---
 layout: default
 title: parataxis:insert
+src: guidelines/u/oral_language/parataxis_insert.md
 ---
 
 The `parataxis:insert` is used for inserted clause. Contrary to a parenthetical clause, an inserted clause could not form an independent sentence

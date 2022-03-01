@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Idioms and titles
+src: guidelines/u/ExtPos/idioms_titles.md
 ---
-# Idioms and titles
 
 SUD offers several traits which allow annotators to mark idiomatic expressions and titles while still preserving the internal syntactic relationships between their various components. We have decided to distinguish these two categories from Multi-Word Expressions (MWEs), which represent a broader category which also includes named entities.
 

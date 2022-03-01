@@ -1,8 +1,9 @@
 ---
 layout: default
+title: comp:pred
+src: guidelines/u/relations/comp_pred.md
 ---
 
-# **comp:pred**
 The `comp:pred` relation is used for predicative arguments of verbs.
 
 > English

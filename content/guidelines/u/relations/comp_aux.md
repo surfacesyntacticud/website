@@ -1,8 +1,8 @@
 ---
 layout: default
+title: comp:aux
+src: guidelines/u/relations/comp_aux.md
 ---
-
-# **comp:aux**
 
 The `comp:aux` relation is used for the argument of auxiliaries, and corresponds to the `aux` relationship as defined by UD.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Naija SUD Guidelines
+src: guidelines/pcm/_index.md
 ---
 
 This page outlines various features and annotation conventions useful for the annotation of Naija.

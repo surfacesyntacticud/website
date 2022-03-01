@@ -1,4 +1,8 @@
-## Correspondences between SUD and UD
+---
+layout: default
+title: Correspondences between SUD and UD
+src: conversions/_index.md
+---
 
 This page is dedicated to exploring several key differences between SUD and UD labels, and the correspondences between the two schemes (For information about the conversion process, see [SUD corpora](../../../data)).
 
@@ -83,7 +87,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
 
 ### Example of a sentence annotated in SUD (above) and UD (below).
 ![Surface Syntactic Universal Dependencies (SUD)](/images/sud.svg#floatleft)
-{{< rawhtml >}}
+{{< conll >}}
 # sent_id = email-enronsent38_01-0114
 # text = I am out of the office today but will be back tomorrow.
 # shownfeatures = FORM, UPOS
@@ -100,10 +104,10 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
 11	back	_	ADV	_	_	10	comp:pred	_	_
 12	tomorrow	_	NOUN	_	_	9	mod	_	_
 13	.	_	PUNCT	.	_	2	punct	_	_
-{{< /rawhtml >}}
+{{< /conll >}}
 
 ![Universal Dependencies (UD)](/images/ud.svg#floatleft)
-{{< rawhtml >}}
+{{< conll >}}
 # sent_id = email-enronsent38_01-0114
 # text = I am out of the office today but will be back tomorrow.
 # shownfeatures = FORM, UPOS
@@ -120,5 +124,5 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
 11	back	_	ADV	_	_	6	conj	_	_
 12	tomorrow	_	NOUN	_		11	obl:tmod	_	_
 13	.	_	PUNCT	.	_	6	punct	_	_
-{{< /rawhtml >}}
+{{< /conll >}}
 

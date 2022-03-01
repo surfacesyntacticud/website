@@ -1,6 +1,7 @@
 ---
 layout: default
 title: French SUD Guidelines
+src: guidelines/fr/_index.md
 ---
 
 This page outlines various features specific to French.

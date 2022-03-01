@@ -1,6 +1,7 @@
 ---
 layout: default
 title: conj:coord
+src: guidelines/u/oral_language/conj_coord.md
 ---
 
 This relation is used to link elements connected with a coordinating conjunction such as *and* and *or*. The conjunction itself is linked to the second element with a `cc` relation. It is analogous to [`conj`](https://universaldependencies.org/u/dep/conj.html) relation in UD and SUD for written language.

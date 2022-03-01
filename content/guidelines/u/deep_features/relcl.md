@@ -1,8 +1,9 @@
 ---
 layout: default
+title: "@relcl"
+src: guidelines/u/deep_features/relcl.md
 ---
 
-# **@relcl**
 The `@relcl` feature is used for the relation between the head of a relative clause and its antecedent.
 
 {{< conll >}}

@@ -1,8 +1,9 @@
 ---
 layout: default
+title: "@pass"
+src: guidelines/u/deep_features/pass.md
 ---
 
-# **@pass**
 
 The `@pass` feature is used for the arguments of **passive auxiliaries**.
 

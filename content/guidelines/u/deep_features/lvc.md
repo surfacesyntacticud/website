@@ -1,8 +1,8 @@
 ---
 layout: default
+title: "@lvc"
+src: guidelines/u/deep_features/lvc.md
 ---
-
-# **@lvc**
 
 The `@lvc` feature is used for arguments of light verbs.
 

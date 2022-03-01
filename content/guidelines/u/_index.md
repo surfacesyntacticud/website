@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SUD Guidelines
+src: guidelines/u/_index.md
 ---
 
 SUD is a Surface-syntax Universal Dependencies scheme. SUD follows the Surface syntax criteria (favoring functional heads) and can be automatically converted to the UD scheme.

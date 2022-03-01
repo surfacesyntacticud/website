@@ -1,4 +1,8 @@
-# **comp:cleft**
+---
+layout: default
+title: comp:cleft
+src: guidelines/u/relations/comp_cleft.md
+---
 
 The `comp:cleft` relation is used in cleft sentences for the dependency from the head of the sentence to the head of the complement clause.
 

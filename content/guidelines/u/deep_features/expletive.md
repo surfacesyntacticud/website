@@ -1,8 +1,9 @@
 ---
 layout: default
+title: "@expl"
+src: guidelines/u/deep_features/expl.md
 ---
 
-# **@expl**
 
 The `@expl` feature is used for arguments of predicates without semantic contents (impersonal subjects for instance).
 {{< conll >}}

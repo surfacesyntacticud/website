@@ -1,7 +1,9 @@
 ---
 layout: default
 title: parataxis:obj
+src: guidelines/u/oral_language/parataxis_obj.md
 ---
+
 Direct discourse is attached its governor by the relation `parataxis:obj`.
 
 >French

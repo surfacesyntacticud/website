@@ -1,8 +1,9 @@
 ---
 layout: default
+title: mod
+src: guidelines/u/relations/mod.md
 ---
 
-# **mod**
 The `mod`relation is used for modifiers of verbs, nouns, adjectives, adverbs, auxiliaries, adpositions and conjunctions.
 
 > English

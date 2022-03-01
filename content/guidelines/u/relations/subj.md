@@ -1,8 +1,8 @@
 ---
 layout: default
+title: subj
+src: guidelines/u/relations/subj.md
 ---
-
-# **subj**
 
 The `subj` relation is used for all subjects, regardless of their form (nominal or verbal). This relationship encompasses both the `nsubj` and `csubj` relationships as defined by UD, as the following examples show.
 

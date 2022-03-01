@@ -1,6 +1,7 @@
 ---
 layout: default
 title: dislocated
+src: guidelines/u/oral_language/dislocated.md
 ---
 
 The `dislocated` relation is used to analyze detached elements that do not enter in the core grammatical relations of a sentence.

@@ -1,8 +1,8 @@
 ---
 layout: default
+title: "@x"
+src: guidelines/u/deep_features/x.md
 ---
-
-# **@x**
 
 The `@x` feature is used to annotate relationships with verbs that do not have an explicitly marked subject, but whose semantic subject can nevertheless be found in the sentence. This relationship therefore applies essentially to infinitive verbs which relate to a subject introduced earlier in the sentence. For example, in the sentence *he wants to eat*, *he* has a clear semantic relationship with *to eat*.
 

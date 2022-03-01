@@ -1,7 +1,8 @@
 ---
 layout: default
+title: Comparative, superlative and consecutive constructions
+src: guidelines/u/particular_phenomena/comparative.md
 ---
-# Comparative, superlative and consecutive constructions
 
 In **comparative constructions** where each term is introduced with a grammatical pair like *more... than*, the relation between the two grammatical words is labeled `comp:obj`, with the first word being the head of the second. Consider the example:
 

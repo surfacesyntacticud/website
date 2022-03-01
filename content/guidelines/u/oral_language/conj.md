@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Paradigmatical lists
+src: guidelines/u/oral_language/conj.md
 ---
 
 In UD there are three relations 
