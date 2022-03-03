@@ -4,7 +4,9 @@ title: parataxis:obj
 src: guidelines/u/oral_language/parataxis_obj.md
 ---
 
-Direct discourse is attached its governor by the relation `parataxis:obj`.
+The depency relation `parataxis:obj` has been deleted.
+
+Direct discourse is attached its governor by the relation `comp:obj` with the features Reported = "Yes".
 
 >French
 
@@ -23,7 +25,7 @@ Direct discourse is attached its governor by the relation `parataxis:obj`.
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	Gloss=I
 11	n'	ne	ADV	_	Polarity=Neg	13	mod	_	Gloss=not
 12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	Gloss=of
-13	sortirai	sortir	VERB	ETRE	Number=Sing|Person=1	9	parataxis:obj	_	Gloss=get_out
+13	sortirai	sortir	VERB	ETRE	Number=Sing|Person=1	9	comp:obj	_	Reported=Yes	_	Gloss=get_out
 14	jamais	jamais	ADV	_	_	13	mod	_	Gloss=never
 {{< /conll >}}
 
@@ -41,7 +43,7 @@ Direct discourse is attached its governor by the relation `parataxis:obj`.
 3	say	say	VERB	_	_	0	root	_	AlignBegin=84935|AlignEnd=85272|Gloss=say
 4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=85272|AlignEnd=85272|Gloss=PUNCT
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	subj	_	AlignBegin=85272|AlignEnd=85610|Gloss=NOM.2
-6	go	go	AUX	_	Aspect=Prosp	3	parataxis:obj	_	AlignBegin=85610|AlignEnd=85948|Gloss=PROSP
+6	go	go	AUX	_	Aspect=Prosp	3	comp:obj	_	Reported=Yes	_	AlignBegin=85610|AlignEnd=85948|Gloss=PROSP
 7	parboil	parboil	VERB	_	_	6	comp:aux	_	AlignBegin=85948|AlignEnd=86285|Gloss=parboil
 8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=86285|AlignEnd=86622|Gloss=DEF.ART
 9	banga	banga	NOUN	_	_	7	comp:obj	_	AlignBegin=86622|AlignEnd=86960|Gloss=palm_kernel
