@@ -7,10 +7,10 @@ main:
 	fi;
 
 warning:
-	@echo " ============ ⚠️  warning ⚠️  ============"
+	@echo " ============ ⚠️ warning ⚠️ ============"
 	@echo "This Makefile supposes that the 'tool' repository https://github.com/surfacesyntacticud/tools is locally available"
 	@echo "Add a symbolic link or clone it with 'git clone https://github.com/surfacesyntacticud/tools.git'"
-	@echo " ============ ⚠️  warning ⚠️  ============"
+	@echo " ============ ⚠️ warning ⚠️ ============"
 
 build:
 	@make -C de

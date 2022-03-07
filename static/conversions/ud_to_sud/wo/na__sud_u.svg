@@ -1,72 +1,92 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Created with dep2pict 2.35.0 -->
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="533.19922" height="140.53906">
-<rect x="0" y="0" width="533.19922" height="140.53906" style="fill:transparent;fill-opacity:1;" />
-<g  transform="translate(0,94.89844) scale(2,2)">
-<text id="word__N_1" x="26.2656" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="26.2656" dy="12.8633">Firnde</tspan>
+<!-- Created with dep2pict 2.37.0 -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="911.58984" height="198.35547">
+<rect x="0" y="0" width="911.58984" height="198.35547" style="fill:white;fill-opacity:0;" />
+<g  transform="translate(0,119.36719) scale(2,2)">
+<text id="word__N_0" x="26.8428" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="26.8428" dy="12.8633">__0__</tspan>
 </text>
-<text id="subword__N_1" x="26.2656" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="26.2656" dy="8.33691">NOUN</tspan>
+<text id="word__N_1" x="90.0808" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="90.0808" dy="12.8633">Firnde</tspan>
 </text>
-<text id="word__N_2" x="74.3936" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="74.3936" dy="12.8633">loolu</tspan>
+<text id="subword__N_1" x="90.0808" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="90.0808" dy="8.33691">upos=NOUN</tspan>
+<tspan   x="90.0808" dy="8.33691">textform=Firnde</tspan>
+<tspan   x="90.0808" dy="8.33691">wordform=Firnde</tspan>
 </text>
-<text id="subword__N_2" x="74.3936" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="74.3936" dy="8.33691">DET</tspan>
+<text id="word__N_2" x="160.24" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="160.24" dy="12.8633">loolu</tspan>
 </text>
-<text id="word__N_3" x="118.985" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="118.985" dy="12.8633">doon</tspan>
+<text id="subword__N_2" x="160.24" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="160.24" dy="8.33691">upos=DET</tspan>
+<tspan   x="160.24" dy="8.33691">textform=loolu</tspan>
+<tspan   x="160.24" dy="8.33691">wordform=loolu</tspan>
 </text>
-<text id="subword__N_3" x="118.985" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="118.985" dy="8.33691">AUX</tspan>
+<text id="word__N_3" x="228.168" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="228.168" dy="12.8633">doon</tspan>
 </text>
-<text id="word__N_4" x="158.894" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="158.894" dy="12.8633">na</tspan>
+<text id="subword__N_3" x="228.168" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="228.168" dy="8.33691">upos=AUX</tspan>
+<tspan   x="228.168" dy="8.33691">textform=doon</tspan>
+<tspan   x="228.168" dy="8.33691">wordform=doon</tspan>
 </text>
-<text id="subword__N_4" x="158.894" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="158.894" dy="8.33691">AUX</tspan>
+<text id="word__N_4" x="292.697" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="292.697" dy="12.8633">na</tspan>
 </text>
-<text id="word__N_5" x="198.622" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="198.622" dy="12.8633">feeñi</tspan>
+<text id="subword__N_4" x="292.697" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="292.697" dy="8.33691">upos=AUX</tspan>
+<tspan   x="292.697" dy="8.33691">textform=na</tspan>
+<tspan   x="292.697" dy="8.33691">wordform=na</tspan>
 </text>
-<text id="subword__N_5" x="198.622" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="198.622" dy="8.33691">VERB</tspan>
+<text id="word__N_5" x="357.033" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="357.033" dy="12.8633">feeñi</tspan>
 </text>
-<text id="word__N_6" x="242.885" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="242.885" dy="12.8633">.</tspan>
+<text id="subword__N_5" x="357.033" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="357.033" dy="8.33691">upos=VERB</tspan>
+<tspan   x="357.033" dy="8.33691">textform=feeñi</tspan>
+<tspan   x="357.033" dy="8.33691">wordform=feeñi</tspan>
 </text>
-<text id="subword__N_6" x="242.885" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="242.885" dy="8.33691">PUNCT</tspan>
+<text id="word__N_6" x="422.4" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="422.4" dy="12.8633">.</tspan>
+</text>
+<text id="subword__N_6" x="422.4" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="422.4" dy="8.33691">upos=PUNCT</tspan>
+<tspan   x="422.4" dy="8.33691">textform=.</tspan>
+<tspan   x="422.4" dy="8.33691">wordform=.</tspan>
 </text>
 
 <marker id="markerendword_1" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_1__N_2__det" x="51.26562" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >det</text>
-<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 28.76562,-13.40625 28.76562,-18.40625 A 3 3 0 0 1 31.76562,-21.40625 L 71.39355,-21.40625 A 3 3 0 0 1 74.39355,-18.40625 L 74.39355,-13.40625" ></path>
-<marker id="markerendword_2" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
-<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
-</marker>
-<text id="label__N_3__N_4__comp:aux" x="139.98535" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >comp:aux</text>
-<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 123.98535,-13.40625 123.98535,-18.40625 A 3 3 0 0 1 126.98535,-21.40625 L 153.39429,-21.40625 A 3 3 0 0 1 156.39429,-18.40625 L 156.39429,-13.40625" ></path>
+<text id="label__N_1__N_2__det" x="126.08081" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >det</text>
+<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 92.58081,-13.40625 92.58081,-18.40625 A 3 3 0 0 1 95.58081,-21.40625 L 157.23950,-21.40625 A 3 3 0 0 1 160.23950,-18.40625 L 160.23950,-13.40625" ></path>
 <marker id="markerendword_3" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_4__N_5__comp:aux" x="179.89429" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >comp:aux</text>
-<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 161.39429,-13.40625 161.39429,-18.40625 A 3 3 0 0 1 164.39429,-21.40625 L 195.62158,-21.40625 A 3 3 0 0 1 198.62158,-18.40625 L 198.62158,-13.40625" ></path>
+<text id="label__N_3__N_4__comp:aux" x="262.66797" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >comp:aux</text>
+<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 235.66797,-13.40625 235.66797,-18.40625 A 3 3 0 0 1 238.66797,-21.40625 L 287.19727,-21.40625 A 3 3 0 0 1 290.19727,-18.40625 L 290.19727,-13.40625" ></path>
+<marker id="markerendword_5" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_4__N_5__comp:aux" x="325.69727" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >comp:aux</text>
+<path style="marker-end:url(#markerendword_5);" stroke="black" fill="none" d="M 295.19727,-13.40625 295.19727,-18.40625 A 3 3 0 0 1 298.19727,-21.40625 L 354.03345,-21.40625 A 3 3 0 0 1 357.03345,-18.40625 L 357.03345,-13.40625" ></path>
+<marker id="markerendword_2" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_3__N_1__subj" x="154.08081" y="-34.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >subj</text>
+<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 220.66797,-13.40625 220.66797,-28.40625 A 3 3 0 0 0 217.66797,-31.40625 L 90.58081,-31.40625 A 3 3 0 0 0 87.58081,-28.40625 L 87.58081,-13.40625" ></path>
 <marker id="markerendword_0" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_3__N_1__subj" x="68.76562" y="-34.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >subj</text>
-<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 113.98535,-13.40625 113.98535,-28.40625 A 3 3 0 0 0 110.98535,-31.40625 L 26.76562,-31.40625 A 3 3 0 0 0 23.76562,-28.40625 L 23.76562,-13.40625" ></path>
+<text id="label__N_0__N_3__root" x="125.84277" y="-44.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >root</text>
+<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 26.84277,-13.40625 26.84277,-38.40625 A 3 3 0 0 1 29.84277,-41.40625 L 222.66797,-41.40625 A 3 3 0 0 1 225.66797,-38.40625 L 225.66797,-13.40625" ></path>
 <marker id="markerendword_4" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_3__N_6__punct" x="180.48535" y="-34.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >punct</text>
-<path style="marker-end:url(#markerendword_4);" stroke="black" fill="none" d="M 118.98535,-13.40625 118.98535,-28.40625 A 3 3 0 0 1 121.98535,-31.40625 L 239.88452,-31.40625 A 3 3 0 0 1 242.88452,-28.40625 L 242.88452,-13.40625" ></path>
+<text id="label__N_3__N_6__punct" x="326.16797" y="-34.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >punct</text>
+<path style="marker-end:url(#markerendword_4);" stroke="black" fill="none" d="M 230.66797,-13.40625 230.66797,-28.40625 A 3 3 0 0 1 233.66797,-31.40625 L 419.40015,-31.40625 A 3 3 0 0 1 422.40015,-28.40625 L 422.40015,-13.40625" ></path>
 
 
 </g>

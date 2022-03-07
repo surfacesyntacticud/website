@@ -10,16 +10,19 @@ It also explains how this can be adapted to languages specificities.
 ## The main sequence
 
  * `Onf (eud_to_ud)`: Remove all enhanced annotation; the conversion supposes that the input is in basic UD format. Note that it can be safely applied to basic UD, the annotations are left unchanged.
- * `Onf (idioms)`: Add the features encoding of idioms in SUD; namely, features `ExtPos`, `PhraseType`, `InTitle` and `InIdiom` ( see [Idioms and titles](../../guidelines/u/extpos/idioms_titles)). Note that relations are not changed here.
+ * `Onf (idioms)`: Add the features encoding of idioms in SUD; namely, features `ExtPos`, `PhraseType`, `InTitle` and `InIdiom` (see [Idioms and titles](../../guidelines/u/extpos/idioms_titles)). Note that relations are not changed here.
  * `specific_expr_init`: Add an explicit node for each `ExtPos`. TODO: give detail and an example.
  
  * `Onf (sub_relations)`: Transform UD relations with subtypes into the SUD equivalent.
  * `Onf (rel_extensions)`: Transform remaining UD subtypes (not handled in `sub_relations`) into `deep` SUD feature. For instance, the Polish `cop:locat` is transformed into `cop@locat`.
  * `Onf (relations)`: Transform main UD relation into the SUD equivalent (except `case`, `aux`, `mark` and `cop`, see next step).
  * `reverse_relations.main`: Reverse relations `case`, `aux`, `mark` and `cop`. See below for detail about reversing relations.
- * `Onf (minimize_conj_dep)`: Move the dependents of a conjunction from the left conjunct to the right conjunct. Dependencies `conj`, `discourse`, `parataxis` and `punct` are not moved.
+ * Move the dependents of a conjunction from the left conjunct to the right conjunct. Dependencies `conj`, `discourse`, `parataxis` and `punct` are not moved. 
+    * `Onf (shared_left_conj-dep)`
+    * `Onf (unshared_left_conj-dep)`
+    * `Onf (minimize_right_conj-dep)`
  * `Onf (add_conj_emb)`: Mark embedded `conj` relations with the extension `emb`.
- * `Onf (chained_relations)`: Dependencies of type `conj`,  and `flat:*` grouped into a bouquet are reorganized into a chain.
+ * `Onf (chained_relations)`: Dependencies of type `conj`,  and `flat:*` grouped into a bouquet are reorganised into a chain.
  * `specific_expr_close`: Remove specific nodes and edges introduced by the dual package `specific_expr_init`.
  * `Onf (unk_rel)`: Rename all non-SUD relations to `unk` (backoff package).
   
@@ -38,10 +41,10 @@ By default, the 4 relations `case`, `cop`, `aux` and `mark` (and their subtypes)
 
 We give below examples of conversions with multiple reversing of relations.
 In Japanese or in German, the default rules are applied.
-The order can be changed by adding different levels to specific relations before calling the package `specific_expr_init` (see examples below for French and Wolof).
+The order can be changed by adding different levels to specific relations before calling the strategy `reverse_relations.main` (see examples below for French and Wolof).
 
 ### Japanese
-In Japanese all UD relation `case`, `cop`, `aux` and `mark` are left-headed. The constraint 2 applies.
+In Japanese all UD relations `case`, `cop`, `aux` and `mark` are left-headed. The constraint 2 applies.
 
 | ![ud_logo](/images/ud.svg) | ![sud_logo](/images/sud.svg) |
 |:---------:|:---------:|
@@ -99,7 +102,7 @@ And the conversion with the new `na` rule produces (see [GitHub](https://github.
 
 ![wolof_example_ud_specif](/conversions/ud_to_sud/wo/na__sud_wo.svg)
 
-
+More examples of *na* as the head of a double `aux` construction: [Grew-match](http://universal.grew.fr/?corpus=SUD_Wolof-WTB@conv&custom=6226075687afb).
 
 
 ## Lifting dependencies

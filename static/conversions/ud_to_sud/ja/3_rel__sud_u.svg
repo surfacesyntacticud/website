@@ -1,72 +1,92 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Created with dep2pict 2.35.0 -->
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="470.75977" height="120.53906">
-<rect x="0" y="0" width="470.75977" height="120.53906" style="fill:transparent;fill-opacity:1;" />
-<g  transform="translate(0,74.89844) scale(2,2)">
-<text id="word__N_1" x="19.7515" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="19.7515" dy="12.8633">基本</tspan>
+<!-- Created with dep2pict 2.37.0 -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="844.59766" height="178.35547">
+<rect x="0" y="0" width="844.59766" height="178.35547" style="fill:white;fill-opacity:0;" />
+<g  transform="translate(0,99.36719) scale(2,2)">
+<text id="word__N_0" x="26.8428" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="26.8428" dy="12.8633">__0__</tspan>
 </text>
-<text id="subword__N_1" x="19.7515" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="19.7515" dy="8.33691">NOUN</tspan>
+<text id="word__N_1" x="85.1179" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="85.1179" dy="12.8633">基本</tspan>
 </text>
-<text id="word__N_2" x="58.4973" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="58.4973" dy="12.8633">的</tspan>
+<text id="subword__N_1" x="85.1179" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="85.1179" dy="8.33691">upos=NOUN</tspan>
+<tspan   x="85.1179" dy="8.33691">textform=基本</tspan>
+<tspan   x="85.1179" dy="8.33691">wordform=基本</tspan>
 </text>
-<text id="subword__N_2" x="58.4973" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="58.4973" dy="8.33691">PART</tspan>
+<text id="word__N_2" x="145.358" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="145.358" dy="12.8633">的</tspan>
 </text>
-<text id="word__N_3" x="94.6711" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="94.6711" dy="12.8633">に</tspan>
+<text id="subword__N_2" x="145.358" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="145.358" dy="8.33691">upos=PART</tspan>
+<tspan   x="145.358" dy="8.33691">textform=的</tspan>
+<tspan   x="145.358" dy="8.33691">wordform=的</tspan>
 </text>
-<text id="subword__N_3" x="94.6711" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="94.6711" dy="8.33691">AUX</tspan>
+<text id="word__N_3" x="202.972" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="202.972" dy="12.8633">に</tspan>
 </text>
-<text id="word__N_4" x="128.9" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="128.9" dy="12.8633">は</tspan>
+<text id="subword__N_3" x="202.972" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="202.972" dy="8.33691">upos=AUX</tspan>
+<tspan   x="202.972" dy="8.33691">textform=に</tspan>
+<tspan   x="202.972" dy="8.33691">wordform=に</tspan>
 </text>
-<text id="subword__N_4" x="128.9" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="128.9" dy="8.33691">ADP</tspan>
+<text id="word__N_4" x="260.587" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="260.587" dy="12.8633">は</tspan>
 </text>
-<text id="word__N_5" x="167.95" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="167.95" dy="12.8633">面食い</tspan>
+<text id="subword__N_4" x="260.587" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="260.587" dy="8.33691">upos=ADP</tspan>
+<tspan   x="260.587" dy="8.33691">textform=は</tspan>
+<tspan   x="260.587" dy="8.33691">wordform=は</tspan>
 </text>
-<text id="subword__N_5" x="167.95" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="167.95" dy="8.33691">NOUN</tspan>
+<text id="word__N_5" x="323.452" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="323.452" dy="12.8633">面食い</tspan>
 </text>
-<text id="word__N_6" x="211.665" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="211.665" dy="12.8633">。</tspan>
+<text id="subword__N_5" x="323.452" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="323.452" dy="8.33691">upos=NOUN</tspan>
+<tspan   x="323.452" dy="8.33691">textform=面食い</tspan>
+<tspan   x="323.452" dy="8.33691">wordform=面食い</tspan>
 </text>
-<text id="subword__N_6" x="211.665" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
-<tspan   x="211.665" dy="8.33691">PUNCT</tspan>
+<text id="word__N_6" x="388.904" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="388.904" dy="12.8633">。</tspan>
+</text>
+<text id="subword__N_6" x="388.904" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="388.904" dy="8.33691">upos=PUNCT</tspan>
+<tspan   x="388.904" dy="8.33691">textform=。</tspan>
+<tspan   x="388.904" dy="8.33691">wordform=。</tspan>
 </text>
 
-<marker id="markerendword_0" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
-<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
-</marker>
-<text id="label__N_2__N_1__comp:obj" x="37.75146" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >comp:obj</text>
-<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 55.99731,-13.40625 55.99731,-18.40625 A 3 3 0 0 0 52.99731,-21.40625 L 22.75146,-21.40625 A 3 3 0 0 0 19.75146,-18.40625 L 19.75146,-13.40625" ></path>
 <marker id="markerendword_1" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_3__N_2__comp:pred" x="76.49731" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >comp:pred</text>
-<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 92.17114,-13.40625 92.17114,-18.40625 A 3 3 0 0 0 89.17114,-21.40625 L 63.99731,-21.40625 A 3 3 0 0 0 60.99731,-18.40625 L 60.99731,-13.40625" ></path>
+<text id="label__N_2__N_1__comp:obj" x="113.61792" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >comp:obj</text>
+<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 142.85767,-13.40625 142.85767,-18.40625 A 3 3 0 0 0 139.85767,-21.40625 L 88.11792,-21.40625 A 3 3 0 0 0 85.11792,-18.40625 L 85.11792,-13.40625" ></path>
 <marker id="markerendword_2" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_4__N_3__comp:obj" x="111.67114" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >comp:obj</text>
-<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 126.40015,-13.40625 126.40015,-18.40625 A 3 3 0 0 0 123.40015,-21.40625 L 100.17114,-21.40625 A 3 3 0 0 0 97.17114,-18.40625 L 97.17114,-13.40625" ></path>
+<text id="label__N_3__N_2__comp:pred" x="173.85767" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >comp:pred</text>
+<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 200.47241,-13.40625 200.47241,-18.40625 A 3 3 0 0 0 197.47241,-21.40625 L 150.85767,-21.40625 A 3 3 0 0 0 147.85767,-18.40625 L 147.85767,-13.40625" ></path>
 <marker id="markerendword_3" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_5__N_4__subj" x="148.40015" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >subj</text>
-<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 165.44971,-13.40625 165.44971,-18.40625 A 3 3 0 0 0 162.44971,-21.40625 L 134.40015,-21.40625 A 3 3 0 0 0 131.40015,-18.40625 L 131.40015,-13.40625" ></path>
+<text id="label__N_4__N_3__comp:obj" x="231.47241" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >comp:obj</text>
+<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 258.08716,-13.40625 258.08716,-18.40625 A 3 3 0 0 0 255.08716,-21.40625 L 208.47241,-21.40625 A 3 3 0 0 0 205.47241,-18.40625 L 205.47241,-13.40625" ></path>
 <marker id="markerendword_4" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
 <path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
 </marker>
-<text id="label__N_5__N_6__punct" x="190.94971" y="-24.40625" style="fill:black;font-size:5px;font-family:Arial;text-anchor:middle;text-align:center" >punct</text>
-<path style="marker-end:url(#markerendword_4);" stroke="black" fill="none" d="M 170.44971,-13.40625 170.44971,-18.40625 A 3 3 0 0 1 173.44971,-21.40625 L 208.66479,-21.40625 A 3 3 0 0 1 211.66479,-18.40625 L 211.66479,-13.40625" ></path>
+<text id="label__N_5__N_4__subj" x="290.58716" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >subj</text>
+<path style="marker-end:url(#markerendword_4);" stroke="black" fill="none" d="M 318.45190,-13.40625 318.45190,-18.40625 A 3 3 0 0 0 315.45190,-21.40625 L 266.08716,-21.40625 A 3 3 0 0 0 263.08716,-18.40625 L 263.08716,-13.40625" ></path>
+<marker id="markerendword_5" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_5__N_6__punct" x="358.45190" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >punct</text>
+<path style="marker-end:url(#markerendword_5);" stroke="black" fill="none" d="M 328.45190,-13.40625 328.45190,-18.40625 A 3 3 0 0 1 331.45190,-21.40625 L 385.90405,-21.40625 A 3 3 0 0 1 388.90405,-18.40625 L 388.90405,-13.40625" ></path>
+<marker id="markerendword_0" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_0__N_5__root" x="174.84277" y="-34.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >root</text>
+<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 26.84277,-13.40625 26.84277,-28.40625 A 3 3 0 0 1 29.84277,-31.40625 L 320.45190,-31.40625 A 3 3 0 0 1 323.45190,-28.40625 L 323.45190,-13.40625" ></path>
 
 
 </g>
