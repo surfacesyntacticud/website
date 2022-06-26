@@ -7,7 +7,7 @@ src: guidelines/fr/_index.md
 This page outlines various features specific to French.
 
 ## comp:aux
-In French, only three verbs are considered auxiliaries **être**, **avoir** and **faire**.
+In French, only three verbs are considered auxiliaries: **être**, **avoir** and **faire**.
 
 The `comp:aux` relation can be used with one of the three sub-relations `@tense`, `@pass` or `@caus`, depending on whether the auxiliary is expressing a tense, a passive or a causative construction. In French, the relation `comp:aux@tense` is used with both verbs **être** and **avoir** and is the most common sub-relation. The relation `comp:aux@pass` is only used with the verb **être**, while `comp:aux@caus` is only used with the verb **faire**.
 
@@ -44,33 +44,7 @@ The `comp:aux` relation can be used with one of the three sub-relations `@tense`
 
 As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relation,  the cleft constructions are analysed with a `comp:cleft` relation going from the head of the main sentence to the head of the complement.
 
-
-* **que**
-{{< conll >}}
-# text_en = Most of the furniture is actually associated with this style.
-# text = C'est d'ailleurs à ce style que se rattache la majorité du mobilier.
-1	C'	ce	PRON	_	_	2	subj@expl	_	Gloss=it
-2	est	être	AUX	_	_	0	root	_	Gloss=is
-3	d'	de	ADP	_	_	2	mod	_	Gloss=of
-4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes|Gloss=actually
-5	à	à	ADP	_	_	2	comp:pred	_	Gloss=to
-6	ce	ce	DET	_	_	7	det	_	Gloss=this
-7	style	style	NOUN	_	_	5	comp:obj	_	Gloss=style
-8	que	que	SCONJ	_	_	2	comp:cleft	_	Gloss=that
-9	se	se	PRON	_	_	10	comp@pass	_	Gloss=itself
-10	rattache	rattacher	VERB	_	_	8	comp:obj	_	Gloss=associated
-11	la	le	DET	_	_	12	det	_	Gloss=the
-12	majorité	majorité	NOUN	_	G_	10	subj@pass	_	Gloss=majority
-13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	12	udep	_	Gloss=of
-14	le	le	DET	_	_	15	det	_	Gloss=the
-15	mobilier	mobilier	NOUN	_	_	13	comp:obj	_	Gloss=furniture
-16	.	.	PUNCT	_	_	2	punct	_	_
-{{< /conll >}}
-
-
-
-* **qui**
+* With **qui** and **que** direct object, the cleft clause is analysed as a relative clause. in particular, **qui** and **que** are analysed as relative pronouns (PRON).
 {{< conll >}}
 # text_en = It is the team of Avengers which is reconstituted under the aegis of SHIELD
 # text = C'est l'équipe des Vengeurs qui est reconstituée sous l'égide du SHIELD
@@ -93,6 +67,30 @@ As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relat
 {{< /conll >}}
 
 
+  * In the other cases, the cleft clause is analysed as a complement clause, with **que** as a SCONJ.
+  {{< conll >}}
+  # text_en = Most of the furniture is actually associated with this style.
+  # text = C'est d'ailleurs à ce style que se rattache la majorité du mobilier.
+  1	C'	ce	PRON	_	_	2	subj@expl	_	Gloss=it
+  2	est	être	AUX	_	_	0	root	_	Gloss=is
+  3	d'	de	ADP	_	_	2	mod	_	Gloss=of
+  4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes|Gloss=actually
+  5	à	à	ADP	_	_	2	comp:pred	_	Gloss=to
+  6	ce	ce	DET	_	_	7	det	_	Gloss=this
+  7	style	style	NOUN	_	_	5	comp:obj	_	Gloss=style
+  8	que	que	SCONJ	_	_	2	comp:cleft	_	Gloss=that
+  9	se	se	PRON	_	_	10	comp@pass	_	Gloss=itself
+  10	rattache	rattacher	VERB	_	_	8	comp:obj	_	Gloss=associated
+  11	la	le	DET	_	_	12	det	_	Gloss=the
+  12	majorité	majorité	NOUN	_	G_	10	subj@pass	_	Gloss=majority
+  13-14	du	_	_	_	_	_	_	_	_
+  13	de	de	ADP	_	_	12	udep	_	Gloss=of
+  14	le	le	DET	_	_	15	det	_	Gloss=the
+  15	mobilier	mobilier	NOUN	_	_	13	comp:obj	_	Gloss=furniture
+  16	.	.	PUNCT	_	_	2	punct	_	_
+  {{< /conll >}}
+
+
 ## Interrogatives
 
 * **Est-ce que**
@@ -109,7 +107,7 @@ As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relat
 {{< /conll >}}
 
 
-* **Qu'est-ce que**
+* **Qu'est-ce que**: Interrogatives with **PRON est-ce qui/que** are analysed as particular cases of cleft clauses.
 {{< conll >}}
 # text_en = What do you have?
 # text = Qu'est ce que tu as ?
@@ -122,9 +120,9 @@ As shown in the page about the [`comp:cleft`](.././u/relations/comp_cleft) relat
 7	?	?	PUNCT	_	_	2	punct	_	_
 {{< /conll >}}
 
-## Les interjections
+## Interjections and other discourse markers
 
-We chose to keep the original upos for the token used as interjection and we add the `ExtPos = INTJ`
+Pure interjections (such as _ah_, _hein_, _ouais_, _euh_, etc.) are analysed as INTJs. Discourse markers coming from other POS (such as _enfin_, _chouette_, _disons_, etc.), as well as idioms (such as _en fait_, _tu sais_, etc.), keep their original POS but have an additional `ExtPos = INTJ` feature. Except 4 of them which are frequent and are analysed as pure INTJs:  _bon_, _ben_, _quoi_, and _tiens_. 
 
 Example : 
 {{< conll >}}
@@ -152,9 +150,6 @@ Example :
 20	.	.	PUNCT	_	_	10	punct	_	_
 {{< /conll >}}
 
-
-However, there are a few token which are `upos=INTJ`. In french there is : "tiens", "ben" , "quoi", and "bon". 
-
 {{<conll>}}
 # text_en = uh so actually uh you'll see then.
 # text = euh ben en fait juste euh tu verras après.
@@ -168,15 +163,13 @@ However, there are a few token which are `upos=INTJ`. In french there is : "tien
 8	verras	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	après	après	ADV	_	_	8	mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
-
 {{</conll>}}
 
-## Discours Rapportés
+## Reported speech
 
-- le cas de "en mode" / "être là"
+Reported speech as a feature `Reported=Yes` on its head. It is generally the `comp:obj`of a speech verb, such as _dire_ 'to say'.
 
-In french, the idioms `en mode` and `être là` introduce reported speech. We have the edge label `comp:obj` between the syntactic head of the idiom `en mode` and the head of the reported speech, and the feature `Reported=Yes` on the syntactic head of the reported speech.
-
+* **en mode**: Reported speech can also be introduced by the idomatic preposition _en mode_.
 {{<conll>}}
 # text_en = he was like are you really sure miss, uh.
 # text = il était là en mode mais vous êtes sûre madame, euh.
@@ -193,12 +186,11 @@ In french, the idioms `en mode` and `être là` introduce reported speech. We ha
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
-
 {{</conll>}}
 
 
-
-Sometimes, there is no `en mode`, so there is the relation `comp:obj` between the idiom `être là` and the head of the reported speech. 
+* **être là**
+Sometimes, _en mode_ is absent and there is a direct relation between the idiom _être là_ and the reported speech, which we decide to label `comp:obj`.
 
 {{<conll>}}
 # text_en = ah, and me, I, I was like, my god what is this guy.
@@ -229,50 +221,15 @@ Sometimes, there is no `en mode`, so there is the relation `comp:obj` between th
 
 ## Pronominal verbs
 
-First we gathered that the feature `Reflex=Yes` needs to be applied to pronouns having the same reference as the subject
-and that are placed between the tensed verb and the subject itself.
+Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:obl`, `comp@expl`, and `comp@pass`.
 
-Here's a recap of every relation `comp` :
+The 3rd person reflexive marker _se_ is always analysed as a reflexive pronoun: `PRON` and `Reflex=Yes`. 
 
-### `comp@expl` :
+For the 1st and 2nd person reflexive pronoun (_me_, _te_, _nous_, _vous_), they are analysed as `lemma=se`and `Reflex=Yes`, only when `comp@expl`. In other cases, they are analysed as ordinary object or oblique pronouns.
 
-For pronominal verbs i.e. verbs that can only be used with a relexive pronoun :
-s'évaporer
+The semantic dstinction between reflexive meaning (_je me rase_) and reciprocal meaning (_ils s'aiment_) is not marked. 
 
-This also applies to verbs that change meaning if used with a reflexive pronoun :
-s'entendre
-
-{{<conll>}}
-
-# text = tu te souviens ?
-# text_en = do you remember ?
-
-1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
-2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	3	comp@expl	_	InIdiom=Yes|Reflex=Yes
-3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
-4	?	?	PUNCT	_	_	3	punct	_	_
-{{</conll>}}
-
-### `comp@pass` :
-
-For passive reflexive constructions :
-{{<conll>}}
-# text = donc ça s'est fait.
-# text_en = and then it was done 
-
-1	donc	donc	ADV	_	_	4	discourse	_	_
-2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	Reflex=Yes|SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	4	punct	_	_
-{{</conll>}}
-
-
-### `comp:obj` :
-
-For reflexive pronouns replacing direct object :
-
+* `comp:obj`: Reflexive pronouns replacing a direct object.
 {{<conll>}}
 # text = donc ils se retournent.
 # text_en = and then they turn around
@@ -283,9 +240,8 @@ For reflexive pronouns replacing direct object :
 4	retournent	retourner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 {{</conll>}}
-### `comp:obl` :
 
-For reflexive pronouns replacing oblique arguments :
+* `comp:obl`: Reflexive pronouns replacing an oblique complement.
 {{<conll>}}
 # text = ils se racontent leurs vacances.
 # text_en =  they tell each other about their vacation.
@@ -298,4 +254,26 @@ For reflexive pronouns replacing oblique arguments :
 6	.	.	PUNCT	_	_	3	punct	_	_
 {{</conll>}}
 
+* `comp@expl` : For pronominal verbs i.e. verbs that can only be used with a relexive pronoun (such as _se souvenir_, _s'évaporer_, etc.), or lexicalised verb senses (such as _s'entendre_).
+{{<conll>}}
+# text = tu te souviens ?
+# text_en = do you remember ?
 
+1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
+2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	3	comp@expl	_	InIdiom=Yes|Reflex=Yes
+3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|Idiom=Yes
+4	?	?	PUNCT	_	_	3	punct	_	_
+{{</conll>}}
+
+* `comp@pass`: For passive reflexive constructions, where the the object has been promoted in the subject position: _je vend des livres_ => _les livres se vendent bien_. The marker _se_ is still analysed as a reflexive pronoun, even if it has no pronominal vlue.
+{{<conll>}}
+# text = donc ça s'est fait.
+# text_en = and then it was done 
+
+1	donc	donc	ADV	_	_	4	discourse	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
+3	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	Reflex=Yes|SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+{{</conll>}}
