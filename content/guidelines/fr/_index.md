@@ -223,9 +223,7 @@ Sometimes, _en mode_ is absent and there is a direct relation between the idiom 
 
 Four relations are considered for the reflexive marker _se_: `comp:obj`, `comp:obl`, `comp@expl`, and `comp@pass`.
 
-The 3rd person reflexive marker _se_ is always analysed as a reflexive pronoun: `PRON` and `Reflex=Yes`. 
-
-For the 1st and 2nd person reflexive pronoun (_me_, _te_, _nous_, _vous_), they are analysed as `lemma=se`and `Reflex=Yes`, only when `comp@expl`. In other cases, they are analysed as ordinary object or oblique pronouns.
+All reflexive marker (_se_, _me_, _te_, _nous_, _vous_) are analysed as forms of the reflexive pronoun _se_: `PRON`, `Reflex=Yes`, and `lemma=se`.
 
 The semantic dstinction between reflexive meaning (_je me rase_) and reciprocal meaning (_ils s'aiment_) is not marked. 
 
