@@ -24,7 +24,7 @@ Note that each corresponding UD version is obtained by automatic conversion.
 
 # SUD data for version 2.10
 
-All UD (version 2.10), except the 5 ones coming from native SUD (`UD_Beja-NSC`, `UD_French-GSD`, `UD_French-Rhapsodie`, `UD_French-ParisStories` and `UD_Naija-NSC`) and `UD_Japanese-Modern` (see above) are converted in SUD format with the [UD &rarr; SUD conversion system (tag 2.10)](https://github.com/surfacesyntacticud/tools/tree/v2.9/converter) (usable with the [Grew](https://grew.fr) software).
+All UD (version 2.10), except the 5 ones coming from native SUD (`UD_Beja-NSC`, `UD_French-GSD`, `UD_French-Rhapsodie`, `UD_French-ParisStories` and `UD_Naija-NSC`) and `UD_Japanese-Modern` (see above) are converted in SUD format.
 
 Hence, the data below are built with:
   * The 5 native SUD described above
