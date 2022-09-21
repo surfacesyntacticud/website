@@ -122,7 +122,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
 9	will	_	AUX	_	_	11	aux	_	_
 10	be	_	AUX	_	_	11	cop	_	_
 11	back	_	ADV	_	_	6	conj	_	_
-12	tomorrow	_	NOUN	_		11	obl:tmod	_	_
+12	tomorrow	_	NOUN	_	_	11	obl:tmod	_	_
 13	.	_	PUNCT	.	_	6	punct	_	_
 {{< /conll >}}
 
