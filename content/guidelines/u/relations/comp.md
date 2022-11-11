@@ -53,8 +53,8 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 > French
 
 {{< conll >}}
-# text_fr = Il se situe à environ 13 kilomètres
-# text_en = It is situated about 13 kilometers to the north-east
+# text_fr = Il se situe à environ 13 kilomètres au nord-ouest
+# text_en = It is situated about 13 kilometers to the north-west
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	wordform=il|Gloss=it
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	Gloss=is
 3	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=situated
@@ -63,8 +63,8 @@ In the case of **passive reflexive constructions**, the pronoun is labelled `com
 6	13	13	NUM	_	_	7	det	_	Gloss=13
 7	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	Gloss=kilometers
 8-9	au	_	_	_	_	_	_	_	_
-8	à	à	ADP	_	_	7	udep	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	nord-ouest	nord-ouest	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+8	à	à	ADP	_	_	7	udep	_	Gloss=to
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Art	10	det	_	Gloss=the
+10	nord-ouest	nord-ouest	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	Gloss=north-west
 {{< /conll >}}
 
