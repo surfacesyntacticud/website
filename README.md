@@ -6,8 +6,8 @@ The SUD website is automatically updated when this repository is modified on git
 
 ## Modification of the SUD website
 
-If you want to contribute to the page, please consult the Wiki pages of the repositories:
+If you want to contribute to the website, please consult the Wiki pages of the repositories:
  * for [basic editing](https://github.com/surfacesyntacticud/guidelines/wiki)
  * for [complex editing](https://github.com/surfacesyntacticud/guidelines/wiki/Hugo)
- * [tree stucture of the sources files](https://github.com/surfacesyntacticud/guidelines/wiki/Tree)
+ * [tree structure of the sources files](https://github.com/surfacesyntacticud/guidelines/wiki/Tree)
  
