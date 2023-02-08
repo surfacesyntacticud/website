@@ -29,13 +29,13 @@ SUD has 4 specific syntactic relations and a few extended relations:
 
  * [`subj`](relations/subj)
  * [`udep`](relations/udep)
-   * [`comp`](relations/comp)
-     * [`comp:aux`](relations/comp_aux)
-     * [`comp:cleft`](relations/comp_cleft)
-     * [`comp:obj`](relations/comp_obj)
-     * [`comp:obl`](relations/comp_obl)
-     * [`comp:pred`](relations/comp_pred)
-   * [`mod`](relations/mod)
+ * [`comp`](relations/comp)
+   * [`comp:aux`](relations/comp_aux)
+   * [`comp:cleft`](relations/comp_cleft)
+   * [`comp:obj`](relations/comp_obj)
+   * [`comp:obl`](relations/comp_obl)
+   * [`comp:pred`](relations/comp_pred)
+ * [`mod`](relations/mod)
 
 SUD shares a number of syntactic relations with UD, the list of which is given below (links to UD related page are given):
   [`vocative`](https://universaldependencies.org/u/dep/vocative.html),
