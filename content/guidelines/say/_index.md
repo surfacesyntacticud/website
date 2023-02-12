@@ -24,7 +24,7 @@ For example, the `comp:ben` relation is used when the complement is the benefici
 5	ʧet	ʧet	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=185621|AlignEnd=185695|Gloss=ask
 6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=185695|AlignEnd=185769|Gloss=2SG.OBJ
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=185769|AlignEnd=185918|Gloss=PUNCT
-{{< conll >}}
+{{< /conll >}}
 
 ## comp:goal
 In the same way,  the `comp:goal` relation is used when the complement is the goal of the action, and will also be different from the `comp:obj` relation. 
@@ -46,7 +46,7 @@ In the same way,  the `comp:goal` relation is used when the complement is the go
 11	gìp	gìp	ADP	_	_	10	unk	_	AlignBegin=252710|AlignEnd=252893|Gloss=inside|InIdiom=Yes
 12	vìːnì	vìːn	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=252893|AlignEnd=252985|Gloss=room.INDF
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=253076|AlignEnd=253260|Gloss=PUNCT
-{{< conll >}}
+{{< /conll >}}
 
 # compound
 
