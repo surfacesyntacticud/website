@@ -60,27 +60,20 @@ The `compound:svc` relation defines a serial verb construction that is normally 
 ### Example of a serial verb construction with auxiliaries
 
 {{< conll >}}
-text_en =  You see, we would even go and spend the night in Pankshin and come back, no?
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	5	parataxis@discourse	_	AlignBegin=267490|AlignEnd=267585|Gloss=2SG.COND
-2	yél	yel	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=267585|AlignEnd=267680|Gloss=see
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=267680|AlignEnd=267774|Gloss=PUNCT
-4	hár	hár	ADP	_	_	5	mod	_	AlignBegin=267774|AlignEnd=267940|Gloss=up_to
-5	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=267940|AlignEnd=268106|Gloss=1PL.FUT
-6	ɗyǎː	ɗyáː	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=268106|AlignEnd=268272|Gloss=be_able|SVC=Yes
-7	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	5	compound:svc	_	AlignBegin=268272|AlignEnd=268438|Gloss=1PL.FUT
-8	ɬǐː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	7	comp:aux	_	AlignBegin=268438|AlignEnd=268521|Gloss=go.RES
-9	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	7	compound:svc	_	AlignBegin=268604|AlignEnd=268770|Gloss=1PL.FUT
-10	ɬə́	ɬə	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=268770|AlignEnd=268936|Gloss=go|SVC=Yes
-11	mbûɗíː	mbút	VERB	_	Aspect=Res|VerbForm=Fin	10	compound:svc	_	AlignBegin=268936|AlignEnd=269019|Gloss=spend_night
-12	Pànʃín	Pànʃín	PROPN	_	_	11	comp:loc	_	AlignBegin=269102|AlignEnd=269266|Gloss=Pankshin
-13	mə̀	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	parataxis@conj	_	AlignBegin=269266|AlignEnd=269451|Gloss=1PL.AOR
-14-16	sûmíɗi	_	_	_	_	_	_	_	_
-14	sû	su	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=269451|AlignEnd=269513|Gloss=return
-15	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1PL.OBJ
-16	ɗi	ɗi	PART	_	_	14	compound:prt	_	AlignBegin=269575|AlignEnd=269636|Gloss=CTP
-17-18	ŋǎːn	_	_	_	_	_	_	_	_
-17	ŋǎː	ŋaː	PART	_	PartType=Int	5	mod	_	AlignBegin=269636|AlignEnd=269728|Gloss=VRT
-18	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=269728|AlignEnd=269821|Gloss=NEG
-19	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=269821|AlignEnd=270005|Gloss=PUNCT
+# text_en =  After we collect wood, we come back and sit down.
+1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	parataxis@mod	_	AlignBegin=15869|AlignEnd=16080|Gloss=1PL.AOR
+2	nat	nat	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=16080|AlignEnd=16291|Gloss=tie
+3	ŋamtsə́	ŋamtsə́	NOUN	_	_	2	comp:obj	_	AlignBegin=16291|AlignEnd=16397|Gloss=wood
+4	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=16397|AlignEnd=16502|Gloss=CTP
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16502|AlignEnd=16714|Gloss=PUNCT
+6	tôː	tòː	PART	_	_	7	discourse	_	AlignBegin=16714|AlignEnd=16885|Gloss=well
+7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=16885|AlignEnd=17056|Gloss=1PL.AOR
+8	máni	máni	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=17056|AlignEnd=17227|Gloss=come
+9	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	compound:svc	_	AlignBegin=17227|AlignEnd=17398|Gloss=1PL.AOR
+10	mán	mán	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=17398|AlignEnd=17569|Gloss=come|SVC=Yes
+11-12	tsə́tnni	_	_	_	_	_	_	_	_
+11	tsə́tn	tsə́tn	VERB	_	VerbForm=Fin	10	compound:svc	_	AlignBegin=17569|AlignEnd=17655|Gloss=sit
+12	ni	ni	PART	_	Aspect=Inch	11	compound:prt	_	AlignBegin=17655|AlignEnd=17740|Gloss=INCH
+13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=17740|AlignEnd=17910|Gloss=PUNCT
 {{< /conll >}}
 
