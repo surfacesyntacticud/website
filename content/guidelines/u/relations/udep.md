@@ -34,11 +34,11 @@ As shown in the [correspondences between SUD and UD](../../correspondences), the
 {{< conll >}}
 # text_es = Ficha de Juanjo Ciércolen en Don Balón
 # text_en = File of Juan Ciércoles in Don Balón
-1	Ficha	ficha	PRON	_	_	0	root	_	Gloss=file
+1	Ficha	ficha	NOUN	_	_	0	root	_	Gloss=file
 2	de	de	ADP	_	_	1	udep	_	Gloss=of
 3	Juanjo	juanjo	PROPN	_	_	2	comp:obl	_	Gloss=Juanjo
-4	Ciércoles	ciércoles	PROPN	_	_	3	flat	_	Gloss=Ciércoles
+4	Ciércoles	ciércoles	PROPN	_	_	3	flat@name	_	Gloss=Ciércoles
 5	en	en	ADP	_	_	1	udep	_	Gloss=in
 6	Don	don	PROPN	_	_	5	comp:obj	_	Gloss=Don
-7	Balón	balón	PROPN	_	_	6	appos	_	Gloss=Balón
+7	Balón	balón	PROPN	_	_	6	flat:name	_	Gloss=Balón
 {{< /conll >}}
