@@ -10,7 +10,7 @@ SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly
 
 ## An Example:
 
-{{< conll >}}
+{{< conll_interactive >}}
 # sent_id = email-enronsent19_01-0071
 # text = I'm happy about this.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -19,7 +19,7 @@ SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly
 4	about	about	ADP	IN	_	3	mod	_	_
 5	SUD	SUD	PROPN	DT	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
-{{< /conll >}}
+{{< /conll_interactive >}}
 
 To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/fr/) and [Naija](guidelines/pcm/) pages.
 
