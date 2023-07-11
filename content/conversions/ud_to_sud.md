@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Conversion from UD to SUD
@@ -10,7 +11,7 @@ It also explains how this can be adapted to languages specificities.
 ## The main sequence
 
  * `Onf (eud_to_ud)`: Remove all enhanced annotation; the conversion supposes that the input is in basic UD format. Note that it can be safely applied to basic UD, the annotations are left unchanged.
- * `Onf (idioms)`: Add the features encoding of idioms in SUD; namely, features `ExtPos`, `PhraseType`, `InTitle` and `InIdiom` (see [Idioms and titles](../../guidelines/u/extpos/idioms_titles)). Note that relations are not changed here.
+ * `Onf (idioms)`: Add the features encoding of idioms in SUD; namely, features `ExtPos`, `PhraseType`, `InTitle` and `InIdiom` (see [Idioms and titles](https://guidelines.surfacesyntacticud.org/docs/general_guideline/Misc/Idiom_Titles/)). Note that relations are not changed here.
  * `specific_expr_init`: Add an explicit node for each `ExtPos`. TODO: give detail and an example.
  
  * `Onf (sub_relations)`: Transform UD relations with subtypes into the SUD equivalent.

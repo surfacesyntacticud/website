@@ -21,7 +21,7 @@ SUD is an annotation scheme for syntactic dependency treebanks, and has a nearly
 6	.	.	PUNCT	.	_	2	punct	_	_
 {{< /conll_interactive >}}
 
-To see more examples, head over to the [universal SUD guidelines](guidelines/u/), or to the dedicated [French](guidelines/fr/) and [Naija](guidelines/pcm/) pages.
+To see more examples, head over to the [universal SUD guidelines](https://guidelines.surfacesyntacticud.org), or to the dedicated [French](https://guidelines.surfacesyntacticud.org/docs/language/french/) and [Naija](https://guidelines.surfacesyntacticud.org/docs/language/naija/) pages.
 
 
 ## Data
