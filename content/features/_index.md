@@ -10,6 +10,9 @@ See [Tables with features in all UD treebanks](https://tables.grew.fr/?data=ud_f
 
 Languages available:
 
- - [gya - Northwest Gbaya](./gya)
- - [ha - Hausa](./ha)
- - [tww - Tuwari](./tww)
+ - [Northwest Gbaya](./gya)
+ - [Hausa](./ha)
+   - [Northern Hausa](./ha_north)
+   - [Southern Hausa](./ha_south)
+ - [Tuwari](./tww)
+ - [Zaar](./say)

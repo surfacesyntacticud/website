@@ -6,7 +6,10 @@ src: features/ha.md
 
 [back to SUD features](..)
 
-NB: The Grew-match links above are relative to the *virtual* treebank **SUD_Hausa-All** which is the union of the two Hausa treebanks.
+:warning: The Grew-match links above are relative to the *virtual* treebank **SUD_Hausa-All** which is the union of the two Hausa treebanks.
+Individual treebanks:
+   - [Northern Hausa](../ha_north)
+   - [Southern Hausa](../ha_south)
 
 | feature | Grew-match | UD declaration | Doc Hausa (may not exist) | Doc Univ |
 |:----:|:----:|:---:|:---:|:---:|
