@@ -1,4 +1,4 @@
-baseURL = "https://surfacesyntacticud.github.io/"
+baseURL = "https://surfacesyntacticud.org/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "SUD"
@@ -63,7 +63,7 @@ pygmentsStyle = "pygments"
     weight = 1
   [[menu.nav]]
     name = "Guidelines"
-    url = "/guidelines/u/"
+    url = "https://guidelines.surfacesyntacticud.org/"
     weight = 2
   [[menu.nav]]
     name = "Discusssions"
