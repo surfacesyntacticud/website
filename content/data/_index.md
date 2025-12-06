@@ -4,7 +4,7 @@ title: SUD data • Version 2.17
 src: data/_index.md
 ---
 
-In version 2.17 of SUD data, released in May 2025, there are 338 corpora:
+In version 2.17 of SUD data, released in November 2025, there are 338 corpora:
  - 8 corpora are maintained in the mSUD format (called **Native mSUD**). 
  - 10 corpora are maintained in the SUD format (called **Native SUD**)
  - 320 corpora are automatically converted to SUD from the corresponding UD data (version 2.17)
