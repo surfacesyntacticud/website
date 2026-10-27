@@ -69,7 +69,7 @@ In addition to its more economical set of labels, SUD also diverges from UD in t
         <tr><td>nummod</td></tr>
         <tr>
           <td>fixed</td>
-          <td>encoded in node features (see <a href="https://guidelines.surfacesyntacticud.org/docs/general_guideline/Misc/Idiom_Titles/">here</a>)</td>
+          <td>encoded in node features (see <a href="https://docs.surfacesyntacticud.org/guidelines/universal/construction/idioms_titles">here</a>)</td>
         </tr>
         <tr>
           <td>det</td>

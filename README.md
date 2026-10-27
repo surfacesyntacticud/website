@@ -11,4 +11,4 @@ If you want to contribute to the website, please consult the Wiki pages of the r
  * for [complex editing](https://github.com/surfacesyntacticud/website/wiki/Hugo)
  * [tree structure of the sources files](https://github.com/surfacesyntacticud/website/wiki/Tree)
 
-Note that since July 2023, guidelines pages are in another repository https://github.com/surfacesyntacticud/guidelines
+Docs and guidelines pages are in another repository https://github.com/surfacesyntacticud/docs

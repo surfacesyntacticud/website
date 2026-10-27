@@ -62,12 +62,12 @@ pygmentsStyle = "pygments"
     url = "/"
     weight = 1
   [[menu.nav]]
-    name = "Guidelines"
-    url = "https://guidelines.surfacesyntacticud.org/"
+    name = "Docs & guidelines"
+    url = "https://docs.surfacesyntacticud.org/"
     weight = 2
   [[menu.nav]]
     name = "Discusssions"
-    url = "https://github.com/surfacesyntacticud/guidelines/issues"
+    url = "https://github.com/surfacesyntacticud/docs/issues"
     weight = 2
   [[menu.nav]]
     name = "SUD Corpora"
